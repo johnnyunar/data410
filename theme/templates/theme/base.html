@@ -26,7 +26,17 @@
         {% tailwind_css %}
     </head>
 
-    <body class="leading-normal tracking-normal" data-theme="light">
+    <body data-theme="light">
+        <div class="navbar top-0 sticky bg-base-100 border-b border-b-base-300 px-4 md:px-36">
+            <div class="flex-1">
+                <a href="{% url 'home' %}">
+                    <img src="{% static 'core/img/data410-logo-sm.png' %}" alt="Logo" class="w-8 h-8">
+                </a>
+            </div>
+            <div class="flex-none">
+                {% include 'core/includes/theme-select.html' %}
+            </div>
+        </div>
         <main class="min-h-screen">
             {% block content %}
             {% endblock %}
