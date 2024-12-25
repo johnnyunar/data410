@@ -21,13 +21,13 @@
                     <img
                         src="{{ service.image.url }}"
                         alt="{{ service.name }} logo"
-                        class="rounded-lg shadow-lg w-48 h-48 object-cover"
+                        class="rounded-lg w-48 h-48 object-cover"
                     />
                 </div>
                 {% endif %}
                 <!-- Service Info and Rating -->
                 <div class="w-full lg:w-2/3 text-center lg:text-left space-y-4">
-                    <h1 class="text-4xl font-bold text-primary">{{ service.name }}</h1>
+                    <h1 class="text-4xl font-bold">{{ service.name }}</h1>
 
                     <!-- Rating -->
                     <div class="flex items-center justify-center lg:justify-start space-x-2">
@@ -36,7 +36,7 @@
                             <input
                                 type="radio"
                                 name="rating"
-                                class="mask mask-star-2 bg-accent"
+                                class="mask mask-star-2 bg-pink-600"
                                 disabled
                                 {% if service.rating and service.rating > forloop.counter0 %}checked{% endif %}
                             />
@@ -60,12 +60,12 @@
 
             <!-- Important URLs Section -->
             <div>
-                <h2 class="text-3xl font-bold text-secondary mb-4">Important URLs</h2>
+                <h2 class="text-3xl font-bold mb-4">Important URLs</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {% for url in service.urls.all %}
                     <div class="card shadow-md bg-base-100 p-4">
                         <h3 class="text-lg font-bold">{{ url.url_type }}</h3>
-                        <a href="{{ url.url }}" target="_blank" class="link link-primary mt-2 block">
+                        <a href="{{ url.url }}" target="_blank" class="link mt-2 block">
                             {{ url.url }}
                         </a>
                     </div>
@@ -77,12 +77,12 @@
 
             <!-- Service Information Section -->
             <div>
-                <h2 class="text-3xl font-bold text-secondary mb-4">Service Information</h2>
+                <h2 class="text-3xl font-bold mb-4">Service Information</h2>
                 {% for info in service.service_infos.all %}
                 <div class="card shadow-md bg-base-100 p-6 mb-4">
-                    <h3 class="text-2xl font-bold text-accent">{{ info.type.name }}</h3>
+                    <h3 class="text-2xl font-bold">{{ info.type.name }}</h3>
                     {% if info.description %}
-                    <p class="text-gray-700 mt-2">{{ info.description }}</p>
+                    <p class="mt-2">{{ info.description }}</p>
                     {% endif %}
                     {% if info.points.exists %}
                     <ul class="list-disc ml-6 mt-4 space-y-2">
