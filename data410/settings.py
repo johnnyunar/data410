@@ -28,11 +28,16 @@ ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "").split(",")
 INTERNAL_IPS = ["127.0.0.1"]
 
 SECURE_SSL_REDIRECT = not DEBUG
+
+AUTH_USER_MODEL = "users.DataUser"
+
 # Application definition
 
 INSTALLED_APPS = [
     # Local whitenoise
     "whitenoise.runserver_nostatic",
+    # Unfold
+    "unfold",
     # Django Apps
     "django.contrib.admin",
     "django.contrib.auth",
@@ -43,6 +48,7 @@ INSTALLED_APPS = [
     # Local Apps
     "core",
     "theme",
+    "users",
     # Third Party Apps
     "django_browser_reload",
     "tailwind",

@@ -24,3 +24,13 @@ html {
     }
 }
 
+/* Logo */
+[data-theme="lofi"] .theme-logo {
+    filter: invert(0); /* Light logo */
+}
+
+[data-theme="black"] .theme-logo {
+    filter: invert(1); /* Inverted for dark theme */
+}
+
+

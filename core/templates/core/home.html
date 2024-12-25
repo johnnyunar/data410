@@ -2,18 +2,18 @@
 {% load static %}
 
 {% block content %}
-    <div class="flex flex-col justify-center items-center h-screen">
-        <!-- Logo -->
+    <div class="flex flex-col justify-center items-center h-screen p-12">
+        {# Logo #}
         <div class="mb-8">
-            <img src="{% static 'core/img/data410-logo-blk.png' %}" alt="Logo" class="w-56 mx-auto">
+            <img src="{% static 'core/img/data410-logo-blk.svg' %}" alt="Logo" class="theme-logo w-56 mx-auto">
         </div>
 
-        <!-- Search Bar -->
-        <div class="form-control w-full max-w-md mx-auto">
-            <div class="input-group flex gap-5">
+        {# Search bar #}
+        <div class="form-control w-full max-w-md sm:ml-12">
+            <div class="input-group flex flex-col gap-5 sm:flex-row">
                 <input
                   type="text"
-                  placeholder="Enter your username..."
+                  placeholder="Search"
                   class="input input-bordered w-full"
                 />
                 <button class="btn btn-primary">
