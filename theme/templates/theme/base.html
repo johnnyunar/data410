@@ -6,6 +6,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="icon" href="{% static 'core/img/data410-logo-sm.ico' %}" type="image/x-icon">
+
+        {# OG / Facebook #}
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.data410.com/">
+        <meta property="og:title" content="Data 410">
+        <meta property="og:description" content="Data 410 | a digital footprint management platform.">
+        <meta property="og:image" content="{% static 'core/img/data410-logo-sm.png' %}">
+
+        {# Twitter #}
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://www.data410.com/">
+        <meta property="twitter:title" content="Data 410">
+        <meta property="twitter:description"
+              content="Data 410 | a digital footprint management platform.">
+        <meta property="twitter:image" content="{% static 'core/img/data410-logo-sm.png' %}">
         {% tailwind_css %}
     </head>
 

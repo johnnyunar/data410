@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     "core",
     "theme",
     "users",
+    "registry",
     # Third Party Apps
     "django_browser_reload",
     "tailwind",
