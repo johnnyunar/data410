@@ -7,6 +7,7 @@ from registry.models import (
     ServiceInfo,
     ServiceInfoType,
     ServiceInfoPoint,
+    ServiceInfoCategory,
 )
 
 
@@ -43,6 +44,13 @@ class ServiceURLAdmin(ModelAdmin):
 
 @admin.register(ServiceInfoType)
 class ServiceInfoTypeAdmin(ModelAdmin):
+    list_display = ("name", "created_at", "updated_at")
+    search_fields = ("name",)
+    ordering = ("name",)
+
+
+@admin.register(ServiceInfoCategory)
+class ServiceInfoCategoryAdmin(ModelAdmin):
     list_display = ("name", "created_at", "updated_at")
     search_fields = ("name",)
     ordering = ("name",)

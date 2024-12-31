@@ -1,102 +1,146 @@
 {% extends "theme/base.html" %}
 
 {% block content %}
-<div class="container mx-auto p-6">
-    <!-- Unified Browser Mockup -->
-    <div class="mockup-browser bg-base-300 border">
-        <!-- Browser Toolbar -->
-        <div class="mockup-browser-toolbar">
-            <div class="input">
-                {{ service.website|default:"https://example.com" }}
-            </div>
-        </div>
-
-        <!-- Content -->
-        <div class="bg-base-200 p-6 space-y-12">
-            <!-- Header Section -->
-            <div class="flex flex-col lg:flex-row items-center">
-                <!-- Service Logo -->
-                {% if service.image %}
-                <div class="w-full lg:w-1/3 flex justify-center mb-6 lg:mb-0">
-                    <img
-                        src="{{ service.image.url }}"
-                        alt="{{ service.name }} logo"
-                        class="rounded-lg w-48 h-48 object-cover"
-                    />
+    <div class="container mx-auto p-0 sm:p-6">
+        <!-- Unified Browser Mockup -->
+        <div class="mockup-browser bg-base-300 border">
+            <!-- Browser Toolbar -->
+            <div class="mockup-browser-toolbar">
+                <div class="input">
+                    {{ service.website|default:"https://example.com" }}
                 </div>
-                {% endif %}
-                <!-- Service Info and Rating -->
-                <div class="w-full lg:w-2/3 text-center lg:text-left space-y-4">
-                    <h1 class="text-4xl font-bold">{{ service.name }}</h1>
+            </div>
 
-                    <!-- Rating -->
-                    <div class="flex items-center justify-center lg:justify-start space-x-2">
-                        <div class="rating">
-                            {% for i in rating_range %}
-                            <input
-                                type="radio"
-                                name="rating"
-                                class="mask mask-star-2 bg-pink-600"
-                                disabled
-                                {% if service.rating and service.rating > forloop.counter0 %}checked{% endif %}
+            <!-- Content -->
+            <div class="bg-base-200 p-6">
+                <!-- Header Section -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+                    <!-- Service Logo -->
+                    {% if service.image %}
+                        <div class="flex justify-center">
+                            <img
+                              src="{{ service.image.url }}"
+                              alt="{{ service.name }} logo"
+                              class="rounded-lg shadow-lg w-48 h-48 object-cover"
                             />
+                        </div>
+                    {% endif %}
+
+                    <!-- Service Info and Rating -->
+                    <div class="space-y-4">
+                        <h1 class="text-4xl font-bold">{{ service.name }}</h1>
+
+                        <!-- Rating -->
+                        <div class="flex items-center space-x-2">
+                            <div class="rating">
+                                {% for i in rating_range %}
+                                    <input
+                                      type="radio"
+                                      name="rating"
+                                      class="mask mask-star-2"
+                                      disabled
+                                      {% if service.rating and service.rating >= i %}checked{% endif %}
+                                    />
+                                {% endfor %}
+                            </div>
+                            <span class="text-lg">({{ service.rating|default:"N/A" }})</span>
+                        </div>
+
+                        <!-- Visit Button -->
+                        {% if service.website %}
+                            <a
+                              href="{{ service.website }}"
+                              target="_blank"
+                              class="btn btn-accent btn-sm"
+                            >
+                                Visit Website
+                            </a>
+                        {% endif %}
+                    </div>
+
+                    <!-- Important URLs -->
+                    <div>
+                        <h2 class="text-2xl font-semibold mb-4">Quick Links</h2>
+                        {% if service.urls.exists %}
+                            <ul class="space-y-2">
+                                {% for url in service.urls.all %}
+                                    <li>
+                                        <a
+                                          href="{{ url.url }}"
+                                          target="_blank"
+                                          class="link"
+                                        >
+                                            {{ url.url_type }}
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% else %}
+                            <p>No URLs available.</p>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <!-- Service Information Section -->
+                <div class="mt-12">
+
+                    <!-- Infos Without Categories -->
+                    {% if uncategorized_service_infos %}
+                        {% for info in uncategorized_service_infos %}
+                            <div class="card shadow-md bg-base-100 p-6 mb-4">
+                                <h3 class="text-2xl font-bold">{{ info.type.name }}</h3>
+                                {% if info.description %}
+                                    <div class="mt-2">{{ info.description|safe }}</div>
+                                {% endif %}
+                                {% if info.points.exists %}
+                                    <ul class="list-disc ml-6 mt-4 space-y-2">
+                                        {% for point in info.points.all %}
+                                            <li>{{ point.text }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+
+                    <!-- Infos With Categories -->
+                    {% regroup categorized_service_infos by category as grouped_infos %}
+                    {% if grouped_infos %}
+                        <div role="tablist" class="tabs tabs-boxed tabs-lg">
+                            {% for group in grouped_infos %}
+                                <input
+                                  type="radio"
+                                  name="categorized_tabs"
+                                  role="tab"
+                                  class="tab"
+                                  aria-label="{{ group.grouper.name }}"
+                                  {% if forloop.first %}checked="checked"{% endif %}
+                                />
+                                <div
+                                  role="tabpanel"
+                                  class="tab-content bg-base-100 border-base-300 rounded-box p-0 sm:p-6"
+                                >
+                                    {% for info in group.list %}
+                                        <div class="card shadow-md bg-base-100 p-6 mb-4">
+                                            <h3 class="text-2xl font-bold">{{ info.type.name }}</h3>
+                                            {% if info.description %}
+                                                <div class="mt-2">{{ info.description|safe }}</div>
+                                            {% endif %}
+                                            {% if info.points.exists %}
+                                                <ul class="list-disc ml-6 mt-4 space-y-2">
+                                                    {% for point in info.points.all %}
+                                                        <li>{{ point.text }}</li>
+                                                    {% endfor %}
+                                                </ul>
+                                            {% endif %}
+                                        </div>
+                                    {% endfor %}
+                                </div>
                             {% endfor %}
                         </div>
-                        <span class="text-lg text-gray-600">({{ service.rating|default:"N/A" }})</span>
-                    </div>
-
-                    <!-- Visit Button -->
-                    {% if service.website %}
-                    <a
-                        href="{{ service.website }}"
-                        target="_blank"
-                        class="btn btn-accent btn-sm"
-                    >
-                        Visit Website
-                    </a>
                     {% endif %}
                 </div>
-            </div>
-
-            <!-- Important URLs Section -->
-            <div>
-                <h2 class="text-3xl font-bold mb-4">Important URLs</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {% for url in service.urls.all %}
-                    <div class="card shadow-md bg-base-100 p-4">
-                        <h3 class="text-lg font-bold">{{ url.url_type }}</h3>
-                        <a href="{{ url.url }}" target="_blank" class="link mt-2 block">
-                            {{ url.url }}
-                        </a>
-                    </div>
-                    {% empty %}
-                    <p class="text-gray-500">No URLs available.</p>
-                    {% endfor %}
-                </div>
-            </div>
-
-            <!-- Service Information Section -->
-            <div>
-                <h2 class="text-3xl font-bold mb-4">Service Information</h2>
-                {% for info in service.service_infos.all %}
-                <div class="card shadow-md bg-base-100 p-6 mb-4">
-                    <h3 class="text-2xl font-bold">{{ info.type.name }}</h3>
-                    {% if info.description %}
-                    <p class="mt-2">{{ info.description }}</p>
-                    {% endif %}
-                    {% if info.points.exists %}
-                    <ul class="list-disc ml-6 mt-4 space-y-2">
-                        {% for point in info.points.all %}
-                        <li>{{ point.text }}</li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
-                </div>
-                {% empty %}
-                <p class="text-gray-500">No service information available.</p>
-                {% endfor %}
             </div>
         </div>
     </div>
-</div>
 {% endblock %}

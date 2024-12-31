@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     # Third Party Apps
     "django_browser_reload",
     "tailwind",
+    "django_prose_editor",
 ]
 
 MIDDLEWARE = [

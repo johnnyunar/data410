@@ -1,8 +1,12 @@
 asgiref==3.8.1
 Django==5.1.4
 django-browser-reload==1.17.0
+django-js-asset==3.0.1
+django-prose-editor==0.10.2
 django-tailwind==3.8.0
 django-unfold==0.43.0
+nh3==0.2.20
 pillow==11.0.0
 sqlparse==0.5.3
+uuid==1.30
 whitenoise==6.8.2

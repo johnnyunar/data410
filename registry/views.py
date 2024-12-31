@@ -13,4 +13,11 @@ class ServiceDetail(DetailView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["rating_range"] = range(1, 6)
+        context["uncategorized_service_infos"] = self.object.service_infos.filter(
+            category__isnull=True
+        )
+        context["categorized_service_infos"] = self.object.service_infos.exclude(
+            category__isnull=True
+        ).order_by("category__name")
+
         return context

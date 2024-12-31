@@ -24,6 +24,10 @@ html {
     }
 }
 
+hr {
+   margin: 1.5rem 0;
+}
+
 /* Logo */
 [data-theme="lofi"] .theme-logo {
     filter: invert(0); /* Light logo */

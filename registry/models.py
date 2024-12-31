@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django_prose_editor.sanitized import SanitizedProseEditorField
 
 from core.models import BaseModel
 
@@ -10,7 +11,9 @@ class ServiceInfoType(BaseModel):
     name = models.CharField(
         max_length=255,
         unique=True,
-        help_text="Name of the service info type, e.g., What to be aware of, How to delete data.",
+        help_text=_(
+            "Name of the service info type, e.g., What to be aware of, How to delete data."
+        ),
     )
 
     def __str__(self):
@@ -21,8 +24,23 @@ class ServiceInfoType(BaseModel):
         verbose_name_plural = _("Service Info Types")
 
 
+class ServiceInfoCategory(BaseModel):
+    name = models.CharField(
+        max_length=255,
+        unique=True,
+        help_text=_("Name of the service info category, e.g., Privacy, Security, AI."),
+    )
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = _("Service Info Category")
+        verbose_name_plural = _("Service Info Categories")
+
+
 class ServiceInfo(BaseModel):
-    description = models.TextField(
+    description = SanitizedProseEditorField(
         blank=True, null=True, help_text="Description of the service."
     )
     type = models.ForeignKey(
@@ -30,6 +48,14 @@ class ServiceInfo(BaseModel):
         on_delete=models.CASCADE,
         related_name="service_infos",
         help_text=_("Type of service info."),
+    )
+    category = models.ForeignKey(
+        ServiceInfoCategory,
+        blank=True,
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name="service_infos",
+        help_text=_("Category of service info."),
     )
     service = models.ForeignKey(
         "Service",
@@ -60,7 +86,7 @@ class ServiceInfoPoint(BaseModel):
     )
 
     def __str__(self):
-        return self.service_info
+        return self.text
 
     class Meta:
         verbose_name = _("Service Info Point")
