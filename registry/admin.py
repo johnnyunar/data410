@@ -52,10 +52,11 @@ class ServiceInfoPointInline(TabularInline):
 
 @admin.register(Service)
 class ServiceAdmin(ModelAdmin):
-    list_display = ("name", "website", "image", "created_at", "updated_at")
+    list_display = ("name", "website", "created_at", "updated_at", "is_active")
     search_fields = ("name", "website")
     ordering = ("name",)
     inlines = [ServiceURLInline, ServiceInfoInline]
+    prepopulated_fields = {"slug": ("name",)}
 
 
 @admin.register(ServiceURL)

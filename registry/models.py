@@ -115,8 +115,14 @@ class Service(BaseModel):
         help_text=_("Average rating of the service."),
     )
 
+    slug = models.SlugField(
+        max_length=255,
+        unique=True,
+        help_text=_("Unique URL path to access this service."),
+    )
+
     def get_absolute_url(self):
-        return reverse("service-detail", kwargs={"uuid": self.uuid})
+        return reverse("service-detail", kwargs={"slug": self.slug})
 
     def __str__(self):
         return self.name
