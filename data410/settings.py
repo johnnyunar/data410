@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import os
 from pathlib import Path
 
+import dj_database_url
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -92,12 +94,39 @@ WSGI_APPLICATION = "data410.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# Database
+# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": os.environ.get("SQL_ENGINE", "django.db.backends.postgresql"),
+        "USER": os.environ.get("POSTGRES_USER", "steezr"),
+        "PASSWORD": os.environ.get("POSTGRES_PASSWORD", "steezr"),
+        "NAME": os.environ.get("POSTGRES_DB", "steezr"),
+        "HOST": os.environ.get("POSTGRES_HOST", "db"),
+        "PORT": os.environ.get("POSTGRES_PORT", "5432"),
+    },
+}
+
+if not DEBUG:
+    # Heroku: Update database configuration from $DATABASE_URL.
+    db_from_env = dj_database_url.config()
+    DATABASES["default"].update(db_from_env)
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": os.environ.get("REDIS_URL", default="redis://redis:6379/1"),
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        },
     }
 }
+
+if not DEBUG:
+    CACHES["default"]["OPTIONS"]["CONNECTION_POOL_KWARGS"] = {
+        "ssl_cert_reqs": None,
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
