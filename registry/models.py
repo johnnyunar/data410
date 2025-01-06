@@ -2,7 +2,7 @@ from django.db import models
 from django.urls import reverse
 from django_prose_editor.sanitized import SanitizedProseEditorField
 
-from core.models import BaseModel
+from core.models import BaseModel, BaseModelSortable
 
 from django.utils.translation import gettext_lazy as _
 
@@ -24,7 +24,7 @@ class ServiceInfoType(BaseModel):
         verbose_name_plural = _("Service Info Types")
 
 
-class ServiceInfoCategory(BaseModel):
+class ServiceInfoCategory(BaseModelSortable):
     name = models.CharField(
         max_length=255,
         unique=True,
@@ -34,7 +34,7 @@ class ServiceInfoCategory(BaseModel):
     def __str__(self):
         return self.name
 
-    class Meta:
+    class Meta(BaseModelSortable.Meta):
         verbose_name = _("Service Info Category")
         verbose_name_plural = _("Service Info Categories")
 
@@ -105,6 +105,14 @@ class Service(BaseModel):
         blank=True,
         null=True,
         help_text=_("Logo or image representing the service."),
+    )
+
+    rating = models.DecimalField(
+        max_digits=3,
+        decimal_places=2,
+        blank=True,
+        null=True,
+        help_text=_("Average rating of the service."),
     )
 
     def get_absolute_url(self):

@@ -1,5 +1,9 @@
+from adminsortable2.admin import SortableAdminMixin
 from django.contrib import admin
+from django.forms import IntegerField
 from unfold.admin import TabularInline, ModelAdmin
+from unfold.forms import ActionForm
+from unfold.widgets import UnfoldAdminIntegerFieldWidget
 
 from registry.models import (
     Service,
@@ -9,6 +13,26 @@ from registry.models import (
     ServiceInfoPoint,
     ServiceInfoCategory,
 )
+
+
+class UnfoldMovePageActionForm(ActionForm):
+    step = IntegerField(
+        required=False,
+        initial=1,
+        # from unfold.widgets import UnfoldAdminIntegerFieldWidget
+        widget=UnfoldAdminIntegerFieldWidget(attrs={"id": "changelist-form-step"}),
+        label=False,
+    )
+    page = IntegerField(
+        required=False,
+        widget=UnfoldAdminIntegerFieldWidget(attrs={"id": "changelist-form-page"}),
+        label=False,
+    )
+
+
+# Replace action_form in extended class
+class SortableMixin(SortableAdminMixin):
+    action_form = UnfoldMovePageActionForm
 
 
 class ServiceURLInline(TabularInline):
@@ -50,10 +74,9 @@ class ServiceInfoTypeAdmin(ModelAdmin):
 
 
 @admin.register(ServiceInfoCategory)
-class ServiceInfoCategoryAdmin(ModelAdmin):
-    list_display = ("name", "created_at", "updated_at")
+class ServiceInfoCategoryAdmin(SortableMixin, ModelAdmin):
+    list_display = ("name", "created_at", "updated_at", "order")
     search_fields = ("name",)
-    ordering = ("name",)
 
 
 @admin.register(ServiceInfo)

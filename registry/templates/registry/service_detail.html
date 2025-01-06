@@ -39,7 +39,7 @@
                                       name="rating"
                                       class="mask mask-star-2"
                                       disabled
-                                      {% if service.rating and service.rating >= i %}checked{% endif %}
+                                      {% if service.rating and service.rating >= i and service.rating < i|add:1 %}checked{% endif %}
                                     />
                                 {% endfor %}
                             </div>
@@ -107,7 +107,7 @@
                     {% regroup categorized_service_infos by category as grouped_infos %}
                     {% if grouped_infos %}
                         <div role="tablist" class="tabs tabs-boxed tabs-lg">
-                            {% for group in grouped_infos %}
+                            {% for group in grouped_infos|dictsort:"grouper.order" %}
                                 <input
                                   type="radio"
                                   name="categorized_tabs"

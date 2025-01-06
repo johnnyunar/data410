@@ -14,3 +14,15 @@ class BaseModel(models.Model):
 
     class Meta:
         abstract = True
+
+
+class BaseModelSortable(BaseModel):
+    order = models.PositiveIntegerField(
+        default=0,
+        blank=False,
+        null=False,
+    )
+
+    class Meta:
+        abstract = True
+        ordering = ["order"]

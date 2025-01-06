@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     "django_browser_reload",
     "tailwind",
     "django_prose_editor",
+    "adminsortable2",
 ]
 
 MIDDLEWARE = [
@@ -144,3 +145,23 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Tailwind CSS Configuration
 TAILWIND_APP_NAME = "theme"
+
+# LOGGING SETTINGS
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "console": {"format": "%(name)-12s %(levelname)-8s %(message)s"},
+        "file": {"format": "%(asctime)s %(name)-12s %(levelname)-8s %(message)s"},
+    },
+    "handlers": {
+        "console": {"class": "logging.StreamHandler", "formatter": "console"},
+        "file": {
+            "level": "DEBUG",
+            "class": "logging.FileHandler",
+            "formatter": "file",
+            "filename": "/tmp/debug.log",
+        },
+    },
+    "loggers": {"": {"level": "DEBUG", "handlers": ["console"]}},
+}
