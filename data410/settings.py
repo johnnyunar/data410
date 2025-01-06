@@ -100,9 +100,9 @@ WSGI_APPLICATION = "data410.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": os.environ.get("SQL_ENGINE", "django.db.backends.postgresql"),
-        "USER": os.environ.get("POSTGRES_USER", "steezr"),
-        "PASSWORD": os.environ.get("POSTGRES_PASSWORD", "steezr"),
-        "NAME": os.environ.get("POSTGRES_DB", "steezr"),
+        "USER": os.environ.get("POSTGRES_USER", "data410"),
+        "PASSWORD": os.environ.get("POSTGRES_PASSWORD", "data410"),
+        "NAME": os.environ.get("POSTGRES_DB", "data410"),
         "HOST": os.environ.get("POSTGRES_HOST", "db"),
         "PORT": os.environ.get("POSTGRES_PORT", "5432"),
     },
