@@ -1,5 +1,5 @@
 {% extends 'theme/base.html' %}
-{% load static %}
+{% load static i18n %}
 
 {% block content %}
     <div class="flex flex-col justify-center items-center min-h-screen px-12">
@@ -13,9 +13,9 @@
             <div class="form-control w-full max-w-lg relative" hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
                 <label class="input input-bordered flex items-center gap-2">
                     <input type="text" class="grow" placeholder="Search"
-                            hx-post="{% url 'service-search' %}" hx-target="#search-results" hx-swap="outerHTML"
-                            hx-trigger="input changed delay:500ms, keyup[key=='Enter']"
-                            id="search" name="search"
+                           hx-post="{% url 'service-search' %}" hx-target="#search-results" hx-swap="outerHTML"
+                           hx-trigger="input changed delay:500ms, keyup[key=='Enter']"
+                           id="search" name="search"
                     />
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -29,11 +29,12 @@
                     </svg>
                 </label>
                 {# Search results box #}
-                <div id="search-results"></div>
+                <div id="search-results" class="absolute"></div>
             </div>
         </div>
 
         {# Recent Services #}
+        <h2 class="text-gray-600 text-sm">{% translate 'Recent entries' %}</h2>
         <div class="w-full flex justify-center flex-wrap gap-4 my-4">
             {% for service in recent_services %}
                 <a href="{{ service.get_absolute_url }}"
@@ -41,7 +42,7 @@
                     {% if service.image %}
                         <img src="{{ service.image.url }}" alt="Logo" class="w-6 h-6">
                     {% endif %}
-                    <h2 class="text-lg font-bold">{{ service }}</h2>
+                    <h2 class="text-md md:text-lg font-bold">{{ service }}</h2>
                 </a>
             {% endfor %}
         </div>
