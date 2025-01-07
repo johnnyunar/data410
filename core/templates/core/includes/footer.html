@@ -1,21 +1,22 @@
 {% load static i18n %}
 <footer class="footer bg-base-200 text-base-content p-10">
     <nav>
-        <h6 class="footer-title">Org</h6>
-        <a href="{% url 'about' %}" class="link link-hover">About</a>
+        <h6 class="footer-title">{% trans "Org" %}</h6>
+        <a href="{% url 'about' %}" class="link link-hover">{% trans "About" %}</a>
         {# <a class="link link-hover">Blog</a> #}
         {# <a class="link link-hover">Contribute</a> #}
-        <a href="{% url 'privacy-notice' %}" class="link link-hover">Privacy Notice</a>
+        <a href="{% url 'privacy-notice' %}" class="link link-hover">{% trans "Privacy Notice" %}</a>
+        <a href="{% url 'acknowledgements' %}" class="link link-hover">{% trans "Acknowledgments" %}</a>
     </nav>
     <nav>
-        <h6 class="footer-title">Tools</h6>
-        <a href="{% url 'home' %}" class="link link-hover">Search</a>
-        <a href="{% url 'api-home' %}" class="link link-hover">API</a>
+        <h6 class="footer-title">{% trans "Tools" %}</h6>
+        <a href="{% url 'home' %}" class="link link-hover">{% trans "Search" %}</a>
+        <a href="{% url 'api-home' %}" class="link link-hover">{% trans "API" %}</a>
         {# <a class="link link-hover">Status</a> #}
     </nav>
     <nav>
-        <h6 class="footer-title">Next Steps</h6>
-        <a href="{% url 'roadmap' %}" class="link link-hover">Roadmap</a>
+        <h6 class="footer-title">{% trans "Next Steps" %}</h6>
+        <a href="{% url 'roadmap' %}" class="link link-hover">{% trans "Roadmap" %}</a>
     </nav>
 </footer>
 <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">

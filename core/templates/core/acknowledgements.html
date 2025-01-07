@@ -1,0 +1,69 @@
+{% extends "theme/base.html" %}
+
+{% block content %}
+    <div class="container mx-auto p-6 space-y-8">
+        <!-- Header -->
+        <div class="hero bg-base-200 rounded-lg p-8">
+            <div class="hero-content text-center">
+                <div class="max-w-lg">
+                    <h1 class="text-4xl font-bold text-primary mb-4">Acknowledgments</h1>
+                    <p class="text-lg">
+                        Data410 is powered by incredible open-source libraries and tools. This page is dedicated to
+                        appreciating the creators and contributors who made these tools available to everyone.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Open-Source Dependencies Section -->
+        <div class="card bg-base-100 shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title text-2xl text-secondary">Open-Source Dependencies</h2>
+                <p>
+                    Below is a list of open-source libraries that make Data410 possible. Thank you to their maintainers!
+                </p>
+                <ul class="list-disc list-inside mt-4 space-y-4">
+                    {% for dependency in dependencies %}
+                        <li>
+                            <strong>
+                                <a href="{{ dependency.url }}" target="_blank" class="link link-primary">
+                                    {{ dependency.name }}
+                                </a>
+                            </strong>
+                            (v{{ dependency.version }})<br>
+                            <p class="text-sm">{{ dependency.description }}</p>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <!-- Community Section -->
+        <div class="card bg-base-100 shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title text-2xl text-secondary">Community Contributions</h2>
+                <p>
+                    The open-source community is essential to this project. We encourage you to explore and contribute
+                    to
+                    these amazing libraries or participate in Data410’s mission.
+                </p>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="hero bg-primary text-primary-content rounded-lg p-8">
+            <div class="hero-content text-center">
+                <div class="max-w-lg">
+                    <h2 class="text-3xl font-bold mb-4">Get Involved</h2>
+                    <p class="mb-6">
+                        Want to make a difference? Support the open-source projects listed above or contribute to
+                        Data410.
+                        Together, we can create a more privacy-friendly digital world.
+                    </p>
+                    <a href="https://github.com/johnnyunar/data410" target="_blank" class="btn btn-secondary btn-lg">
+                        Contribute on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,1 +1,83 @@
-{% extends 'theme/base.html' %}
+{% extends "theme/base.html" %}
+
+{% block content %}
+    <div class="container mx-auto p-6 space-y-8">
+        <!-- Header -->
+        <div class="hero bg-base-200 rounded-lg p-8">
+            <div class="hero-content text-center">
+                <div class="max-w-lg">
+                    <h1 class="text-4xl font-bold text-primary mb-4">Privacy Notice</h1>
+                    <p class="text-lg">
+                        Your privacy is our utmost priority. At Data410, we do not collect, store, or process any
+                        personal information. This notice provides full transparency about the minimal data we handle
+                        and how we use it.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section: Overview -->
+        <div class="card bg-base-100 shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title text-2xl text-secondary">Overview</h2>
+                <p>
+                    Data410 is designed to give you full control over your digital privacy. We operate with a strict
+                    <strong>no data collection policy</strong>. This means:
+                </p>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>No personal data is collected, stored, or shared.</li>
+                    <li>We only track anonymous page visit counts for performance monitoring.</li>
+                    <li>All features are designed to work without requiring any identifiable information from you.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section: What We Track -->
+        <div class="card bg-base-100 shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title text-2xl text-secondary">What We Track</h2>
+                <p>
+                    To improve our website and ensure it works seamlessly, we track the total number of page visits.
+                    This data is:
+                </p>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Aggregated and anonymous, with no personal identifiers attached.</li>
+                    <li>Used solely to monitor website performance and usage.</li>
+                    <li>Stored securely and not shared with any third parties.</li>
+                </ul>
+                <p class="mt-4">
+                    <strong>We do not use cookies or any tracking mechanisms that collect personal information.</strong>
+                </p>
+            </div>
+        </div>
+
+        <!-- Section: Your Rights -->
+        <div class="card bg-base-100 shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title text-2xl text-secondary">Your Rights</h2>
+                <p>
+                    Since we do not collect any personal data, your privacy rights are inherently respected. However, if
+                    you have any concerns or questions, you can always reach out to us.
+                </p>
+                <p class="mt-4">
+                    Contact us at: <a href="mailto:support@data410.org"
+                                      class="link link-primary">support@data410.org</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Section: Contact Us -->
+        <div class="card bg-base-100 shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title text-2xl text-secondary">Contact Us</h2>
+                <p>
+                    If you have any questions or concerns about this privacy notice or our practices, please feel free
+                    to contact us:
+                </p>
+                <p class="mt-2">
+                    Email: <a href="mailto:support@data410.org" class="link link-primary">support@data410.org</a>
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
