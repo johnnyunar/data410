@@ -34,7 +34,9 @@
         </div>
 
         {# Recent Services #}
-        <h2 class="text-gray-600 text-sm">{% translate 'Recent entries' %}</h2>
+        {% if recent_services %}
+            <h2 class="text-gray-600 text-sm">{% translate 'Recent entries' %}</h2>
+        {% endif %}
         <div class="w-full flex justify-center flex-wrap gap-4 my-4">
             {% for service in recent_services %}
                 <a href="{{ service.get_absolute_url }}"
