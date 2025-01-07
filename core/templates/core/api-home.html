@@ -1,1 +1,41 @@
-{% extends 'theme/base.html' %}
+{% extends "theme/base.html" %}
+{% load i18n %}
+
+{% block content %}
+<div class="container mx-auto p-6 space-y-12">
+    <div class="hero bg-base-200 rounded-lg p-8">
+        <div class="hero-content text-center">
+            <div class="max-w-lg">
+                <h1 class="text-4xl font-bold mb-4">API Coming Soon</h1>
+                <p class="text-lg">
+                    We're working hard to bring you a powerful and privacy-focused API for managing your digital footprint.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card bg-base-100 shadow-lg">
+        <div class="card-body">
+            <h2 class="card-title text-2xl">What to Expect</h2>
+            <ul class="list-disc list-inside mt-4 space-y-2">
+                <li><strong>Footprint Analysis:</strong> Check where your username or email appears across the web.</li>
+                <li><strong>Data Deletion Requests:</strong> Automatically initiate data removal processes for supported services.</li>
+                <li><strong>Privacy-Focused Design:</strong> No personal data will be stored or shared, ever.</li>
+                <li><strong>Simple Integration:</strong> Easy-to-use endpoints for seamless integration with your tools.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero bg-primary text-primary-content rounded-lg p-8">
+        <div class="hero-content text-center">
+            <div class="max-w-lg">
+                <h2 class="text-3xl font-bold mb-4">Have Questions or Suggestions?</h2>
+                <p class="mb-6">
+                    We'd love to hear your thoughts on what you'd like to see in the API. Reach out to us and help shape its future.
+                </p>
+                <a href="mailto:support@data410.org" class="btn btn-secondary btn-lg">{% trans "Contact Us" %}</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
