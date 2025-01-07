@@ -10,9 +10,11 @@ django-prose-editor==0.10.2
 django-redis==5.4.0
 django-tailwind==3.8.0
 django-unfold==0.43.0
+gunicorn==23.0.0
 idna==3.10
 Markdown==3.7
 nh3==0.2.20
+packaging==24.2
 pillow==11.0.0
 psycopg2==2.9.10
 redis==5.2.1
