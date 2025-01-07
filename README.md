@@ -22,6 +22,10 @@ Our mission is to empower users with tools to analyze, control, and reduce their
   - Request the removal of your data from services that support it, all without storing any personal information.
 - **Local Privacy Tools**:
   - Future-proof privacy tools to run entirely on your computer for maximum security.
+- **Public API**:
+  - Allow developers to integrate these tools into their own privacy-focused applications.
+
+See our [Roadmap](ROADMAP.md) for a detailed list of upcoming features and our long-term vision.
 
 ---
 

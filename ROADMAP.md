@@ -46,6 +46,8 @@ Data410 aims to be the ultimate platform for managing your digital footprint and
      - Publish the code for local tools to ensure transparency and community-driven improvements.
   3. **Cross-Platform Support**:
      - Develop tools that work on Windows, macOS, and Linux systems.
+  4. **Public API**:
+     - Allow developers to integrate these tools into their own privacy-focused applications.
 
 ---
 
