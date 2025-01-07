@@ -37,4 +37,20 @@ hr {
     filter: invert(1); /* Inverted for dark theme */
 }
 
+@keyframes rise {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-30vh);
+        opacity: 0;
+    }
+}
+
+#floating-squares div {
+    animation: rise 8s linear infinite;
+}
+
+
 

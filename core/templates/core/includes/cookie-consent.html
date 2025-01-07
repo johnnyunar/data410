@@ -1,0 +1,14 @@
+{% load i18n %}
+<div class="card w-80 sm:w-96 fixed bottom-10 right-10 shadow-lg bg-neutral" id="cookie-consent">
+    <div class="card-body items-center text-center text-neutral-content">
+        <h2 class="card-title">Cookies!</h2>
+        <p class="text-md mb-3">
+            {% trans "The only cookies we use are the ones that make our website work." %}
+            <a href="{% url 'privacy-notice' %}" class="link">{% trans "Get more info." %}</a>
+        </p>
+        <div class="card-actions justify-end">
+            <button class="btn w-full sm:w-auto">{% trans "Accept necessary cookies" %}</button>
+            <a href="about:blank" class="btn w-full sm:w-auto">{% trans "Leave" %}</a>
+        </div>
+    </div>
+</div>

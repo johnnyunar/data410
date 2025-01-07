@@ -11,14 +11,14 @@
 
         {# OG / Facebook #}
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.data410.com/">
+        <meta property="og:url" content="https://www.data410.org/">
         <meta property="og:title" content="Data 410">
         <meta property="og:description" content="Data 410 | a digital footprint management platform.">
         <meta property="og:image" content="{% static 'core/img/data410-logo-sm.png' %}">
 
         {# Twitter #}
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://www.data410.com/">
+        <meta property="twitter:url" content="https://www.data410.org/">
         <meta property="twitter:title" content="Data 410">
         <meta property="twitter:description"
               content="Data 410 | a digital footprint management platform.">
@@ -37,11 +37,13 @@
                 {% include 'core/includes/theme-select.html' %}
             </div>
         </div>
-        <main class="min-h-screen">
+        <main class="min-h-screen overflow-hidden relative">
             {% block content %}
             {% endblock %}
+            <div id="floating-squares" class="absolute bottom-0 w-full pointer-events-none"></div>
         </main>
         {% include "core/includes/footer.html" %}
+        {% include "core/includes/cookie-consent.html" %}
         <script src="{% static 'core/js/vendor/htmx.min.js' %}"></script>
         <script src="{% static 'core/js/main.js' %}"></script>
         {% block extra_js %}

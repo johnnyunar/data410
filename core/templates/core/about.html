@@ -1,0 +1,96 @@
+{% extends "theme/base.html" %}
+{% load static i18n %}
+
+{% block content %}
+    <div class="container mx-auto p-6 space-y-12">
+        <!-- Hero Section -->
+        <div class="hero bg-base-200 rounded-lg p-8">
+            <div class="hero-content">
+                <div>
+                    <img src="{% static 'core/img/data410-logo-blk.svg' %}" alt="Data410" class="w-60 mx-auto"/>
+                    <p class="text-lg mt-10">
+                        Welcome to <strong>Data410</strong> – a platform dedicated to empowering users
+                        to manage their digital footprint and make informed decisions about privacy
+                        and data security. Our mission is to simplify the complex world of digital
+                        privacy while providing tools to take back control of your personal information.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mission Section -->
+        <div class="card bg-base-100 shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title text-2xl ">Our Mission</h2>
+                <p>
+                    At <strong>Data410</strong>, we believe in a digital world where individuals
+                    have full transparency and control over their personal data. Our goal is to
+                    educate and equip users with the knowledge and tools they need to protect
+                    their privacy in an increasingly connected world.
+                </p>
+                <p>
+                    From detailed guides on data deletion to cutting-edge tools for managing
+                    privacy, we aim to make privacy accessible for everyone.
+                </p>
+            </div>
+        </div>
+
+        <!-- About the Creator -->
+        <div class="card bg-base-100 shadow-lg">
+            <div class="card-body flex flex-col sm:flex-row items-center sm:gap-8">
+                <div class="flex-shrink-0">
+                    <img src="{% static 'core/img/creator.jpeg' %}" alt="Johnny Unar"
+                         class="rounded-lg shadow-md w-48 h-48 object-cover"/>
+                </div>
+                <div>
+                    <h2 class="card-title text-2xl  mb-2">{% trans "Meet the Creator" %}</h2>
+                    <p>
+                        Hi! I’m <strong>Johnny Unar</strong>, a passionate software engineer, artist, and advocate for
+                        digital privacy.
+                        Over the years, I’ve combined my technical expertise and artistic creativity to build tools that
+                        solve
+                        real-world problems while inspiring others to explore the intersection of technology and art.
+                    </p>
+                    <br/>
+                    <p>
+                        Visit my personal website to explore my work:
+                        <a href="https://johnnyunar.com" target="_blank" class="link link-primary">johnnyunar.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="card bg-base-100 shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title text-2xl ">How It Works</h2>
+                <p>
+                    Data410 provides users with intuitive tools and resources to:
+                </p>
+                <ul class="list-disc list-inside mt-4 space-y-2">
+                    <li>Identify and analyze their digital footprint.</li>
+                    <li>Learn how to remove personal data from third-party platforms.</li>
+                    <li>Stay updated with the latest privacy practices and trends.</li>
+                    <li>Make informed decisions about their digital presence.</li>
+                </ul>
+                <p class="mt-4">
+                    Whether you're concerned about privacy, data breaches, or just curious about
+                    how your data is used, Data410 is here to guide you every step of the way.
+                </p>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="hero bg-primary text-primary-content rounded-lg p-8">
+            <div class="hero-content text-center">
+                <div class="max-w-lg">
+                    <h2 class="text-3xl font-bold mb-4">Ready to Take Control of Your Digital Privacy?</h2>
+                    <p class="mb-6">
+                        Explore our tools, read our guides, and join a community that values privacy and transparency.
+                    </p>
+                    <a href="{% url 'home' %}" class="btn btn-secondary btn-lg">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
