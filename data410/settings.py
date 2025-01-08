@@ -60,6 +60,8 @@ INSTALLED_APPS = [
     "tailwind",
     "django_prose_editor",
     "adminsortable2",
+    # XXX: Django Cleanup should be last
+    "django_cleanup.apps.CleanupConfig",
 ]
 
 MIDDLEWARE = [

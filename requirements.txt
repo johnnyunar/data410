@@ -7,6 +7,7 @@ dj-database-url==2.3.0
 Django==5.1.4
 django-admin-sortable2==2.2.4
 django-browser-reload==1.17.0
+django-cleanup==9.0.0
 django-js-asset==3.0.1
 django-prose-editor==0.10.2
 django-redis==5.4.0
