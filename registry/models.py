@@ -1,3 +1,5 @@
+from functools import partial
+
 from django.db import models
 from django.urls import reverse
 from django_prose_editor.sanitized import SanitizedProseEditorField
@@ -5,6 +7,8 @@ from django_prose_editor.sanitized import SanitizedProseEditorField
 from core.models import BaseModel, BaseModelSortable
 
 from django.utils.translation import gettext_lazy as _
+
+from core.utils import generate_random_filename
 
 
 class ServiceInfoType(BaseModel):
@@ -105,6 +109,7 @@ class Service(BaseModel):
         blank=True,
         null=True,
         help_text=_("Logo or image representing the service."),
+        upload_to=partial(generate_random_filename, subdir="services/images/"),
     )
 
     rating = models.DecimalField(
