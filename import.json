@@ -1,0 +1,184 @@
+[
+  {
+    "name": "ProtonMail",
+    "website": "https://protonmail.com",
+    "rating": 4.8,
+    "slug": "protonmail",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/ProtonMail_logo.svg/512px-ProtonMail_logo.svg.png",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://protonmail.com/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://protonmail.com/terms"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://protonmail.com/support"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "ProtonMail encrypts emails end-to-end.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Emails are encrypted locally before being sent.",
+          "ProtonMail does not share your data with third parties.",
+          "Only minimal metadata is collected to ensure functionality."
+        ]
+      },
+      {
+        "description": "Tips to maximize privacy and security with ProtonMail.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Enable two-factor authentication for additional security.",
+          "Use a strong, unique password for your account.",
+          "Avoid sharing your account recovery email or phone number.",
+          "Be cautious with phishing attempts and links in emails."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reddit",
+    "website": "https://www.reddit.com",
+    "rating": 3.5,
+    "slug": "reddit",
+    "image": "https://www.redditinc.com/assets/images/site/reddit-logo.png",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.redditinc.com/policies/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.redditinc.com/policies/user-agreement"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://www.reddithelp.com"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Reddit collects data for personalization and advertising.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Activity is tracked to personalize content and ads.",
+          "Reddit uses your data to improve platform performance.",
+          "Data is shared with advertisers and partners."
+        ]
+      },
+      {
+        "description": "Steps to stay safe while using Reddit.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Enable two-factor authentication for account security.",
+          "Be cautious about sharing personal details in posts.",
+          "Regularly review and adjust privacy settings.",
+          "Report and block suspicious activity."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Instagram",
+    "website": "https://www.instagram.com",
+    "rating": 3.9,
+    "slug": "instagram",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/512px-Instagram_logo_2022.svg.png",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://privacycenter.instagram.com/policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://help.instagram.com/478745558852511"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://help.instagram.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Instagram collects and shares data for advertising and personalization.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Activity and interactions are tracked for targeted ads.",
+          "Data is shared across Meta services (Facebook, WhatsApp).",
+          "Content interactions are used for recommendations."
+        ]
+      },
+      {
+        "description": "Tips to protect your privacy on Instagram.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Set your account to private to control who sees your content.",
+          "Regularly review app permissions and revoke unnecessary ones.",
+          "Avoid sharing sensitive personal information in your posts."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Google",
+    "website": "https://www.google.com",
+    "rating": 4.2,
+    "slug": "google",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/512px-Google_2015_logo.svg.png",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://policies.google.com/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://policies.google.com/terms"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.google.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Google collects extensive data across its services for advertising and personalization.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Search history, location, and device data are collected.",
+          "Data is shared with advertisers and partners for targeted ads.",
+          "Personalization algorithms use your interactions to optimize services."
+        ]
+      },
+      {
+        "description": "Tips to protect your privacy while using Google.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Review and adjust your account's privacy settings.",
+          "Disable ad personalization in your Google Account settings.",
+          "Use incognito mode to limit data collection during browsing."
+        ]
+      }
+    ]
+  }
+]

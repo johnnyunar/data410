@@ -21,9 +21,15 @@ class Command(BaseCommand):
         parser.add_argument(
             "json_file", type=str, help="Path to the JSON file to import."
         )
+        parser.add_argument(
+            "--rewrite",
+            action="store_true",
+            help="Rewrite all service infos and points for each service.",
+        )
 
     def handle(self, *args, **kwargs):
         json_file = kwargs["json_file"]
+        rewrite = kwargs["rewrite"]
 
         try:
             with open(json_file, "r") as f:
@@ -41,9 +47,9 @@ class Command(BaseCommand):
 
         # Import the data
         for service_data in data:
-            self.import_service(service_data)
+            self.import_service(service_data, rewrite)
 
-    def import_service(self, data):
+    def import_service(self, data, rewrite):
         name = data.get("name")
         website = data.get("website")
         rating = data.get("rating")
@@ -81,10 +87,24 @@ class Command(BaseCommand):
             )
 
         # Add or update service infos
-        for info_data in data.get("service_infos", []):
-            self.add_or_update_service_info(service, info_data)
+        if rewrite:
+            self.rewrite_service_infos(service, data.get("service_infos", []))
+        else:
+            for info_data in data.get("service_infos", []):
+                self.add_or_update_service_info(service, info_data)
 
         self.stdout.write(f"Successfully imported data for service: {service.name}")
+
+    def rewrite_service_infos(self, service, infos):
+        """
+        Delete all existing ServiceInfo and related points for the given service.
+        Then add new infos from the provided data.
+        """
+        ServiceInfo.objects.filter(service=service).delete()
+        self.stdout.write(f"Rewrote all service infos for: {service.name}")
+
+        for info_data in infos:
+            self.add_or_update_service_info(service, info_data)
 
     def add_or_update_service_info(self, service, info_data):
         """
@@ -94,13 +114,21 @@ class Command(BaseCommand):
         type_name = info_data.get("type", "").strip()
         category_name = info_data.get("category")
         points = info_data.get("points", [])
+        icon_class = info_data.get("icon_class", None)
 
         if not description or not type_name:
             self.stderr.write("Skipping ServiceInfo with missing description or type.")
             return
 
         # Ensure related objects exist
-        info_type, _ = ServiceInfoType.objects.get_or_create(name=type_name)
+        info_type, _ = ServiceInfoType.objects.get_or_create(
+            name=type_name,
+            defaults={"icon_class": icon_class},
+        )
+        if icon_class and info_type.icon_class != icon_class:
+            info_type.icon_class = icon_class
+            info_type.save()
+
         category = None
         if category_name:
             category_name = category_name.strip()

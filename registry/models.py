@@ -19,6 +19,14 @@ class ServiceInfoType(BaseModel):
             "Name of the service info type, e.g., What to be aware of, How to delete data."
         ),
     )
+    icon_class = models.CharField(
+        max_length=100,
+        blank=True,
+        null=True,
+        help_text=_(
+            "FontAwesome class for an icon representing this type. E.g., fas fa-lock."
+        ),
+    )
 
     def __str__(self):
         return self.name

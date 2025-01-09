@@ -90,7 +90,12 @@
                     {% if uncategorized_service_infos %}
                         {% for info in uncategorized_service_infos %}
                             <div class="card shadow-md bg-base-100 p-6 mb-4">
-                                <h3 class="text-2xl font-bold">{{ info.type.name }}</h3>
+                                <h3 class="text-2xl font-bold">
+                                    {% if info.type.icon_class %}
+                                        <i class="{{ info.type.icon_class }}"></i>&nbsp;
+                                    {% endif %}
+                                    {{ info.type.name }}
+                                </h3>
                                 {% if info.description %}
                                     <div class="mt-2">{{ info.description|safe }}</div>
                                 {% endif %}
@@ -124,7 +129,12 @@
                                 >
                                     {% for info in group.list %}
                                         <div class="card shadow-md bg-base-100 p-6 mb-4">
-                                            <h3 class="text-2xl font-bold">{{ info.type.name }}</h3>
+                                            <h3 class="text-2xl font-bold">
+                                                {% if info.type.icon_class %}
+                                                    <i class="{{ info.type.icon_class }}"></i>&nbsp;
+                                                {% endif %}
+                                                {{ info.type.name }}
+                                            </h3>
                                             {% if info.description %}
                                                 <div class="mt-2">{{ info.description|safe }}</div>
                                             {% endif %}
