@@ -205,6 +205,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # Tailwind CSS Configuration
 TAILWIND_APP_NAME = "theme"
 
+DEFAULT_USER_AGENT = os.environ.get(
+    "DEFAULT_USER_AGENT", "Bot410/1.0 (https://data410.org; admin@data410.org)"
+)
+
 # LOGGING SETTINGS
 LOGGING = {
     "version": 1,

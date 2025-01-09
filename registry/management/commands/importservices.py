@@ -1,5 +1,6 @@
 import json
 import requests
+from django.conf import settings
 from django.core.files.base import ContentFile
 from django.core.management.base import BaseCommand
 from registry.models import (
@@ -55,6 +56,7 @@ class Command(BaseCommand):
         rating = data.get("rating")
         slug = data.get("slug")
         image_url = data.get("image")
+        icon_class = data.get("icon_class")
 
         # Create or update the Service
         service, created = Service.objects.update_or_create(
@@ -63,6 +65,7 @@ class Command(BaseCommand):
                 "website": website,
                 "rating": rating,
                 "slug": slug,
+                "icon_class": icon_class,
             },
         )
 
@@ -162,8 +165,9 @@ class Command(BaseCommand):
         Download an image from a URL and save it to the Service instance.
         Set image to None if the download fails.
         """
+        user_agent = settings.DEFAULT_USER_AGENT
         headers = {
-            "User-Agent": "Bot410/1.0 (https://data410.org; admin@data410.org)",
+            "User-Agent": user_agent,
         }
 
         try:

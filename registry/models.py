@@ -9,6 +9,7 @@ from core.models import BaseModel, BaseModelSortable
 from django.utils.translation import gettext_lazy as _
 
 from core.utils import generate_random_filename
+from registry.icons import FAB_ICONS
 
 
 class ServiceInfoType(BaseModel):
@@ -134,8 +135,25 @@ class Service(BaseModel):
         help_text=_("Unique URL path to access this service."),
     )
 
+    icon_class = models.CharField(
+        max_length=100,
+        blank=True,
+        null=True,
+        help_text=_(
+            "FontAwesome class for an icon representing this Service. E.g., fab fa-google."
+        ),
+    )
+
     def get_absolute_url(self):
         return reverse("service-detail", kwargs={"slug": self.slug})
+
+    def save(self, *args, **kwargs):
+        # Set a default icon_class if not explicitly provided
+        if not self.icon_class:
+            formatted_name = self.name.lower().replace(" ", "-")
+            if formatted_name in FAB_ICONS:
+                self.icon_class = f"fab fa-{formatted_name}"
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return self.name
