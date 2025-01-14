@@ -1,0 +1,22 @@
+{% extends "theme/base.html" %}
+{% load i18n %}
+
+{% block content %}
+    <div class="flex justify-center items-center w-full h-[75vh]">
+        <div class="container p-12 text-center space-y-6">
+            <h1 class="text-3xl md:text-5xl font-bold">
+                <span class="w-full sm:w-auto inline-block">[404]</span>
+                {% trans "Page Not Found" %}
+            </h1>
+            <p class="text-base md:text-lg text-base-content">
+                {% blocktrans %}
+                    Oops! The page you're looking for doesn't exist. Please check the URL and try again.
+                {% endblocktrans %}
+            </p>
+            <div class="flex flex-wrap justify-center items-center gap-4">
+                <a href="{% url 'home' %}" class="btn btn-primary">{% trans "Go Home" %}</a>
+                <a href="mailto:support@data410.org" class="btn">{% trans "Contact Support" %}</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

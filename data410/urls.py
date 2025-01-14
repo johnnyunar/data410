@@ -20,6 +20,11 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
+from core.views import NotFoundView, ServerErrorView
+
+handler404 = NotFoundView.as_view()
+handler500 = ServerErrorView.as_view()
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("registry/", include("registry.urls")),

@@ -106,3 +106,11 @@ class AcknowledgementsView(TemplateView):
         except requests.RequestException:
             pass
         return {"description": "No description available.", "url": None}
+
+
+class NotFoundView(TemplateView):
+    template_name = "core/404.html"
+
+
+class ServerErrorView(TemplateView):
+    template_name = "core/500.html"
