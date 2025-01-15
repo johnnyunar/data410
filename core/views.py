@@ -114,3 +114,8 @@ class NotFoundView(TemplateView):
 
 class ServerErrorView(TemplateView):
     template_name = "core/500.html"
+
+
+class RobotsView(TemplateView):
+    template_name = "core/robots.txt"
+    content_type = "text/plain"

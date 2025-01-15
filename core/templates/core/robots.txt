@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /accounts/
+Disallow: /media/
+Disallow: /search/
+Disallow: /api/
+Disallow: /settings/
+Disallow: /cookies/
+
+Sitemap: https://data410.org/sitemap.xml
+
+Crawl-delay: 10

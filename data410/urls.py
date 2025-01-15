@@ -22,7 +22,7 @@ from django.contrib.sitemaps.views import sitemap
 from django.urls import path, include
 
 from core.sitemaps import sitemaps
-from core.views import NotFoundView, ServerErrorView
+from core.views import NotFoundView, ServerErrorView, RobotsView
 
 handler404 = NotFoundView.as_view()
 handler500 = ServerErrorView.as_view()
@@ -37,6 +37,7 @@ urlpatterns = [
         {"sitemaps": sitemaps},
         name="django.contrib.sitemaps.views.sitemap",
     ),
+    path("robots.txt", RobotsView.as_view(), name="robots"),
 ]
 
 if settings.DEBUG:
