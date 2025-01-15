@@ -25,6 +25,15 @@ class ServiceDetail(DetailView):
         return context
 
 
+class RegistryView(TemplateView):
+    template_name = "registry/registry.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["services"] = Service.objects.all()
+        return context
+
+
 class ServiceHtmxSearchView(TemplateView):
     template_name = "registry/components/service/_service_list.html"
 
