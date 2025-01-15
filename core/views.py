@@ -1,4 +1,5 @@
 import markdown
+from django.http import HttpResponseNotFound, HttpResponseServerError
 
 from registry.models import Service
 
@@ -111,9 +112,17 @@ class AcknowledgementsView(TemplateView):
 class NotFoundView(TemplateView):
     template_name = "core/404.html"
 
+    def get(self, request, *args, **kwargs):
+        context = self.get_context_data(**kwargs)
+        return HttpResponseNotFound(self.render_to_response(context))
+
 
 class ServerErrorView(TemplateView):
     template_name = "core/500.html"
+
+    def get(self, request, *args, **kwargs):
+        context = self.get_context_data(**kwargs)
+        return HttpResponseServerError(self.render_to_response(context))
 
 
 class RobotsView(TemplateView):
