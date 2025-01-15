@@ -1,14 +1,10 @@
-import markdown
-from django.http import HttpResponseNotFound, HttpResponseServerError
-
-from registry.models import Service
-
 import os
 
 import markdown
 import requests
 from django.conf import settings
 from django.core.cache import cache
+from django.views.defaults import page_not_found, server_error
 from django.views.generic import TemplateView
 
 from registry.models import Service
@@ -112,17 +108,15 @@ class AcknowledgementsView(TemplateView):
 class NotFoundView(TemplateView):
     template_name = "core/404.html"
 
-    def get(self, request, *args, **kwargs):
-        context = self.get_context_data(**kwargs)
-        return HttpResponseNotFound(self.render_to_response(context))
+    def dispatch(self, request, exception=None, *args, **kwargs):
+        return page_not_found(request, exception, template_name=self.template_name)
 
 
 class ServerErrorView(TemplateView):
     template_name = "core/500.html"
 
-    def get(self, request, *args, **kwargs):
-        context = self.get_context_data(**kwargs)
-        return HttpResponseServerError(self.render_to_response(context))
+    def dispatch(self, request, *args, **kwargs):
+        return server_error(request, template_name=self.template_name)
 
 
 class RobotsView(TemplateView):
