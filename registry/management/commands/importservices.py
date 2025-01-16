@@ -27,10 +27,16 @@ class Command(BaseCommand):
             action="store_true",
             help="Rewrite all service infos and points for each service.",
         )
+        parser.add_argument(
+            "--skip-existing",
+            action="store_true",
+            help="Skip importing services that already exist in the database.",
+        )
 
     def handle(self, *args, **kwargs):
         json_file = kwargs["json_file"]
         rewrite = kwargs["rewrite"]
+        skip_existing = kwargs["skip_existing"]
 
         try:
             with open(json_file, "r") as f:
@@ -48,15 +54,20 @@ class Command(BaseCommand):
 
         # Import the data
         for service_data in data:
-            self.import_service(service_data, rewrite)
+            self.import_service(service_data, rewrite, skip_existing)
 
-    def import_service(self, data, rewrite):
+    def import_service(self, data, rewrite, skip_existing):
         name = data.get("name")
         website = data.get("website")
         rating = data.get("rating")
         slug = data.get("slug")
         image_url = data.get("image")
         icon_class = data.get("icon_class")
+
+        # Check if service exists
+        if skip_existing and Service.objects.filter(name=name).exists():
+            self.stdout.write(f"Skipped existing service: {name}")
+            return
 
         # Create or update the Service
         service, created = Service.objects.update_or_create(
