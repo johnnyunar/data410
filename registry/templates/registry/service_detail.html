@@ -15,11 +15,16 @@
                 <div class="input">
                     {{ service.website|default:"https://example.com" }}
                 </div>
-                <small class="text-gray-500">{% trans "Last update" %} {{ service.updated_at.date }}</small>
+                <small class="text-gray-500 hidden md:inline">
+                    {% trans "Last update" %} {{ service.updated_at.date }}
+                </small>
             </div>
 
             <!-- Content -->
             <div class="bg-base-200 p-6">
+                <small class="text-gray-500 md:hidden inline-block text-center w-full mb-6">
+                    {% trans "Last update" %} {{ service.updated_at.date }}
+                </small>
                 <!-- Header Section -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 items-center">
                     <!-- Service Logo -->
@@ -38,7 +43,7 @@
                     {% endif %}
 
                     <!-- Service Info and Rating -->
-                    <div class="space-y-4">
+                    <div class="flex flex-wrap md:flex-col items-center md:items-start gap-3">
                         <h1 class="text-4xl font-bold">{{ service.name }}</h1>
 
                         <!-- Rating -->
@@ -72,10 +77,10 @@
                     </div>
 
                     <!-- Important URLs -->
-                    <div>
-                        <h2 class="text-2xl font-semibold mb-4">Quick Links</h2>
-                        {% if service.urls.exists %}
-                            <ul class="space-y-2">
+                    {% if service.urls.exists %}
+                        <div>
+                            <h2 class="text-xl md:text-2xl font-semibold mb-4">{% trans "Quick Links" %}</h2>
+                            <ul class="space-y-2 text-sm">
                                 {% for url in service.urls.all %}
                                     <li>
                                         <a
@@ -88,10 +93,8 @@
                                     </li>
                                 {% endfor %}
                             </ul>
-                        {% else %}
-                            <p>No URLs available.</p>
-                        {% endif %}
-                    </div>
+                        </div>
+                    {% endif %}
                 </div>
 
                 <!-- Service Information Section -->
