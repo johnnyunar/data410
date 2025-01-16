@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     "theme",
     "users",
     "registry",
+    "metrics",
     # Third Party Apps
     "storages",
     "django_browser_reload",
