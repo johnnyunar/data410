@@ -30,6 +30,7 @@ services:
     # Without tty, no stdin, and tailwind watcher aborts
     # https://github.com/tailwindlabs/tailwindcss/issues/5324
     tty: true
+    restart: always
 
   db:
     container_name: data410-db
