@@ -1,7 +1,6 @@
 import json
 import os
 from io import StringIO
-from sys import stderr
 from unittest.mock import patch, MagicMock
 
 from django.core.management import call_command
@@ -41,6 +40,7 @@ class ImportServicesCommandTest(TestCase):
                 ],
             }
         ]
+        self.invalid_file_path = "invalid.json"
         self.json_file_path = "test_services.json"
         with open(self.json_file_path, "w") as f:
             json.dump(self.json_data, f)
@@ -48,6 +48,8 @@ class ImportServicesCommandTest(TestCase):
     def tearDown(self):
         # Clean up the test JSON file
         os.remove(self.json_file_path)
+        if os.path.exists(self.invalid_file_path):
+            os.remove(self.invalid_file_path)
 
     def test_import_new_service(self):
         out = StringIO()
@@ -118,11 +120,10 @@ class ImportServicesCommandTest(TestCase):
         )  # Updated description
 
     def test_invalid_json_file(self):
-        invalid_file_path = "invalid.json"
-        with open(invalid_file_path, "w") as f:
+        with open(self.invalid_file_path, "w") as f:
             f.write("{invalid_json}")
         out = StringIO()
-        call_command("importservices", invalid_file_path, stdout=out, stderr=out)
+        call_command("importservices", self.invalid_file_path, stdout=out, stderr=out)
         self.assertIn("Invalid JSON format in file", out.getvalue())
 
     def test_image_download(self):
