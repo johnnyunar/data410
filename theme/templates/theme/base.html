@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Data 410</title>
+        <title>{% block full_title %}{% block title %}{% endblock %} | Data410{% endblock %}</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,14 +15,14 @@
         {# OG / Facebook #}
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://www.data410.org/">
-        <meta property="og:title" content="Data 410">
+        <meta property="og:title" content="{% block og_title %}Data410{% endblock %}">
         <meta property="og:description" content="Data 410 | a digital footprint management platform.">
         <meta property="og:image" content="{% static 'core/img/data410-logo-sm.png' %}">
 
         {# Twitter #}
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://www.data410.org/">
-        <meta property="twitter:title" content="Data 410">
+        <meta property="twitter:title" content="{% block twitter_title %}Data410{% endblock %}">
         <meta property="twitter:description"
               content="Data 410 | a digital footprint management platform.">
         <meta property="twitter:image" content="{% static 'core/img/data410-logo-sm.png' %}">

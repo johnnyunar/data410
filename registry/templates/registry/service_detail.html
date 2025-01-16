@@ -1,5 +1,10 @@
 {% extends "theme/base.html" %}
 
+{% block title %}{{ service.name }}{% endblock %}
+{% block og_title %}{{ service.name }}{% endblock %}
+{% block twitter_title %}{{ service.name }}{% endblock %}
+
+
 {% block content %}
     <div class="container mx-auto p-0 mb-40 sm:p-6">
         <!-- Unified Browser Mockup -->
