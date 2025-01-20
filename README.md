@@ -39,7 +39,7 @@ See our [Roadmap](ROADMAP.md) for a detailed list of upcoming features and our l
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/data410.git
+   git clone https://github.com/johnnyunar/data410.git
    cd data410
    ```
 
