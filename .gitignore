@@ -379,5 +379,4 @@ dmypy.json
 cython_debug/
 
 .idea/
-import.json
 

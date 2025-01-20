@@ -1,0 +1,3121 @@
+[
+  {
+    "name": "ProtonMail",
+    "website": "https://protonmail.com",
+    "rating": 4.8,
+    "slug": "protonmail",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/ProtonMail_logo.svg/512px-ProtonMail_logo.svg.png",
+    "icon_class": "fab fa-protonmail",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://protonmail.com/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://protonmail.com/terms"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://protonmail.com/support"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "ProtonMail provides tools to delete your account and data permanently.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Navigate to 'Settings' > 'Account' to access the delete account option.",
+          "Deleting your account will permanently remove all emails and associated data.",
+          "ProtonMail does not retain deleted data due to its zero-access encryption policy."
+        ]
+      },
+      {
+        "description": "ProtonMail encrypts emails end-to-end.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Emails are encrypted locally before being sent.",
+          "ProtonMail does not share your data with third parties.",
+          "Only minimal metadata is collected to ensure functionality."
+        ]
+      },
+      {
+        "description": "ProtonMail collects minimal data when you sign up.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "Only an email and password are required for basic accounts.",
+          "Optional recovery email or phone number is used solely for account recovery.",
+          "No IP addresses are logged."
+        ]
+      },
+      {
+        "description": "ProtonMail has strict policies on who can access your data.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Data is encrypted end-to-end, making it inaccessible even to ProtonMail.",
+          "Only you have the encryption key to decrypt your emails.",
+          "Requests for data by authorities must comply with Swiss law."
+        ]
+      },
+      {
+        "description": "Your data retention is managed securely by ProtonMail.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Emails remain stored as long as you do not delete them.",
+          "Deleted emails are removed permanently from servers.",
+          "Data backups are encrypted and kept only temporarily."
+        ]
+      },
+      {
+        "description": "ProtonMail ensures robust security to protect your data.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "Data is encrypted locally before being sent.",
+          "Stored data is encrypted with AES-256 encryption.",
+          "Servers are located in secure facilities in Switzerland."
+        ]
+      },
+      {
+        "description": "ProtonMail employs the best encryption practices.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "End-to-end encryption is applied using OpenPGP standards.",
+          "All data at rest is encrypted with AES-256.",
+          "TLS ensures secure communication during data transmission."
+        ]
+      },
+      {
+        "description": "ProtonMail supports strong account security measures.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "Yes, ProtonMail supports two-factor authentication (2FA).",
+          "2FA options include TOTP and hardware security keys.",
+          "Enabling 2FA significantly enhances account security."
+        ]
+      },
+      {
+        "description": "ProtonMail does not use AI for email processing.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI is not used for analyzing or processing emails.",
+          "No data is used for training AI models.",
+          "ProtonMail prioritizes privacy over automation."
+        ]
+      },
+      {
+        "description": "ProtonMail takes ethical approaches with its systems.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "No ethical concerns as AI is not used.",
+          "ProtonMail is transparent about its non-AI stance.",
+          "Focus remains on privacy and user control."
+        ]
+      },
+      {
+        "description": "Tips to maximize privacy and security with ProtonMail.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Enable two-factor authentication for additional security.",
+          "Use a strong, unique password for your account.",
+          "Avoid sharing your account recovery email or phone number.",
+          "Be cautious with phishing attempts and links in emails."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Reddit",
+    "website": "https://www.reddit.com",
+    "rating": 3.5,
+    "slug": "reddit",
+    "image": "https://www.redditinc.com/assets/images/site/reddit-logo.png",
+    "icon_class": "fab fa-reddit",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.redditinc.com/policies/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.redditinc.com/policies/user-agreement"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://www.reddithelp.com"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Reddit allows you to delete your account and individual posts or comments.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Go to 'User Settings' > 'Account Settings' and select 'Deactivate Account'.",
+          "Deleted accounts cannot be recovered, but posts and comments remain unless deleted manually.",
+          "For post or comment deletion, navigate to the content and delete it individually."
+        ]
+      },
+      {
+        "description": "Reddit collects data for personalization and advertising.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Activity is tracked to personalize content and ads.",
+          "Reddit uses your data to improve platform performance.",
+          "Data is shared with advertisers and partners."
+        ]
+      },
+      {
+        "description": "Basic information is collected during account setup.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "A username and password are required to create an account.",
+          "Email is optional but necessary for recovery features.",
+          "IP addresses are logged for security and analytics."
+        ]
+      },
+      {
+        "description": "Reddit content is public by default.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Posts and comments are public and accessible by anyone.",
+          "Admins and moderators have access to reported content.",
+          "Advertisers receive aggregated, non-personalized data."
+        ]
+      },
+      {
+        "description": "Reddit retains data as long as your account is active.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Posts and comments remain unless deleted manually.",
+          "Deleted accounts are anonymized but some logs may persist.",
+          "Retention policies for logs and backups vary by region."
+        ]
+      },
+      {
+        "description": "Reddit employs basic security measures.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "HTTPS encrypts communication between you and Reddit.",
+          "Account breaches have occurred in the past.",
+          "Two-factor authentication adds a layer of protection."
+        ]
+      },
+      {
+        "description": "Reddit uses encryption for secure data transmission.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "TLS is used to encrypt communication between users and Reddit servers.",
+          "Stored data is protected by secure infrastructure.",
+          "Encryption details for data at rest are not publicly specified."
+        ]
+      },
+      {
+        "description": "Reddit supports two-factor authentication for account security.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-lock",
+        "category": "Security",
+        "points": [
+          "Two-factor authentication (2FA) can be enabled in account settings.",
+          "2FA options include TOTP via authentication apps.",
+          "2FA enhances security against unauthorized access."
+        ]
+      },
+      {
+        "description": "Reddit uses AI for content recommendations and moderation.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI recommends subreddits and posts based on user activity.",
+          "Automated moderation tools enforce community guidelines.",
+          "AI is also used to detect and prevent spam and abuse."
+        ]
+      },
+      {
+        "description": "Ethical concerns exist regarding Reddit's AI practices.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "AI algorithms may create filter bubbles by reinforcing biases.",
+          "Concerns exist about AI moderation transparency.",
+          "Reddit must balance community needs with AI decision-making."
+        ]
+      },
+      {
+        "description": "Tips to stay safe while using Reddit.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Enable two-factor authentication for account security.",
+          "Be cautious about sharing personal details in posts.",
+          "Regularly review and adjust privacy settings.",
+          "Report and block suspicious activity."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Instagram",
+    "website": "https://www.instagram.com",
+    "rating": 3.9,
+    "slug": "instagram",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/512px-Instagram_logo_2022.svg.png",
+    "icon_class": "fab fa-instagram",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://privacycenter.instagram.com/policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://help.instagram.com/478745558852511"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://help.instagram.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Instagram allows permanent account deletion through its Help Center.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Go to the 'Delete Your Account' page in the Instagram Help Center.",
+          "Account deletion permanently removes all photos, videos, and data.",
+          "Deleted accounts cannot be recovered, and backups are removed within 30 days."
+        ]
+      },
+      {
+        "description": "Instagram collects and shares data for advertising and personalization.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Activity and interactions are tracked for targeted ads.",
+          "Data is shared across Meta services (Facebook, WhatsApp).",
+          "Content interactions are used for recommendations."
+        ]
+      },
+      {
+        "description": "When signing up, Instagram collects basic information.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "Requires an email address, phone number, or Facebook account for registration.",
+          "Logs IP address and device information during sign-up.",
+          "May collect data on account recovery preferences."
+        ]
+      },
+      {
+        "description": "Instagram’s data-sharing policies allow certain access.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Your data is accessible to advertisers for ad targeting.",
+          "Meta's internal teams use aggregated data for product improvements.",
+          "Government requests for user data must comply with Meta’s policies."
+        ]
+      },
+      {
+        "description": "Instagram retains most user data until manually deleted.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Content like posts and messages are stored indefinitely unless deleted.",
+          "Deleted content may remain in backup systems temporarily.",
+          "Account deletion permanently removes user data after a grace period."
+        ]
+      },
+      {
+        "description": "Instagram employs encryption and other measures to protect user data.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "Uses HTTPS to encrypt communication between users and Instagram servers.",
+          "Account security can be enhanced with two-factor authentication.",
+          "However, past security incidents highlight risks of data breaches."
+        ]
+      },
+      {
+        "description": "Encryption is used for data transmission and storage.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "Data in transit is encrypted using TLS protocols.",
+          "Stored passwords are hashed and encrypted.",
+          "Specific encryption details for other stored data are not disclosed."
+        ]
+      },
+      {
+        "description": "Instagram supports two-factor authentication for added security.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "Two-factor authentication (2FA) can be enabled in account settings.",
+          "Options include SMS codes or authentication apps.",
+          "2FA significantly reduces the risk of unauthorized access."
+        ]
+      },
+      {
+        "description": "Instagram uses AI extensively for content recommendations and moderation.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI analyzes user activity to recommend posts, stories, and reels.",
+          "Content moderation relies on AI to flag inappropriate or harmful content.",
+          "Ad targeting uses AI to analyze user preferences and behavior."
+        ]
+      },
+      {
+        "description": "Ethical concerns exist regarding AI usage on Instagram.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "AI algorithms may reinforce echo chambers and biases.",
+          "Content recommendation AI can impact user mental health.",
+          "Instagram provides limited transparency on AI moderation decisions."
+        ]
+      },
+      {
+        "description": "Tips to maximize privacy and security while using Instagram.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Set your account to private to control who can see your content.",
+          "Enable two-factor authentication for added account security.",
+          "Review and adjust privacy settings regularly.",
+          "Be cautious when sharing sensitive personal information."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Data410",
+    "website": "https://data410.org",
+    "rating": 5.0,
+    "slug": "data410",
+    "image": "https://data410.org/static/core/img/data410-logo.png",
+    "icon_class": "fas fa-database",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://data410.org/privacy-notice"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://data410.org/terms"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://data410.org/contact"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Data410 does not collect user data, so there is no personal data to delete.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Data410 processes all data locally or in ephemeral sessions.",
+          "No data is stored or retained beyond temporary processing.",
+          "If you have concerns, contact support for clarification on privacy."
+        ]
+      },
+      {
+        "description": "Data410 is designed to help users manage their digital footprints without collecting or saving personal data.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Data410 does not collect or store personal data from its users.",
+          "Aggregated visit counts are the only metrics recorded, without any personal identifiers.",
+          "User activity is processed locally or through anonymized, ephemeral sessions."
+        ]
+      },
+      {
+        "description": "Signing up is not required to use Data410's core features.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "Data410 does not require account creation for its main tools and features.",
+          "If signing up for advanced features, only minimal, non-identifiable data may be collected.",
+          "All interactions prioritize user anonymity and privacy."
+        ]
+      },
+      {
+        "description": "Data410 operates transparently and ensures user data remains private.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "No one, including Data410, has access to your personal data.",
+          "Temporary data required for processing is anonymized and discarded immediately.",
+          "Aggregated visit counts are stored without any personal details."
+        ]
+      },
+      {
+        "description": "Data410 does not store user data, ensuring maximum privacy.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "User data is not stored; all processing is ephemeral.",
+          "Temporary logs are used only for troubleshooting and deleted promptly.",
+          "Aggregated visit counts remain anonymous and are stored indefinitely."
+        ]
+      },
+      {
+        "description": "Data410 ensures that user activity is secure and private.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "All interactions are encrypted using HTTPS.",
+          "No personal data is stored, ensuring no risk of breaches.",
+          "Data processing is done locally or on secured, ephemeral systems."
+        ]
+      },
+      {
+        "description": "Data410 adheres to modern security standards to protect user activity.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "All communication is encrypted using TLS.",
+          "Temporary session data is securely discarded after processing.",
+          "Data stored for debugging or troubleshooting is anonymized."
+        ]
+      },
+      {
+        "description": "Data410 does not require two-factor authentication as it collects no sensitive user data.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "Two-factor authentication is unnecessary as no accounts or sensitive data are involved.",
+          "For any optional advanced features requiring authentication, 2FA is supported.",
+          "2FA ensures security without compromising user privacy."
+        ]
+      },
+      {
+        "description": "Data410 does not use AI in its core operations to ensure transparency and privacy.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "No AI is used in Data410's core data management features.",
+          "Future tools may integrate AI but will maintain transparency and user control.",
+          "User data will not be used for AI model training."
+        ]
+      },
+      {
+        "description": "Data410 ensures that any AI used aligns with ethical standards.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "Current operations have no AI, ensuring no ethical concerns.",
+          "Planned AI features will prioritize user consent and privacy.",
+          "Data410 commits to open and ethical practices for any AI integrations."
+        ]
+      },
+      {
+        "description": "Tips to protect yourself while using Data410 and other online services.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Always verify privacy settings on third-party services.",
+          "Use strong, unique passwords for any online accounts.",
+          "Regularly review your digital footprint for outdated or exposed information.",
+          "Report any suspicious activity or data misuse by third-party services."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Facebook",
+    "website": "https://www.facebook.com",
+    "rating": 3.2,
+    "slug": "facebook",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "icon_class": "fab fa-facebook",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.facebook.com/policy.php"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.facebook.com/terms.php"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://www.facebook.com/help/"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Facebook provides account deletion and a tool to download your data.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Navigate to 'Settings & Privacy' > 'Settings' > 'Your Facebook Information' > 'Deactivation and Deletion'.",
+          "Choose 'Permanently Delete Account' to remove all data associated with your account.",
+          "You can download your Facebook data before deletion through the same menu."
+        ]
+      },
+      {
+        "description": "Facebook uses your data to improve services and target advertising.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Data is used to personalize your feed and ads.",
+          "Your interactions help improve Facebook’s services and algorithms.",
+          "Advertisers use your activity for targeted campaigns."
+        ]
+      },
+      {
+        "description": "Facebook collects significant personal data during sign-up.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "You provide personal information like your name, email, and phone number.",
+          "Facebook collects your device and location data upon account creation.",
+          "Your profile information is used to suggest friends and tailor your experience."
+        ]
+      },
+      {
+        "description": "Facebook allows access to your data under specific conditions.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Your data is accessible to advertisers for personalized ads.",
+          "Meta employees may access aggregated or anonymized data for analysis.",
+          "Authorities can request data through legal processes."
+        ]
+      },
+      {
+        "description": "Facebook retains your data until it is manually deleted.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Your data remains stored until you delete your account.",
+          "Deleted accounts are retained temporarily in case of recovery.",
+          "Log data and backups may persist for an extended period."
+        ]
+      },
+      {
+        "description": "Facebook employs industry-standard security measures to protect user data.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "Uses HTTPS to encrypt communication between users and servers.",
+          "Offers features like security alerts and suspicious login notifications.",
+          "However, Facebook has experienced major security breaches in the past."
+        ]
+      },
+      {
+        "description": "Facebook uses encryption for data protection but has faced challenges with security.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "TLS encrypts communication between users and Facebook servers.",
+          "Stored data is protected by internal encryption protocols.",
+          "Encryption practices for specific data types are not fully disclosed."
+        ]
+      },
+      {
+        "description": "Facebook supports two-factor authentication for account security.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "2FA can be enabled in account settings using SMS, authentication apps, or hardware keys.",
+          "2FA adds a layer of protection against unauthorized access.",
+          "Notifications alert you of unrecognized login attempts."
+        ]
+      },
+      {
+        "description": "Facebook relies heavily on AI for content moderation and recommendations.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI analyzes your activity to recommend friends, groups, and content.",
+          "Content moderation algorithms detect and remove harmful or inappropriate material.",
+          "Ad targeting leverages AI to optimize campaign effectiveness."
+        ]
+      },
+      {
+        "description": "Facebook’s AI usage raises ethical concerns.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "AI algorithms may reinforce echo chambers and misinformation.",
+          "There are concerns about transparency in AI moderation decisions.",
+          "Facebook’s AI practices have faced scrutiny for influencing user behavior."
+        ]
+      },
+      {
+        "description": "Tips to protect your privacy and security while using Facebook.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Enable two-factor authentication to secure your account.",
+          "Review and adjust your privacy settings regularly.",
+          "Be cautious when sharing personal information publicly.",
+          "Use the ‘Download Your Information’ feature to monitor your data."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "LinkedIn",
+    "website": "https://www.linkedin.com",
+    "rating": 4.0,
+    "slug": "linkedin",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg",
+    "icon_class": "fab fa-linkedin",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.linkedin.com/legal/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.linkedin.com/legal/user-agreement"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://www.linkedin.com/help/linkedin"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "LinkedIn allows you to close your account and delete your data.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Go to 'Settings & Privacy' > 'Account Preferences' and select 'Close Account'.",
+          "Closing your account removes your profile and data from LinkedIn.",
+          "Data may be retained temporarily in backups for legal compliance."
+        ]
+      },
+      {
+        "description": "LinkedIn collects and uses your data to connect professionals and deliver targeted ads.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "LinkedIn uses your data to suggest connections and personalize your feed.",
+          "Activity data is shared with advertisers for targeted campaigns.",
+          "Data is used to improve the platform and develop new features."
+        ]
+      },
+      {
+        "description": "LinkedIn collects various data when you sign up.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "You must provide your name, email, and professional details.",
+          "LinkedIn collects IP address, device information, and usage data upon sign-up.",
+          "The collected data helps build your professional profile and suggest connections."
+        ]
+      },
+      {
+        "description": "Your LinkedIn data is accessible under specific conditions.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Public profile data is visible to all LinkedIn members and search engines.",
+          "Advertisers access aggregated or anonymized data for targeted ads.",
+          "Data may be shared with third-party services for integrations (e.g., recruitment tools)."
+        ]
+      },
+      {
+        "description": "LinkedIn retains data for as long as your account is active.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Data is retained as long as your account remains active.",
+          "Deleted accounts are retained temporarily for recovery purposes.",
+          "Some log data may persist longer for legal or security purposes."
+        ]
+      },
+      {
+        "description": "LinkedIn employs robust security measures to protect user data.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "All communication is encrypted using HTTPS.",
+          "LinkedIn uses measures like account alerts for suspicious activities.",
+          "However, LinkedIn has faced security incidents in the past."
+        ]
+      },
+      {
+        "description": "LinkedIn encrypts data during transmission and storage.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "TLS is used to encrypt data in transit.",
+          "Stored passwords are hashed and encrypted.",
+          "Specific encryption protocols for stored data are not disclosed publicly."
+        ]
+      },
+      {
+        "description": "LinkedIn supports two-factor authentication for account security.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "Two-factor authentication (2FA) can be enabled via account settings.",
+          "Options include SMS codes or authentication apps.",
+          "2FA provides an additional layer of security for your account."
+        ]
+      },
+      {
+        "description": "LinkedIn uses AI extensively for professional recommendations and moderation.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI suggests jobs, connections, and content based on user activity.",
+          "Automated moderation tools flag inappropriate or harmful content.",
+          "Recruitment tools use AI to match job postings with potential candidates."
+        ]
+      },
+      {
+        "description": "Ethical concerns exist regarding AI usage on LinkedIn.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "AI recommendations may reinforce biases in hiring and networking.",
+          "There are concerns about transparency in LinkedIn's AI decision-making processes.",
+          "AI may prioritize paid content over organic interactions."
+        ]
+      },
+      {
+        "description": "Tips to maximize privacy and security while using LinkedIn.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Review your public profile visibility settings regularly.",
+          "Enable two-factor authentication for enhanced security.",
+          "Be mindful of the information shared in your posts and messages.",
+          "Limit the permissions granted to third-party apps connected to your account."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TikTok",
+    "website": "https://www.tiktok.com",
+    "rating": 3.2,
+    "slug": "tiktok",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/69/TikTok_logo.svg",
+    "icon_class": "fab fa-tiktok",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.tiktok.com/legal/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.tiktok.com/legal/terms-of-service"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.tiktok.com"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "TikTok provides an account deletion option in its app settings.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Go to 'Settings and Privacy' > 'Manage Account' > 'Delete Account'.",
+          "Deleting your account removes your profile, videos, and activity data permanently.",
+          "Backups and logs may persist temporarily for compliance purposes."
+        ]
+      },
+      {
+        "description": "TikTok collects and shares data to improve content recommendations and target ads.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "User activity is tracked to recommend videos and ads.",
+          "Data is used to improve TikTok’s algorithm and user experience.",
+          "Advertisers receive data for targeted campaigns, including location and device information."
+        ]
+      },
+      {
+        "description": "TikTok collects various personal details during sign-up.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "Requires an email, phone number, or third-party account for registration.",
+          "TikTok collects your device and location data during sign-up.",
+          "Optional demographic details enhance personalization."
+        ]
+      },
+      {
+        "description": "TikTok shares data with advertisers and partners for personalization.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Public posts are accessible to all TikTok users and search engines.",
+          "Advertisers receive aggregated and anonymized data for ad targeting.",
+          "Governments may request data, subject to TikTok’s compliance policies."
+        ]
+      },
+      {
+        "description": "TikTok retains user data for as long as the account is active.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Data is stored as long as your account remains active.",
+          "Deleted accounts are retained temporarily for recovery purposes.",
+          "Some data, like logs, may be retained longer for legal reasons."
+        ]
+      },
+      {
+        "description": "TikTok implements security measures to protect user data.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "Uses HTTPS to encrypt communication between users and servers.",
+          "TikTok employs security audits to protect against breaches.",
+          "However, TikTok has faced scrutiny over its data security practices."
+        ]
+      },
+      {
+        "description": "TikTok uses encryption for transmitting and storing user data.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "TLS encrypts communication during data transmission.",
+          "Stored data is protected with internal encryption protocols.",
+          "TikTok does not publicly disclose details about encryption standards for all data."
+        ]
+      },
+      {
+        "description": "TikTok supports two-factor authentication for account security.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "2FA can be enabled in account settings using SMS codes or authentication apps.",
+          "Two-factor authentication adds a layer of security against unauthorized access.",
+          "TikTok sends alerts for suspicious login attempts."
+        ]
+      },
+      {
+        "description": "TikTok relies heavily on AI for content recommendations and moderation.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI curates personalized video recommendations based on user activity.",
+          "Automated moderation tools detect and remove harmful content.",
+          "Ad targeting relies on AI to match ads with user interests."
+        ]
+      },
+      {
+        "description": "TikTok’s use of AI raises ethical concerns.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "AI recommendations may amplify harmful or misleading content.",
+          "Concerns exist about transparency in how AI decisions are made.",
+          "TikTok’s AI can contribute to echo chambers and addictive usage patterns."
+        ]
+      },
+      {
+        "description": "Tips to protect yourself while using TikTok.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Enable two-factor authentication for added account security.",
+          "Set your account to private to control who can see your videos.",
+          "Review privacy settings to limit data sharing.",
+          "Be mindful of the content you post, especially if it reveals personal information."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Notion",
+    "website": "https://www.notion.so",
+    "rating": 4.7,
+    "slug": "notion",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+    "icon_class": "fas fa-file-alt",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.notion.so/Privacy-Policy-3468d120cf614d45a10d6a6619f5dd68"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.notion.so/Terms-of-Service-00a13e2c24ed4a7b9b49c86df485f338"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://www.notion.so/help"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Notion allows you to delete your account and workspace data.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Go to 'Settings & Members' > 'My Account' and select 'Delete Account'.",
+          "Account deletion removes all associated workspaces and data permanently.",
+          "Contact Notion support for assistance with workspace or data deletion."
+        ]
+      },
+      {
+        "description": "Notion uses your data to provide and improve services.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Data is used to provide collaborative and organizational features.",
+          "Activity data is used for troubleshooting and improving the platform.",
+          "Minimal personal data is shared with third-party services to enhance functionality."
+        ]
+      },
+      {
+        "description": "Notion collects basic details during sign-up.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "You provide your name, email, and password for account creation.",
+          "Optional integrations with third-party services require additional permissions.",
+          "Device and browser details are collected for analytics and security."
+        ]
+      },
+      {
+        "description": "Notion shares limited data with trusted partners.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Your data is private and only accessible to you unless shared explicitly.",
+          "Third-party integrations may access relevant data with your consent.",
+          "Notion employees may access data for troubleshooting, with strict restrictions."
+        ]
+      },
+      {
+        "description": "Data is retained while your account is active.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Data is retained as long as your account remains active.",
+          "Deleted data is permanently removed after a set period.",
+          "Backup data may persist temporarily for recovery purposes."
+        ]
+      },
+      {
+        "description": "Notion uses encryption and security best practices to protect user data.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "Data is encrypted in transit using HTTPS and at rest using AES-256.",
+          "Access control ensures that only authorized users can view shared data.",
+          "Regular security audits are conducted to identify vulnerabilities."
+        ]
+      },
+      {
+        "description": "Notion employs robust encryption for data protection.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "Data in transit is secured using TLS encryption.",
+          "At-rest encryption uses AES-256 to protect stored data.",
+          "Encryption keys are managed securely to prevent unauthorized access."
+        ]
+      },
+      {
+        "description": "Notion does not currently support two-factor authentication.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "Notion currently lacks native two-factor authentication (2FA).",
+          "Third-party authentication services can provide 2FA for login.",
+          "Account security can be enhanced by using strong passwords."
+        ]
+      },
+      {
+        "description": "Notion uses AI minimally, focusing on improving usability.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI assists with search functionality and content recommendations.",
+          "No AI processes user data for external purposes.",
+          "Future updates may include enhanced AI features, with privacy safeguards."
+        ]
+      },
+      {
+        "description": "Notion's minimal AI usage minimizes ethical concerns.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "Notion's AI usage is focused on user productivity and efficiency.",
+          "Transparency in AI recommendations helps avoid potential biases.",
+          "Future AI features will align with Notion's commitment to privacy and ethics."
+        ]
+      },
+      {
+        "description": "Tips to enhance privacy and security while using Notion.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Use strong, unique passwords for your Notion account.",
+          "Enable single sign-on (SSO) or use third-party 2FA tools for additional security.",
+          "Regularly review permissions for third-party integrations.",
+          "Avoid sharing sensitive information in public workspaces or links."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "GitHub",
+    "website": "https://github.com",
+    "rating": 4.9,
+    "slug": "github",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+    "icon_class": "fab fa-github",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.github.com"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "GitHub allows you to delete your account and repositories.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Go to 'Account Settings' > 'Account' and select 'Delete Account'.",
+          "Deleted accounts cannot be recovered, and public repositories remain accessible unless deleted manually.",
+          "Personal data in logs or backups may persist temporarily for compliance purposes."
+        ]
+      },
+      {
+        "description": "GitHub uses your data to provide and improve developer services.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Data is used to provide repository hosting and collaboration tools.",
+          "Activity data is used for platform analytics and improving services.",
+          "Minimal data is shared with third-party services for integrations."
+        ]
+      },
+      {
+        "description": "GitHub collects data when you sign up to provide its services.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "You must provide your username, email, and password for account creation.",
+          "GitHub collects device and browser data for analytics and security.",
+          "Optional billing information is required for paid plans."
+        ]
+      },
+      {
+        "description": "Your GitHub data is private unless shared publicly.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Public repositories are accessible to anyone, including search engines.",
+          "Private repositories are only accessible to collaborators you invite.",
+          "GitHub employees may access data for troubleshooting under strict controls."
+        ]
+      },
+      {
+        "description": "GitHub retains data as long as your account is active.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Data is stored as long as your account is active or as required by law.",
+          "Deleted accounts may retain minimal data for legal compliance.",
+          "Repository data persists in backups temporarily after deletion."
+        ]
+      },
+      {
+        "description": "GitHub implements industry-leading security measures to protect user data.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "All communication is encrypted using HTTPS.",
+          "GitHub uses regular security audits to identify and address vulnerabilities.",
+          "Features like SSH keys and token-based authentication enhance security."
+        ]
+      },
+      {
+        "description": "GitHub employs advanced encryption methods to protect user data.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "Data in transit is encrypted using TLS protocols.",
+          "Stored data, including repositories, is encrypted at rest.",
+          "Encryption keys are managed securely to prevent unauthorized access."
+        ]
+      },
+      {
+        "description": "GitHub supports two-factor authentication for robust account security.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "Two-factor authentication (2FA) can be enabled via account settings.",
+          "Options include TOTP apps, SMS codes, and hardware security keys.",
+          "2FA significantly enhances account protection against unauthorized access."
+        ]
+      },
+      {
+        "description": "GitHub uses AI for features like code suggestions and security scanning.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI-powered tools like GitHub Copilot assist with code suggestions.",
+          "Security scanning uses AI to detect vulnerabilities in dependencies.",
+          "AI analyzes usage patterns to recommend repositories and actions."
+        ]
+      },
+      {
+        "description": "GitHub's AI usage raises some ethical considerations.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "AI tools like Copilot may inadvertently expose proprietary code patterns.",
+          "Transparency in AI model training is essential to address developer concerns.",
+          "GitHub commits to ethical AI practices while expanding its features."
+        ]
+      },
+      {
+        "description": "Tips to protect your privacy and security while using GitHub.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Enable two-factor authentication to secure your account.",
+          "Regularly audit access permissions for repositories.",
+          "Use private repositories for sensitive or proprietary code.",
+          "Be cautious when integrating third-party tools with your GitHub account."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gmail",
+    "website": "https://mail.google.com",
+    "rating": 4.6,
+    "slug": "gmail",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png",
+    "icon_class": "fab fa-google",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://policies.google.com/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://policies.google.com/terms"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.google.com/mail/"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Gmail provides account deletion through the Google Account settings.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Go to 'Google Account' > 'Data & Privacy' > 'Your Data & Privacy Options' > 'Delete your Google Account'.",
+          "Account deletion removes all associated Gmail data, including emails and settings.",
+          "Google allows you to download your data before deletion via the Takeout tool."
+        ]
+      },
+      {
+        "description": "Gmail uses your data to improve email services and personalize experiences.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Emails are scanned for security purposes and spam filtering.",
+          "Data is used to improve Gmail’s functionality and personalized features.",
+          "Non-personalized data may be used for advertising on other Google services."
+        ]
+      },
+      {
+        "description": "Gmail collects basic information during account creation.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "You provide a name, email address, and password.",
+          "Gmail collects IP addresses and device data during registration.",
+          "Optional recovery email and phone number are used for account security."
+        ]
+      },
+      {
+        "description": "Access to your Gmail data is limited and controlled.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Only you and those you explicitly grant access to can read your emails.",
+          "Google employees may access data for troubleshooting with strict oversight.",
+          "Third-party apps require your explicit consent to access Gmail data."
+        ]
+      },
+      {
+        "description": "Gmail retains your data while your account remains active.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Emails are retained unless you delete them manually.",
+          "Deleted emails remain in the Trash folder for 30 days before permanent deletion.",
+          "Account data may persist temporarily for legal or recovery purposes."
+        ]
+      },
+      {
+        "description": "Gmail uses robust security measures to protect user data.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "Data is encrypted in transit using TLS and at rest using AES-256.",
+          "Advanced phishing and malware protection is integrated into Gmail.",
+          "Google conducts regular security audits to protect user data."
+        ]
+      },
+      {
+        "description": "Gmail employs advanced encryption protocols to protect emails.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "Emails are encrypted in transit using Transport Layer Security (TLS).",
+          "Stored data is encrypted with AES-256 encryption.",
+          "End-to-end encryption is available for Google Workspace customers."
+        ]
+      },
+      {
+        "description": "Gmail supports two-factor authentication for added security.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "Two-factor authentication (2FA) can be enabled in account settings.",
+          "Options include SMS codes, Google Authenticator, and hardware security keys.",
+          "2FA provides an additional layer of protection against unauthorized access."
+        ]
+      },
+      {
+        "description": "Gmail uses AI for features like Smart Compose and spam filtering.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI powers features like Smart Compose and Smart Reply to enhance productivity.",
+          "Spam and phishing emails are identified and filtered using AI algorithms.",
+          "AI recommends actions like unsubscribing from newsletters you don’t read."
+        ]
+      },
+      {
+        "description": "Gmail's AI usage raises some privacy considerations.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "AI scans email content for personalized recommendations and features.",
+          "There are concerns about how Gmail uses data for AI model improvements.",
+          "Google is committed to transparency and user control over data usage."
+        ]
+      },
+      {
+        "description": "Tips to protect your privacy and security while using Gmail.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Enable two-factor authentication for enhanced account security.",
+          "Review and adjust your Google Account privacy settings.",
+          "Be cautious when granting access to third-party apps.",
+          "Regularly delete emails containing sensitive information."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jira",
+    "website": "https://www.atlassian.com/software/jira",
+    "rating": 4.5,
+    "slug": "jira",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Atlassian_Jira_logo.svg",
+    "icon_class": "fab fa-atlassian",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.atlassian.com/legal/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.atlassian.com/legal/cloud-terms-of-service"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.atlassian.com/jira-software/"
+      }
+    ],
+    "service_infos": [
+      {
+        "description": "Jira allows admins to delete accounts and associated data.",
+        "type": "How can I delete my data?",
+        "icon_class": "fas fa-trash-alt",
+        "category": "Privacy",
+        "points": [
+          "Go to 'Settings' > 'User Management' and remove users or accounts.",
+          "Project admins can delete specific project data like issues and comments.",
+          "Contact Atlassian support to request complete account or data deletion."
+        ]
+      },
+      {
+        "description": "Jira collects data to provide collaboration and project management services.",
+        "type": "How are my data used?",
+        "icon_class": "fas fa-lock",
+        "category": "Privacy",
+        "points": [
+          "Data is used to provide features like issue tracking and project collaboration.",
+          "User activity and metadata are analyzed to improve platform performance.",
+          "Aggregated, anonymized data may be used for analytics and marketing."
+        ]
+      },
+      {
+        "description": "Jira collects basic details during account creation.",
+        "type": "What happens when I sign up?",
+        "icon_class": "fas fa-user-plus",
+        "category": "Privacy",
+        "points": [
+          "You provide your email address and password during sign-up.",
+          "Jira collects metadata like device and IP address for analytics and security.",
+          "Additional team and project data is collected during setup."
+        ]
+      },
+      {
+        "description": "Access to Jira data is limited based on user permissions.",
+        "type": "Who can access my data?",
+        "icon_class": "fas fa-user-shield",
+        "category": "Privacy",
+        "points": [
+          "Project data is accessible only to team members with appropriate permissions.",
+          "Admins can manage user access and control visibility within teams.",
+          "Atlassian employees may access data for troubleshooting under strict controls."
+        ]
+      },
+      {
+        "description": "Jira retains data as long as the account or subscription is active.",
+        "type": "How long is my data stored?",
+        "icon_class": "fas fa-clock",
+        "category": "Privacy",
+        "points": [
+          "Data is retained as long as your account or subscription remains active.",
+          "Deleted data may persist temporarily in backups for recovery purposes.",
+          "Atlassian retains minimal data to comply with legal obligations."
+        ]
+      },
+      {
+        "description": "Jira employs security measures to protect project and user data.",
+        "type": "Is my data secure?",
+        "icon_class": "fas fa-shield-alt",
+        "category": "Security",
+        "points": [
+          "Data in transit is encrypted using HTTPS.",
+          "Regular security audits and compliance certifications ensure data protection.",
+          "Two-step verification is available to enhance account security."
+        ]
+      },
+      {
+        "description": "Jira uses advanced encryption protocols for data security.",
+        "type": "What encryption methods does this service use?",
+        "icon_class": "fas fa-key",
+        "category": "Security",
+        "points": [
+          "Data in transit is encrypted using TLS.",
+          "Stored data is protected using AES-256 encryption.",
+          "Encryption keys are managed securely to prevent unauthorized access."
+        ]
+      },
+      {
+        "description": "Jira supports two-factor authentication for account security.",
+        "type": "Does this service support two-factor authentication?",
+        "icon_class": "fas fa-user-lock",
+        "category": "Security",
+        "points": [
+          "Two-factor authentication (2FA) can be enabled via Atlassian account settings.",
+          "Options include TOTP apps or email-based authentication codes.",
+          "2FA reduces the risk of unauthorized access to your account."
+        ]
+      },
+      {
+        "description": "Jira uses AI for features like automation and reporting.",
+        "type": "Does this service use AI?",
+        "icon_class": "fas fa-robot",
+        "category": "AI",
+        "points": [
+          "AI powers features like automation for workflows and issue tracking.",
+          "AI-driven reporting provides insights into project performance.",
+          "Machine learning models are used to enhance platform usability."
+        ]
+      },
+      {
+        "description": "Ethical concerns exist with AI automation in Jira.",
+        "type": "Are there ethical concerns with the service's AI implementation?",
+        "icon_class": "fas fa-balance-scale",
+        "category": "AI",
+        "points": [
+          "Automated actions may introduce errors or biases in project workflows.",
+          "Transparency in AI-driven reporting and recommendations is essential.",
+          "Atlassian commits to ethical and user-centric AI development."
+        ]
+      },
+      {
+        "description": "Tips to enhance privacy and security while using Jira.",
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "category": null,
+        "points": [
+          "Enable two-factor authentication to secure your account.",
+          "Regularly review project and user access permissions.",
+          "Be cautious with third-party integrations and validate their security practices.",
+          "Avoid storing sensitive information in public project comments or descriptions."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ChatGPT",
+    "website": "https://chat.openai.com",
+    "slug": "chatgpt",
+    "rating": 4.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png",
+    "icon_class": "fab fa-openai",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://openai.com/policies/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://openai.com/policies/terms-of-use"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://openai.com/privacy-request"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://help.openai.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When you sign up for ChatGPT, OpenAI collects personal information such as your email address, phone number, and payment details (for paid plans). It may also collect information about your interactions with the platform.",
+        "points": [
+          "Your personal data is collected to create and manage your account.",
+          "Usage data is analyzed to improve the service.",
+          "Interactions may be logged for research and quality purposes."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "ChatGPT collects personal information, usage data, and input data provided during conversations. Limited metadata about your interactions is also recorded.",
+        "points": [
+          "Account details: email, phone number, and payment information.",
+          "Interaction logs: messages, timestamps, and device information.",
+          "Usage analytics for performance improvement."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Data is primarily used to provide the service, improve the model, and for research purposes. Aggregate usage statistics may be shared for transparency.",
+        "points": [
+          "Your inputs are analyzed to improve response quality.",
+          "Aggregated and anonymized data may be shared with researchers.",
+          "OpenAI may use data for debugging and system improvements."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "You can request data deletion via OpenAI’s privacy request form. Note that some data may be retained for legal or operational purposes.",
+        "points": [
+          "Submit a data removal request at https://openai.com/privacy-request.",
+          "Contact OpenAI support for specific deletion queries.",
+          "Understand that some data may not be immediately removable."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Yes, ChatGPT is powered by advanced AI language models developed by OpenAI. The service relies entirely on AI for generating responses.",
+        "points": [
+          "The core functionality is AI-driven.",
+          "Responses are generated using OpenAI’s proprietary models.",
+          "AI processes and interprets user inputs to provide answers."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "OpenAI uses input data to improve its models, but strict measures are in place to anonymize and secure the data.",
+        "points": [
+          "User inputs may be used to fine-tune AI models.",
+          "OpenAI anonymizes data before training.",
+          "Sensitive information should not be shared during interactions."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "ChatGPT employs transformer-based neural networks and fine-tuning with reinforcement learning from human feedback (RLHF).",
+        "points": [
+          "The architecture is based on transformer models.",
+          "Fine-tuning improves accuracy and relevance.",
+          "Reinforcement learning optimizes conversational dynamics."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "OpenAI implements industry-standard security measures to protect user data, including encryption and secure infrastructure.",
+        "points": [
+          "Data in transit is encrypted with HTTPS.",
+          "Sensitive information is protected by robust access controls.",
+          "Regular security audits are conducted to ensure data safety."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "OpenAI adheres to strict security standards, including secure storage, encrypted communications, and regular vulnerability assessments.",
+        "points": [
+          "Infrastructure is monitored for vulnerabilities.",
+          "Access is restricted to authorized personnel only.",
+          "Third-party security audits ensure compliance with best practices."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "OpenAI has a comprehensive incident response plan to address data breaches promptly and transparently.",
+        "points": [
+          "Users are notified in case of a breach affecting their data.",
+          "Measures are taken immediately to mitigate damage.",
+          "Post-incident reviews improve future security measures."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use ChatGPT safely, avoid sharing sensitive or personal information during interactions. Familiarize yourself with OpenAI’s privacy policy and regularly review your account settings.",
+        "points": [
+          "Do not share passwords, financial details, or personal identifiers.",
+          "Regularly review the privacy settings of your OpenAI account.",
+          "Submit a data removal request if needed."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gemini",
+    "website": "https://www.gemini.com",
+    "slug": "gemini",
+    "rating": 4.6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gemini_Crypto_Logo.svg/512px-Gemini_Crypto_Logo.svg.png",
+    "icon_class": "fab fa-gem",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.gemini.com/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://www.gemini.com/legal/terms-of-service"
+      },
+      {
+        "url_type": "Security Practices",
+        "url": "https://www.gemini.com/security"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.gemini.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When you sign up for Gemini, the platform collects personal information such as your name, email address, phone number, and identity verification documents. This data is required to comply with financial regulations.",
+        "points": [
+          "Personal data is used to create and verify your account.",
+          "Identity documents are stored to meet compliance requirements.",
+          "Usage data is collected for fraud prevention and service improvement."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "Gemini collects personal information, transaction details, and device information to provide a secure cryptocurrency trading experience.",
+        "points": [
+          "Identity information: name, address, and government-issued ID.",
+          "Financial data: transaction history and linked payment methods.",
+          "Technical data: IP address, browser type, and device details."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Your data is used to operate your account, comply with legal obligations, and enhance security. Gemini does not sell personal information to third parties.",
+        "points": [
+          "Data is used for account verification and compliance.",
+          "Transaction details are used to process trades securely.",
+          "Anonymized data may be used for analytics and insights."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "To delete your data, contact Gemini’s support team and submit a formal data deletion request. Certain data may be retained for regulatory purposes.",
+        "points": [
+          "Submit a request via the support page: https://support.gemini.com/",
+          "Understand that regulatory data may not be deletable.",
+          "Review your account settings to limit data sharing."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Gemini uses AI for fraud detection and transaction monitoring to ensure platform security and compliance.",
+        "points": [
+          "AI algorithms monitor transactions for suspicious activity.",
+          "Fraud detection systems use AI to identify potential threats.",
+          "Data is analyzed in real time to prevent security breaches."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Gemini does not explicitly use customer data to train AI models. AI usage is focused on operational security and fraud detection.",
+        "points": [
+          "AI systems operate on encrypted and anonymized data.",
+          "User-specific data is not shared externally for AI training.",
+          "AI focuses on real-time transaction and behavior analysis."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "Gemini employs machine learning and anomaly detection to ensure a secure trading environment and regulatory compliance.",
+        "points": [
+          "Machine learning is used to identify fraud patterns.",
+          "Anomaly detection helps flag unusual account activity.",
+          "AI-powered tools enhance user account protection."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Gemini follows industry-leading security practices, including encryption, multi-factor authentication, and cold storage for digital assets.",
+        "points": [
+          "Data in transit and at rest is encrypted.",
+          "Cold storage protects the majority of digital assets.",
+          "Access controls and MFA secure user accounts."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Gemini adheres to strict security standards, including SOC 2 compliance, to safeguard user data and assets.",
+        "points": [
+          "SOC 2 certification ensures data handling integrity.",
+          "Regular security audits verify compliance.",
+          "Infrastructure is designed to resist cyber threats."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Gemini has a robust incident response plan to address breaches, notify affected users, and take corrective actions.",
+        "points": [
+          "Affected users are promptly notified of breaches.",
+          "Actions are taken to secure compromised data.",
+          "Post-incident reviews strengthen security policies."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use Gemini securely, enable all available account security features, such as multi-factor authentication (MFA), and monitor your account for unusual activity.",
+        "points": [
+          "Use strong, unique passwords for your account.",
+          "Enable MFA to secure account access.",
+          "Regularly review transaction history for unauthorized activity."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Creative Cloud",
+    "website": "https://www.adobe.com/creativecloud.html",
+    "slug": "creative-cloud",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Adobe_Corporate_Logo.svg/512px-Adobe_Corporate_Logo.svg.png",
+    "icon_class": "fab fa-adobe",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.adobe.com/privacy/policy.html"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://www.adobe.com/legal/terms.html"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://www.adobe.com/privacy/policy-general-privacy-settings.html"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://helpx.adobe.com/support.html"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When signing up for Adobe Creative Cloud, Adobe collects personal data such as your name, email address, payment information, and device information. This data is used to create your account and manage subscriptions.",
+        "points": [
+          "Personal details are used to set up and manage your account.",
+          "Payment information is securely stored for subscription management.",
+          "Device information is collected for licensing and analytics purposes."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "Adobe Creative Cloud collects personal information, usage data, and content-related metadata to enhance the user experience.",
+        "points": [
+          "Personal information: name, email, payment details.",
+          "Usage data: app interactions, features used, and performance metrics.",
+          "Content metadata: file names, edits, and settings (not the content itself)."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Adobe uses collected data to deliver services, improve product features, and personalize the user experience. Some data is used for marketing and analytics purposes.",
+        "points": [
+          "Data is used for account management and product functionality.",
+          "Personalized recommendations are based on usage data.",
+          "Aggregated data may be shared with advertisers and partners."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "You can delete your Adobe account and associated data through their privacy settings page or by contacting Adobe's support team.",
+        "points": [
+          "Visit the privacy settings page: https://www.adobe.com/privacy/policy-general-privacy-settings.html.",
+          "Submit a deletion request through Adobe’s support.",
+          "Data may be retained for legal or compliance purposes."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Yes, Adobe Creative Cloud leverages AI in its features, such as Adobe Sensei, to enhance creativity, automate tasks, and improve workflows.",
+        "points": [
+          "AI powers features like auto-tagging and content-aware fills.",
+          "Adobe Sensei analyzes data to improve creative tools.",
+          "AI-driven insights enhance productivity and user experience."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Adobe may use anonymized and aggregated data to train its AI systems, but users can opt out of certain data-sharing practices.",
+        "points": [
+          "Creative content is not directly used to train AI models.",
+          "Usage data may inform feature development and AI improvements.",
+          "Users can manage data sharing preferences in account settings."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "Adobe Creative Cloud uses machine learning, neural networks, and computer vision to power AI-based tools like content-aware fill and automatic tagging.",
+        "points": [
+          "Machine learning enables predictive text and recommendations.",
+          "Neural networks process images for advanced editing features.",
+          "Computer vision automates object recognition and tagging."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Adobe employs advanced security measures, including encryption, secure servers, and regular security audits to protect user data.",
+        "points": [
+          "Data is encrypted both in transit and at rest.",
+          "Secure authentication methods protect user accounts.",
+          "Regular security updates address vulnerabilities."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Adobe follows industry-standard security protocols, including compliance with SOC 2 and GDPR standards, to ensure data protection.",
+        "points": [
+          "SOC 2 compliance ensures rigorous security practices.",
+          "GDPR compliance safeguards user privacy in Europe.",
+          "ISO 27001-certified infrastructure ensures robust data management."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Adobe has an established incident response plan to handle security breaches, notify affected users, and remediate vulnerabilities.",
+        "points": [
+          "Users are notified promptly in case of a breach.",
+          "Adobe collaborates with security experts to investigate incidents.",
+          "Post-incident reviews strengthen overall security."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use Adobe Creative Cloud securely, ensure strong password practices, enable two-factor authentication, and limit data sharing preferences in your account settings.",
+        "points": [
+          "Enable two-factor authentication for added security.",
+          "Use strong, unique passwords for your account.",
+          "Review and adjust your data sharing preferences regularly."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Firefox",
+    "website": "https://www.mozilla.org/en-US/firefox/new/",
+    "slug": "firefox",
+    "rating": 4.8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/512px-Firefox_logo%2C_2019.svg.png",
+    "icon_class": "fab fa-firefox",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.mozilla.org/en-US/privacy/firefox/"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://www.mozilla.org/en-US/about/legal/terms/mozilla/"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://support.mozilla.org/en-US/kb/request-data-deletion-firefox-accounts"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.mozilla.org/en-US/products/firefox"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When you sign up for a Firefox account, Mozilla collects your email address and may collect additional optional data such as your display name and profile picture.",
+        "points": [
+          "Your email address is required to create an account.",
+          "Optional profile data, such as your display name, may be collected.",
+          "Basic usage data is collected to sync your settings and preferences."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "Firefox collects limited data to improve its services and ensure your account functionality, such as browsing history (if syncing) and basic telemetry data.",
+        "points": [
+          "Sync data: browsing history, bookmarks, and preferences.",
+          "Telemetry data: performance metrics and crash reports.",
+          "Account data: email address, display name, and profile picture (optional)."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Data collected by Firefox is used to provide account services (e.g., syncing data across devices), improve product performance, and enhance user security.",
+        "points": [
+          "Sync data allows consistent settings across devices.",
+          "Telemetry data improves browser stability and performance.",
+          "Aggregate data may be used for research and transparency reports."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "You can delete your Firefox account and associated data by submitting a request through Mozilla's support page.",
+        "points": [
+          "Visit https://support.mozilla.org/en-US/kb/request-data-deletion-firefox-accounts.",
+          "Sync data and account details will be removed upon deletion.",
+          "Telemetry data may still be retained in anonymized form."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Mozilla employs AI in Firefox to enhance features like smart search suggestions and tracking protection but does not use AI for data collection.",
+        "points": [
+          "AI powers features like SmartBlock and Enhanced Tracking Protection.",
+          "Search suggestions are driven by AI algorithms.",
+          "AI usage is focused on user privacy and improving the browsing experience."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Mozilla does not use individual user data to train AI models, focusing on privacy-preserving methods for AI development.",
+        "points": [
+          "AI development is based on aggregated and anonymized data.",
+          "User-specific browsing data is not used for AI training.",
+          "Mozilla emphasizes privacy-respecting AI practices."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "Firefox uses AI for smart features like ad blocking, anti-tracking, and search optimization to provide a safer browsing experience.",
+        "points": [
+          "SmartBlock uses AI to block trackers while ensuring site functionality.",
+          "Enhanced Tracking Protection blocks cross-site tracking scripts.",
+          "AI-powered search optimizations enhance search accuracy."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Firefox incorporates advanced security measures, such as HTTPS encryption and sandboxing, to protect user data and ensure safe browsing.",
+        "points": [
+          "Data is encrypted during transmission and at rest.",
+          "Sandboxing isolates browser processes to prevent malicious exploits.",
+          "Frequent security updates address vulnerabilities promptly."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Firefox adheres to industry security standards, including TLS 1.3 for encrypted connections and compliance with GDPR for data protection.",
+        "points": [
+          "TLS 1.3 ensures secure communication.",
+          "GDPR compliance protects user privacy for European users.",
+          "Regular security audits and bug bounty programs enhance security."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Mozilla has a transparent breach response policy that includes notifying affected users and mitigating risks.",
+        "points": [
+          "Mozilla notifies users promptly in case of a breach.",
+          "Breach details are shared transparently to rebuild trust.",
+          "Post-incident reviews enhance future security measures."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use Firefox securely, enable privacy-focused features such as Enhanced Tracking Protection, and regularly update the browser to the latest version.",
+        "points": [
+          "Enable Enhanced Tracking Protection for added privacy.",
+          "Use private browsing mode to avoid storing session data.",
+          "Keep your browser updated to ensure security patches are applied."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Canva",
+    "website": "https://www.canva.com",
+    "slug": "canva",
+    "rating": 4.7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Canva_Logo.png/512px-Canva_Logo.png",
+    "icon_class": "fas fa-palette",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.canva.com/policies/privacy-policy/"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://www.canva.com/policies/terms-of-use/"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://www.canva.com/help/"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://www.canva.com/help/articles/how-do-i-delete-my-account/"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When you sign up for Canva, your personal information, such as your name, email address, and payment details (for premium accounts), is collected to create and manage your account.",
+        "points": [
+          "Your email address and password are required for account creation.",
+          "Optional profile details, such as your profile photo, can be added.",
+          "Payment information is collected for subscription plans."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "Canva collects personal data, content data (designs and files), and usage data to provide its services and improve user experience.",
+        "points": [
+          "Personal details: name, email address, and payment information.",
+          "Content data: designs, uploads, and shared projects.",
+          "Usage data: interactions with features and templates."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Canva uses collected data to operate its platform, provide customer support, and improve services. Aggregate data may be used for analytics and marketing.",
+        "points": [
+          "Data is used to personalize your design experience.",
+          "Usage data helps improve features and templates.",
+          "Aggregate statistics may be shared with partners."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "You can delete your Canva account and associated data by following their account deletion process or contacting support.",
+        "points": [
+          "Visit https://www.canva.com/help/articles/how-do-i-delete-my-account/ for deletion steps.",
+          "Once deleted, designs and shared projects will no longer be accessible.",
+          "Certain data may be retained for legal purposes."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Canva uses AI to enhance its tools, such as automated design suggestions, background removal, and text-to-image features.",
+        "points": [
+          "AI powers design suggestions based on user preferences.",
+          "Background removal uses AI-driven image recognition.",
+          "Text-to-image capabilities are driven by AI algorithms."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Canva may use anonymized and aggregated user data to improve its AI tools and features but does not use individual user designs for training.",
+        "points": [
+          "Anonymized data helps refine AI-driven tools.",
+          "Your uploaded content is not used for external AI training.",
+          "AI improvements are focused on enhancing user experience."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "Canva employs machine learning, computer vision, and neural networks to automate design processes and provide intelligent suggestions.",
+        "points": [
+          "Machine learning optimizes design suggestions and layouts.",
+          "Computer vision powers tools like background removal.",
+          "Neural networks enhance text-to-image and design personalization."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Canva implements encryption, secure servers, and regular security audits to protect user data and content.",
+        "points": [
+          "Data is encrypted in transit and at rest.",
+          "Secure servers protect user designs and account details.",
+          "Regular security updates address vulnerabilities."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Canva adheres to global security standards, including compliance with GDPR, and employs best practices to safeguard user data.",
+        "points": [
+          "GDPR compliance ensures data protection for European users.",
+          "Secure authentication methods protect account access.",
+          "Third-party security assessments verify compliance."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Canva has a defined incident response plan to address breaches, notify affected users, and improve security measures.",
+        "points": [
+          "Users are notified promptly in case of a breach.",
+          "Steps are taken to secure compromised accounts or data.",
+          "Post-incident reviews help prevent future breaches."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use Canva securely, enable two-factor authentication, avoid sharing sensitive designs publicly, and regularly review your account settings.",
+        "points": [
+          "Enable two-factor authentication for enhanced security.",
+          "Use strong, unique passwords for your Canva account.",
+          "Review sharing settings before collaborating on designs."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Samsung SmartThings",
+    "website": "https://www.smartthings.com",
+    "slug": "samsung-smartthings",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/SmartThings_logo.svg/512px-SmartThings_logo.svg.png",
+    "icon_class": "fas fa-home",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.samsung.com/us/account/privacy-policy/"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://www.samsung.com/us/common/legal.html"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://account.samsung.com/membership/pp"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.smartthings.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When you sign up for Samsung SmartThings, the service collects your email address, phone number, and device details to create your account and link your smart devices.",
+        "points": [
+          "Your email and phone number are required for account creation.",
+          "Device information is collected for compatibility and integration.",
+          "Optional profile details like name and photo can be added."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "SmartThings collects personal data, device usage data, and smart device activity logs to provide and enhance its services.",
+        "points": [
+          "Personal details: email, phone number, and profile data.",
+          "Device information: connected devices, usage statistics, and status updates.",
+          "Activity logs: automation triggers, schedules, and device actions."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Data is used to manage connected devices, provide personalized services, and improve the SmartThings platform.",
+        "points": [
+          "Device data is used to ensure seamless automation and compatibility.",
+          "Activity logs help diagnose issues and improve system performance.",
+          "Anonymized data may be used for research and development."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "To delete your data, you can request account deletion through Samsung’s privacy portal or the SmartThings support page.",
+        "points": [
+          "Submit a data deletion request at https://account.samsung.com/membership/pp.",
+          "Understand that certain data may be retained for compliance purposes.",
+          "Ensure that all connected devices are unlinked before deletion."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Yes, Samsung SmartThings uses AI for automation, predictive analysis, and personalized smart home recommendations.",
+        "points": [
+          "AI automates tasks based on your routines and preferences.",
+          "Predictive analysis improves device interoperability and efficiency.",
+          "Personalized recommendations enhance your smart home experience."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Samsung may use anonymized data to train AI models and improve SmartThings’ predictive capabilities.",
+        "points": [
+          "Data is anonymized before being used for AI improvements.",
+          "Your device-specific data is not directly used for external training.",
+          "AI development focuses on improving user automation and integration."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "SmartThings employs machine learning and pattern recognition to provide predictive automation and smart alerts.",
+        "points": [
+          "Machine learning automates recurring tasks based on usage patterns.",
+          "Pattern recognition identifies anomalies in device performance.",
+          "AI models suggest new automations and device groupings."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Samsung SmartThings uses encryption, secure cloud storage, and regular security audits to protect user data and devices.",
+        "points": [
+          "Data in transit is secured with HTTPS encryption.",
+          "Cloud storage for device data is protected by advanced access controls.",
+          "Regular security updates mitigate vulnerabilities."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Samsung adheres to global security standards, including ISO 27001 and GDPR compliance, to ensure user data protection.",
+        "points": [
+          "ISO 27001-certified infrastructure secures your data.",
+          "GDPR compliance ensures strict data privacy for European users.",
+          "Multi-layered authentication secures device access."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Samsung has a robust incident response plan to handle breaches, notify affected users, and take corrective action.",
+        "points": [
+          "Affected users are notified promptly of any breaches.",
+          "Incidents are thoroughly investigated and resolved.",
+          "Post-incident reviews improve future security measures."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use SmartThings securely, enable multi-factor authentication, review device permissions, and monitor activity logs regularly.",
+        "points": [
+          "Enable two-factor authentication for added account security.",
+          "Regularly review device permissions in the SmartThings app.",
+          "Monitor activity logs for unusual device behavior."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Facebook Messenger",
+    "website": "https://www.messenger.com",
+    "slug": "facebook-messenger",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Facebook_Messenger_Logo.svg/512px-Facebook_Messenger_Logo.svg.png",
+    "icon_class": "fab fa-facebook-messenger",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.facebook.com/privacy/policy"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://www.facebook.com/terms.php"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://www.facebook.com/help/contact/259518714718624"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://www.facebook.com/help/messenger-app"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When you sign up for Facebook Messenger, Facebook collects personal data such as your name, phone number, and profile details to create your account and enable communication features.",
+        "points": [
+          "Your Facebook account is linked to Messenger for seamless use.",
+          "Phone numbers and contact details are collected for syncing and messaging.",
+          "Profile information is shared across Facebook services."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "Facebook Messenger collects personal data, message metadata, and usage data to provide communication services and improve user experience.",
+        "points": [
+          "Personal details: name, email, and phone number.",
+          "Message metadata: timestamps, device information, and recipient details.",
+          "Usage data: interactions, app settings, and device performance."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Data collected by Facebook Messenger is used for providing messaging services, improving app functionality, and targeted advertising.",
+        "points": [
+          "Messages are encrypted in transit but may be stored for processing.",
+          "Usage data helps improve app performance and user experience.",
+          "Collected data contributes to personalized ads across Facebook services."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "To delete your data, deactivate your Messenger account through your Facebook profile settings or submit a request to Facebook's data deletion portal.",
+        "points": [
+          "Visit https://www.facebook.com/help/contact/259518714718624 for data deletion.",
+          "Deactivating your Facebook account also deactivates Messenger.",
+          "Understand that some data may be retained for compliance purposes."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Yes, Facebook Messenger uses AI for chat suggestions, spam detection, and advanced messaging features such as smart replies and chatbots.",
+        "points": [
+          "AI powers spam filtering and message prioritization.",
+          "Smart replies and suggestions are AI-driven.",
+          "AI models are used for real-time language translation."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Facebook uses aggregated and anonymized user data to train AI models, but message content is not explicitly used for AI training.",
+        "points": [
+          "Aggregated usage data informs AI improvements.",
+          "Private messages are not directly used for training.",
+          "AI training focuses on user engagement and spam detection."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "Facebook Messenger employs machine learning and natural language processing (NLP) to enhance communication features and user experience.",
+        "points": [
+          "Machine learning models improve chat suggestions and filters.",
+          "NLP powers smart replies and real-time translations.",
+          "AI models support chatbot functionalities."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Facebook Messenger uses encryption and secure servers to protect data, but messages are not end-to-end encrypted by default unless using Secret Conversations.",
+        "points": [
+          "Messages in transit are encrypted.",
+          "Secret Conversations provide end-to-end encryption.",
+          "Secure servers protect user data and message storage."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Facebook adheres to global security standards and implements regular updates and audits to ensure user data protection.",
+        "points": [
+          "TLS encryption secures data transmission.",
+          "GDPR compliance ensures data privacy for European users.",
+          "Regular security patches address vulnerabilities."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Facebook has a detailed breach response plan to notify affected users and take immediate corrective measures.",
+        "points": [
+          "Affected users are promptly notified in case of a breach.",
+          "Incidents are thoroughly investigated to identify the root cause.",
+          "Post-breach analysis helps improve future security practices."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use Facebook Messenger securely, enable Secret Conversations for private chats, manage app permissions, and avoid sharing sensitive information in messages.",
+        "points": [
+          "Enable Secret Conversations for end-to-end encryption.",
+          "Regularly review and update Messenger app permissions.",
+          "Avoid sharing sensitive information through messages."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Threads",
+    "website": "https://www.threads.net",
+    "slug": "threads",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Threads_App_Logo.png/512px-Threads_App_Logo.png",
+    "icon_class": "fab fa-threads",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://help.instagram.com/519522125107875"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://help.instagram.com/581066165581870"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://www.threads.net/legal/data_deletion"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://help.instagram.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When you sign up for Threads, your Instagram account is linked, and Threads collects your personal information, including your name, username, email, and phone number.",
+        "points": [
+          "Your Instagram account credentials are used for authentication.",
+          "Profile information such as name and username is imported from Instagram.",
+          "Optional personal details can be added to customize your Threads profile."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "Threads collects personal data, usage information, and interaction data to enhance the user experience and provide personalized content.",
+        "points": [
+          "Personal information: name, username, email, and phone number.",
+          "Usage data: app interactions, posts, and engagement metrics.",
+          "Device information: IP address, device type, and operating system."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Threads uses collected data to provide its service, enhance user experience, and deliver personalized recommendations and ads.",
+        "points": [
+          "Data is used to curate a personalized feed and recommendations.",
+          "Usage data helps improve app functionality and performance.",
+          "Advertising content is tailored based on user behavior and interests."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "You can delete your Threads data by requesting deletion via the Threads support page or through your Instagram account settings.",
+        "points": [
+          "Visit https://www.threads.net/legal/data_deletion for deletion requests.",
+          "Account and data deletion also removes linked Instagram data.",
+          "Certain data may be retained for compliance or legal purposes."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Threads uses AI to recommend content, detect spam, and moderate posts, ensuring a seamless and safe user experience.",
+        "points": [
+          "AI curates a personalized feed based on user preferences.",
+          "Spam and harmful content detection are powered by AI.",
+          "Recommendations are enhanced by machine learning models."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Meta may use aggregated and anonymized data from Threads to train its AI models and improve platform capabilities.",
+        "points": [
+          "Aggregated usage data is used to refine AI algorithms.",
+          "Meta states that individual content is not used for external AI training.",
+          "AI development focuses on improving user recommendations."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "Threads employs machine learning and natural language processing (NLP) to analyze content and enhance its recommendations and moderation.",
+        "points": [
+          "Machine learning optimizes personalized content delivery.",
+          "NLP is used to understand and moderate text-based interactions.",
+          "Real-time AI models enhance the overall user experience."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Threads secures user data using encryption, secure servers, and Meta’s extensive security infrastructure to prevent unauthorized access.",
+        "points": [
+          "Data in transit is encrypted using HTTPS protocols.",
+          "Meta’s secure servers protect user data at rest.",
+          "Regular security audits address potential vulnerabilities."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Threads follows Meta’s global security standards, including compliance with GDPR, and uses industry-leading encryption protocols.",
+        "points": [
+          "GDPR compliance ensures robust data privacy for EU users.",
+          "TLS encryption secures data communication.",
+          "Meta’s infrastructure is designed to resist cyber threats."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Threads has a breach response plan, including user notifications, containment measures, and a review process to prevent recurrence.",
+        "points": [
+          "Users are notified promptly of breaches affecting their data.",
+          "Steps are taken to secure compromised data and accounts.",
+          "Post-incident reviews improve overall security resilience."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use Threads securely, enable two-factor authentication through Instagram, avoid oversharing personal details, and regularly update your app.",
+        "points": [
+          "Enable two-factor authentication via Instagram settings.",
+          "Review privacy settings to control data visibility.",
+          "Regularly update the app to benefit from security patches."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snapchat",
+    "website": "https://www.snapchat.com",
+    "slug": "snapchat",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Snapchat_logo.svg/512px-Snapchat_logo.svg.png",
+    "icon_class": "fab fa-snapchat",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.snap.com/en-US/privacy/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://www.snap.com/en-US/terms"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://support.snapchat.com/en-US/a/delete-my-account"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.snapchat.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When signing up for Snapchat, the app collects your phone number, email address, and date of birth to create your account and verify your identity.",
+        "points": [
+          "Phone number and email are used for account verification.",
+          "Date of birth ensures compliance with age restrictions.",
+          "Profile information like username and Bitmoji is optional."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "Snapchat collects personal information, device details, and activity data to operate its platform and improve user experience.",
+        "points": [
+          "Personal details: phone number, email, and date of birth.",
+          "Activity data: Snaps sent, chats, and Stories interactions.",
+          "Device information: IP address, device type, and location data."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Snapchat uses your data to provide its core functionalities, such as sending Snaps and Stories, and to personalize content and ads.",
+        "points": [
+          "Data is used to deliver Snaps, chats, and Stories.",
+          "Personalized ads are based on activity and preferences.",
+          "Usage data helps improve app features and performance."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "You can delete your Snapchat account and associated data by following their data deletion process on the support page.",
+        "points": [
+          "Visit https://support.snapchat.com/en-US/a/delete-my-account for instructions.",
+          "Account deletion will remove personal data and Snaps.",
+          "Certain data may be retained for legal and compliance purposes."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Snapchat uses AI for augmented reality (AR) lenses, content recommendations, and advanced photo and video editing tools.",
+        "points": [
+          "AR lenses use AI for face and object recognition.",
+          "AI powers personalized content recommendations on Discover.",
+          "Photo and video editing features are enhanced with AI tools."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Snapchat uses anonymized and aggregated user data to train AI models but does not use private Snaps or chats for training purposes.",
+        "points": [
+          "Anonymized data informs AI-powered features and improvements.",
+          "Private content such as Snaps and chats is not used for AI training.",
+          "AI development focuses on enhancing user engagement."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "Snapchat employs machine learning, computer vision, and neural networks to deliver its AI-powered features, including AR and content recommendations.",
+        "points": [
+          "Machine learning enhances content personalization and ads.",
+          "Computer vision powers AR lenses and object recognition.",
+          "Neural networks optimize photo and video editing tools."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Snapchat employs encryption, secure servers, and account protection measures to safeguard user data and prevent unauthorized access.",
+        "points": [
+          "Snaps and chats are encrypted in transit.",
+          "Account security is enhanced with login verification options.",
+          "Regular security updates address potential vulnerabilities."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Snapchat follows industry-standard security practices, including TLS encryption and compliance with data protection regulations.",
+        "points": [
+          "TLS encryption secures data during transmission.",
+          "Compliance with GDPR ensures data privacy for EU users.",
+          "Bug bounty programs identify and resolve security vulnerabilities."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Snapchat has a breach response plan that includes notifying affected users, investigating incidents, and implementing preventive measures.",
+        "points": [
+          "Users are notified promptly if their data is affected.",
+          "Investigations identify and address vulnerabilities.",
+          "Lessons learned improve future security practices."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use Snapchat securely, enable two-factor authentication, monitor your account activity, and avoid sharing sensitive information through Snaps or chats.",
+        "points": [
+          "Enable two-factor authentication in account settings.",
+          "Use a strong, unique password for your Snapchat account.",
+          "Be cautious when sharing sensitive information in Snaps or chats."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Discord",
+    "website": "https://discord.com",
+    "slug": "discord",
+    "rating": 4.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Discord_logo.svg/512px-Discord_logo.svg.png",
+    "icon_class": "fab fa-discord",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://discord.com/privacy"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://discord.com/terms"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://support.discord.com/hc/en-us/articles/360004027692"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.discord.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When you sign up for Discord, the service collects your email address, username, and optional profile data to create and personalize your account.",
+        "points": [
+          "Email and username are required to create an account.",
+          "Optional profile information, such as avatars, can be added.",
+          "Data is used to customize your experience on Discord servers."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "Discord collects personal data, usage information, and content-related metadata to ensure platform functionality and improve its services.",
+        "points": [
+          "Personal information: email, username, and profile data.",
+          "Usage data: server activity, messages sent, and interactions.",
+          "Metadata: timestamps, device details, and network information."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Data collected by Discord is used to provide core features, improve platform performance, and ensure community safety.",
+        "points": [
+          "Messages and interactions are used to facilitate communication.",
+          "Usage data improves server management and performance.",
+          "Some data may be used for moderation and spam detection."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "You can delete your Discord account and associated data by requesting account deletion through the app settings or support portal.",
+        "points": [
+          "Visit https://support.discord.com/hc/en-us/articles/360004027692 for account deletion.",
+          "Account deletion removes personal data and server associations.",
+          "Some data may be retained for compliance or legal purposes."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Discord uses AI for spam detection, moderation tools, and voice enhancement features to improve user experience.",
+        "points": [
+          "AI detects and filters spam and harmful content.",
+          "AI-driven moderation tools assist server administrators.",
+          "Noise suppression and voice enhancements are powered by AI."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Discord does not use private messages or personal data to train AI. Aggregated data may be used for moderation improvements.",
+        "points": [
+          "Anonymized data is used to refine moderation tools.",
+          "Private content, such as DMs, is not used for AI training.",
+          "AI development focuses on improving platform safety."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "Discord employs machine learning and natural language processing (NLP) to power moderation tools and enhance audio quality.",
+        "points": [
+          "Machine learning improves spam and abuse detection.",
+          "NLP analyzes content for moderation and language insights.",
+          "AI models enhance voice quality with noise suppression."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Discord uses encryption, secure servers, and strict authentication protocols to protect user data and communications.",
+        "points": [
+          "Messages are encrypted in transit using HTTPS.",
+          "Two-factor authentication adds an extra layer of account security.",
+          "Regular security updates prevent potential vulnerabilities."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Discord adheres to industry-standard security practices, including TLS encryption and compliance with GDPR for user data protection.",
+        "points": [
+          "TLS encryption secures data during transmission.",
+          "GDPR compliance protects user privacy in the EU.",
+          "Bug bounty programs identify and fix security flaws."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Discord has a detailed breach response process, including user notifications, investigations, and enhanced future security measures.",
+        "points": [
+          "Users are promptly informed of any data breaches.",
+          "Investigations identify the cause and mitigate risks.",
+          "Post-incident reviews improve security protocols."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use Discord securely, enable two-factor authentication, monitor account activity, and avoid sharing sensitive information on public servers.",
+        "points": [
+          "Enable two-factor authentication in your account settings.",
+          "Regularly check your account activity for suspicious behavior.",
+          "Avoid sharing sensitive information in public or large servers."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spotify",
+    "website": "https://www.spotify.com",
+    "slug": "spotify",
+    "rating": 4.6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/512px-Spotify_logo_with_text.svg.png",
+    "icon_class": "fab fa-spotify",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.spotify.com/privacy/"
+      },
+      {
+        "url_type": "Terms of Use",
+        "url": "https://www.spotify.com/us/legal/end-user-agreement/"
+      },
+      {
+        "url_type": "Data Removal Request",
+        "url": "https://support.spotify.com/us/article/delete-account/"
+      },
+      {
+        "url_type": "Support",
+        "url": "https://support.spotify.com/"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "description": "When you sign up for Spotify, the service collects your email, name, and date of birth to create an account and personalize your experience.",
+        "points": [
+          "Email and date of birth are required for account creation.",
+          "Optional profile details such as profile picture and username can be added.",
+          "Signing up via social accounts (e.g., Facebook) shares additional data."
+        ]
+      },
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "description": "Spotify collects personal data, listening habits, and device information to provide its services and improve user experience.",
+        "points": [
+          "Personal information: email, name, date of birth, and payment details for premium accounts.",
+          "Listening habits: songs played, playlists created, and search history.",
+          "Device information: IP address, device type, and app usage."
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "description": "Spotify uses collected data to personalize recommendations, improve its platform, and deliver targeted advertising.",
+        "points": [
+          "Listening history helps tailor playlists and song recommendations.",
+          "Aggregate usage data improves app functionality and features.",
+          "Targeted ads are delivered based on listening habits and preferences."
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "description": "You can delete your Spotify account and associated data by following the account deletion steps on Spotify's support page.",
+        "points": [
+          "Visit https://support.spotify.com/us/article/delete-account/ for account deletion.",
+          "Deleting your account removes your playlists, saved songs, and preferences.",
+          "Certain data may be retained for compliance purposes."
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "description": "Spotify uses AI to power its recommendation system, curate playlists, and analyze user behavior for better service delivery.",
+        "points": [
+          "AI curates playlists like Discover Weekly and Daily Mix.",
+          "Machine learning analyzes listening habits to improve recommendations.",
+          "AI is used to optimize content delivery and ad targeting."
+        ]
+      },
+      {
+        "type": "Is my data used to train AI?",
+        "category": "AI",
+        "description": "Spotify uses anonymized and aggregated data to train its AI models and improve its recommendation systems.",
+        "points": [
+          "Listening data is anonymized before being used for AI training.",
+          "AI training focuses on enhancing personalization features.",
+          "Personal data is not directly shared with external AI systems."
+        ]
+      },
+      {
+        "type": "What AI methods are used?",
+        "category": "AI",
+        "description": "Spotify employs machine learning, collaborative filtering, and natural language processing (NLP) to improve its recommendations and content delivery.",
+        "points": [
+          "Collaborative filtering matches your preferences with similar users.",
+          "NLP analyzes song metadata and lyrics for playlist curation.",
+          "Machine learning optimizes ad placement and content personalization."
+        ]
+      },
+      {
+        "type": "Are my data secure?",
+        "category": "Security",
+        "description": "Spotify uses encryption, secure servers, and advanced authentication measures to protect user data and ensure account security.",
+        "points": [
+          "Data in transit is encrypted using HTTPS.",
+          "Two-factor authentication is available for added account protection.",
+          "Regular security updates address vulnerabilities promptly."
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "description": "Spotify follows industry-standard security practices, including TLS encryption and compliance with GDPR, to protect user data.",
+        "points": [
+          "TLS encryption secures data during transmission.",
+          "GDPR compliance ensures privacy rights for European users.",
+          "Security audits and vulnerability scans are performed regularly."
+        ]
+      },
+      {
+        "type": "How does the service handle breaches?",
+        "category": "Security",
+        "description": "Spotify has a detailed breach response process to notify affected users and take corrective measures.",
+        "points": [
+          "Affected users are notified promptly in case of a breach.",
+          "Incident reports are investigated to identify root causes.",
+          "Lessons learned are used to strengthen future security protocols."
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "description": "To use Spotify securely and protect your personal data, adopt best practices for account security, manage privacy settings, and be cautious with third-party integrations.",
+        "points": [
+          "Enable two-factor authentication in your Spotify account settings to add an extra layer of security.",
+          "Use a strong, unique password for your Spotify account and avoid reusing it on other platforms.",
+          "Regularly review your account activity and log out of devices you no longer use from the 'Account Overview' page.",
+          "Manage connected apps by reviewing and revoking unnecessary third-party integrations under 'Apps' in account settings.",
+          "Customize your privacy settings to limit what data Spotify collects and shares, including tailored ads and personalized content.",
+          "Avoid sharing sensitive information, such as payment details, through customer service channels unless absolutely necessary.",
+          "Keep your app updated to the latest version to benefit from security patches and new privacy features.",
+          "Be cautious of phishing attempts and only interact with Spotify through official channels (e.g., emails from spotify.com).",
+          "Monitor your payment method linked to Spotify for unauthorized transactions and enable notifications for card activity if available."
+        ]
+      }
+    ]
+  }
+]
