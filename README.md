@@ -43,17 +43,12 @@ See our [Roadmap](ROADMAP.md) for a detailed list of upcoming features and our l
    cd data410
    ```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Docker compose:
+2. Docker compose:
    ```bash
    docker-compose up
    ```
 
-4. Open your browser and visit:
+3. Open your browser and visit:
    ```
    http://127.0.0.1:8000/
    ```
