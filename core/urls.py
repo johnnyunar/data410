@@ -12,8 +12,8 @@ from core.views import (
 urlpatterns = [
     path("", HomeView.as_view(), name="home"),
     path("about/", AboutView.as_view(), name="about"),
-    path("api/", APIHomeView.as_view(), name="api-home"),
+    path("api-home/", APIHomeView.as_view(), name="api-home"),
     path("roadmap/", RoadmapView.as_view(), name="roadmap"),
-    path("priacy-notice/", PrivacyNoticeView.as_view(), name="privacy-notice"),
+    path("privacy-notice/", PrivacyNoticeView.as_view(), name="privacy-notice"),
     path("acknowledgements/", AcknowledgementsView.as_view(), name="acknowledgements"),
 ]
