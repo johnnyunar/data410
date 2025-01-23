@@ -12,6 +12,9 @@ class ServiceDetail(DetailView):
     slug_field = "slug"
     slug_url_kwarg = "slug"
 
+    def get_queryset(self):
+        return super().get_queryset().filter(is_active=True)
+
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["rating_range"] = range(1, 6)
@@ -30,7 +33,7 @@ class RegistryView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["services"] = Service.objects.all().order_by("name")
+        context["services"] = Service.objects.filter(is_active=True).order_by("name")
         return context
 
 
@@ -45,7 +48,8 @@ class ServiceHtmxSearchView(TemplateView):
         search = self.request.POST.get("search")
         if search:
             context["services"] = Service.objects.filter(
-                Q(name__icontains=search) | Q(website__icontains=search)
+                Q(is_active=True)
+                & (Q(name__icontains=search) | Q(website__icontains=search))
             )
         else:
             context["empty_search"] = True

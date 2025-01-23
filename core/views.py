@@ -15,7 +15,9 @@ class HomeView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        recent_services = Service.objects.all().order_by("-created_at")[:4]
+        recent_services = Service.objects.filter(is_active=True).order_by(
+            "-created_at"
+        )[:4]
         context["recent_services"] = recent_services
         return context
 
