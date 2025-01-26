@@ -3117,5 +3117,2323 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Twitter (X)",
+    "website": "https://twitter.com",
+    "rating": 2.5,
+    "slug": "twitter-x",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/X_logo_2023_original.svg/512px-X_logo_2023_original.svg.png",
+    "icon_class": "fab fa-twitter",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://twitter.com/en/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://twitter.com/en/tos"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.twitter.com/en/managing-your-account/how-to-deactivate-twitter-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Twitter collects vast amounts of data, including personal information, behavioral data, location, device data, and interactions.",
+        "points": [
+          "Profile data (name, email, phone number, location, etc.)",
+          "Browsing behavior across the web via embedded tweets",
+          "Direct messages, posts, and media shared",
+          "Device information, including IP addresses and identifiers"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Your data is used primarily for targeted advertising, content personalization, and analytics.",
+        "points": [
+          "Personalized ads based on your activity and interactions",
+          "Location-based content recommendations",
+          "Data sharing with third-party partners for advertising purposes"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Twitter implements basic security measures but has been criticized for past breaches.",
+        "points": [
+          "Supports 2-factor authentication (2FA) for accounts",
+          "Data is encrypted in transit and at rest",
+          "Notable security breaches in past years exposing user data"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Twitter employs AI to personalize content and moderate harmful content.",
+        "points": [
+          "AI is used to recommend tweets and topics",
+          "Automated moderation for detecting harmful or offensive content",
+          "Concerns raised over algorithmic bias in content visibility"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "You can deactivate your account, which leads to deletion after 30 days of inactivity.",
+        "points": [
+          "Go to Settings > Your Account > Deactivate",
+          "Ensure no logins occur for 30 days to complete deletion",
+          "Some data may persist in backups or for legal compliance"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Twitter has faced multiple privacy-related controversies and data breaches.",
+        "points": [
+          "In 2022, data of 5.4 million users was exposed due to an API vulnerability",
+          "In 2019, Twitter admitted to using phone numbers for ad targeting without user consent",
+          "High-profile account hacks due to social engineering attacks"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Protecting your Twitter account involves careful management of privacy settings and awareness of potential risks.",
+        "points": [
+          "Enable two-factor authentication (2FA) for enhanced security",
+          "Review third-party apps connected to your account and revoke unnecessary access",
+          "Limit data collection by adjusting privacy settings to restrict ad targeting",
+          "Be cautious about sharing personal information in public tweets"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "WhatsApp",
+    "website": "https://www.whatsapp.com",
+    "rating": 3.5,
+    "slug": "whatsapp",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png",
+    "icon_class": "fab fa-whatsapp",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.whatsapp.com/legal/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.whatsapp.com/legal/terms-of-service"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://faq.whatsapp.com/general/security-and-privacy/how-to-delete-your-whatsapp-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "WhatsApp collects account information, metadata, and usage data, while claiming end-to-end encryption for messages.",
+        "points": [
+          "Phone number, contacts, and profile information",
+          "Device and connection data such as IP addresses",
+          "Usage data like message frequency and interaction patterns"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "WhatsApp uses collected data for service functionality, analytics, and targeted advertising through Meta platforms.",
+        "points": [
+          "Used to personalize the user experience and enhance security",
+          "Shared with Meta (Facebook) for ad targeting and business services",
+          "Used for detecting abuse, spam, and to comply with legal obligations"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "When you sign up, WhatsApp collects basic account data and begins linking your profile to your phone number and contacts.",
+        "points": [
+          "Your phone number is required to create an account",
+          "WhatsApp automatically syncs your contact list",
+          "Basic device information is collected upon first use"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "WhatsApp offers end-to-end encryption for messages but collects metadata and has faced security vulnerabilities in the past.",
+        "points": [
+          "End-to-end encryption for messages and calls",
+          "Two-step verification feature for extra security",
+          "Metadata, such as timestamps and recipients, are not encrypted"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "WhatsApp employs encryption and internal security practices but has suffered past vulnerabilities.",
+        "points": [
+          "Regular security updates and vulnerability patches",
+          "Access controls and account recovery options",
+          "Users should be cautious of phishing attacks and social engineering"
+        ]
+      },
+      {
+        "type": "How does WhatsApp handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "WhatsApp may share metadata with authorities if required by law but claims it does not share message content.",
+        "points": [
+          "Compliance with law enforcement requests for metadata",
+          "Message contents are not accessible due to encryption",
+          "Users are notified in most cases unless legally prohibited"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "WhatsApp leverages AI for spam detection, message filtering, and business automation.",
+        "points": [
+          "AI detects spam and abusive content in chats",
+          "Machine learning algorithms enhance chatbot responses",
+          "AI-driven analytics help businesses optimize communication"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "WhatsApp claims it does not use message content to train AI but may analyze metadata and user interactions.",
+        "points": [
+          "Personal messages are end-to-end encrypted and not analyzed",
+          "Metadata may be used for training algorithms for spam detection",
+          "AI models are applied for business and customer interaction purposes"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "WhatsApp uses AI to recommend contacts, suggest replies, and improve app performance.",
+        "points": [
+          "Suggested replies based on chat content and patterns",
+          "AI-driven contact recommendations based on interactions",
+          "Performance optimization through predictive analytics"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "You can delete your account through the app settings, leading to data removal after processing.",
+        "points": [
+          "Go to Settings > Account > Delete My Account",
+          "Your profile, messages, and backups will be removed",
+          "Deletion may take up to 90 days for full removal"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "WhatsApp has faced scrutiny for data-sharing practices and security vulnerabilities.",
+        "points": [
+          "2021 privacy policy change raised concerns over data sharing with Meta",
+          "Reports of metadata being accessed for surveillance purposes",
+          "Vulnerabilities exploited by spyware like Pegasus"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "To enhance your privacy and security on WhatsApp, follow these best practices.",
+        "points": [
+          "Enable two-step verification for account protection",
+          "Review privacy settings to limit data sharing with contacts",
+          "Avoid sharing sensitive data in chats, even in encrypted conversations",
+          "Be cautious of unknown links and phishing attempts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Telegram",
+    "website": "https://telegram.org",
+    "rating": 4.0,
+    "slug": "telegram",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "icon_class": "fab fa-telegram",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://telegram.org/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://telegram.org/tos"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://telegram.org/faq#q-how-do-i-delete-my-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Telegram collects minimal personal data but stores metadata such as contact lists and device information.",
+        "points": [
+          "Phone number and profile details",
+          "Contacts and groups you join",
+          "Device and connection information",
+          "Chat metadata (timestamps, participants)"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Telegram uses your data to provide messaging services, security features, and improve user experience.",
+        "points": [
+          "Used for contact synchronization and recommendations",
+          "Analyzed to detect spam and abuse",
+          "Stored to provide cloud-based chat access across devices"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "When you sign up for Telegram, your phone number is required, and your contacts are synced to check for existing users.",
+        "points": [
+          "Phone number is required for registration",
+          "Your contacts are scanned for Telegram users",
+          "Basic profile information is created"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Telegram uses encryption and cloud-based storage, but only Secret Chats offer end-to-end encryption.",
+        "points": [
+          "Cloud chats are encrypted but stored on Telegram's servers",
+          "Secret Chats offer end-to-end encryption for privacy",
+          "Two-step verification enhances account security"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Telegram employs encryption and security measures, but past incidents highlight potential risks.",
+        "points": [
+          "Encrypted cloud storage for non-Secret Chats",
+          "Regular security audits and updates",
+          "Vulnerabilities have been reported in the past"
+        ]
+      },
+      {
+        "type": "How does Telegram handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Telegram claims not to provide data to governments unless legally required, but policies may vary by region.",
+        "points": [
+          "Minimal user data is collected and shared",
+          "Refuses to cooperate with censorship requests",
+          "Authorities may access metadata in some jurisdictions"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Telegram uses AI for spam detection, channel recommendations, and automated moderation.",
+        "points": [
+          "AI detects spam and suspicious activity",
+          "Recommendation algorithms suggest groups and channels",
+          "Automated moderation for large public groups"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Telegram claims that personal chats are not used for AI training, but public content may be analyzed.",
+        "points": [
+          "Private chats are not used for AI purposes",
+          "Public groups and channels may contribute to AI models",
+          "Data may be analyzed to improve service performance"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Telegram's AI algorithms offer content suggestions and optimize app performance.",
+        "points": [
+          "Suggested channels and groups based on interests",
+          "Smart notifications based on chat activity",
+          "Enhanced search functionality using AI models"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "You can delete your Telegram account via settings, which removes your messages and profile data.",
+        "points": [
+          "Go to Settings > Privacy and Security > Delete Account",
+          "Your messages and account data will be permanently deleted",
+          "Some metadata may persist for legal purposes"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Telegram has faced criticism for its lack of transparency and potential government access.",
+        "points": [
+          "Reports of government tracking Telegram users",
+          "Concerns about metadata retention policies",
+          "Security flaws reported in public chat encryption"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Take proactive steps to secure your Telegram account and data.",
+        "points": [
+          "Enable two-step verification for added security",
+          "Use Secret Chats for sensitive conversations",
+          "Review privacy settings to limit data visibility",
+          "Be cautious about joining public groups and channels"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Signal",
+    "website": "https://signal.org",
+    "rating": 4.8,
+    "slug": "signal",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Signal-Logo.svg",
+    "icon_class": "fab fa-signal",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://signal.org/legal/"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://signal.org/legal/"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://support.signal.org/hc/en-us/articles/360007318691-How-do-I-delete-my-Signal-account-"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Signal collects minimal user data, focusing on privacy and security by design.",
+        "points": [
+          "Your phone number for account creation",
+          "Randomly generated authentication tokens",
+          "Minimal metadata such as registration date",
+          "No message or contact data is stored"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Signal uses your data strictly for service functionality and security, without selling or sharing with third parties.",
+        "points": [
+          "Used for encrypted communication only",
+          "Not shared with third parties or advertisers",
+          "Data is not monetized or stored for profiling"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Upon signing up, Signal collects only your phone number and creates a secure encrypted profile.",
+        "points": [
+          "Phone number is required to register",
+          "Minimal metadata is stored",
+          "Contacts are not stored on Signal’s servers"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Signal employs state-of-the-art encryption to secure communications, with a strong focus on user privacy.",
+        "points": [
+          "End-to-end encryption for messages and calls",
+          "Sealed sender technology to hide metadata",
+          "Open-source code for public security audits"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Signal uses advanced encryption protocols to ensure user data remains secure even in case of breaches.",
+        "points": [
+          "No messages are stored on Signal servers",
+          "Encryption keys are only stored on user devices",
+          "Automatic security updates to fix vulnerabilities"
+        ]
+      },
+      {
+        "type": "How does Signal handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Signal retains no user data that can be shared with governments, limiting compliance possibilities.",
+        "points": [
+          "Stores no message content or contact lists",
+          "Can only provide account creation date",
+          "Strict refusal of unwarranted data requests"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Signal does not use AI for analyzing user messages, focusing instead on privacy-first communication.",
+        "points": [
+          "No AI-based message analysis or profiling",
+          "Encryption prevents any automated content scanning",
+          "Privacy-first development with no data mining"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Signal does not use user data to train AI models, ensuring complete privacy.",
+        "points": [
+          "User content is not stored or analyzed",
+          "No AI training occurs on Signal’s infrastructure",
+          "Commitment to open-source and transparency"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Signal does not offer AI-based personalization features to avoid compromising user privacy.",
+        "points": [
+          "No AI-based recommendations or analytics",
+          "Minimal app data stored locally on the device",
+          "User experience is entirely in their control"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "You can delete your Signal account via app settings, which permanently removes all associated data.",
+        "points": [
+          "Go to Settings > Account > Delete Account",
+          "All messages and backups will be deleted",
+          "Phone number will be unlinked from Signal"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Signal has a strong track record of protecting user privacy with no major data breaches reported.",
+        "points": [
+          "No known major security incidents",
+          "Consistently ranked highly for privacy policies",
+          "Open-source nature allows independent audits"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "To enhance your security while using Signal, follow these best practices.",
+        "points": [
+          "Enable disappearing messages for sensitive conversations",
+          "Use registration lock to prevent unauthorized access",
+          "Regularly update the app to benefit from security patches",
+          "Avoid sharing sensitive information via unencrypted methods"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "YouTube",
+    "website": "https://www.youtube.com",
+    "rating": 3.0,
+    "slug": "youtube",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    "icon_class": "fab fa-youtube",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://policies.google.com/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.youtube.com/t/terms"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://support.google.com/accounts/answer/465?hl=en"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "YouTube collects extensive data related to your interactions, preferences, and linked Google services.",
+        "points": [
+          "Search history and watch history",
+          "Device and location data",
+          "Interaction with content (likes, comments, subscriptions)",
+          "Linked Google account data including contacts"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Your data is used for personalized content recommendations, targeted advertising, and service improvement.",
+        "points": [
+          "Personalized video recommendations",
+          "Targeted ads based on viewing habits",
+          "Shared with third-party partners for ad tracking"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for YouTube requires a Google account, which links your activity across various services.",
+        "points": [
+          "Your Google account is linked to YouTube",
+          "Personalized recommendations start immediately",
+          "Your activity contributes to Google's ad profile"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "YouTube leverages Google’s security infrastructure to protect user data and prevent unauthorized access.",
+        "points": [
+          "Two-factor authentication (2FA) support via Google account",
+          "Encrypted communications during data transfer",
+          "Advanced AI systems to detect suspicious activities"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Google implements strong security measures, but YouTube has experienced past incidents of account takeovers.",
+        "points": [
+          "Regular audits and vulnerability patches",
+          "Google's Threat Analysis Group monitors for threats",
+          "Users advised to enable security alerts"
+        ]
+      },
+      {
+        "type": "How does YouTube handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "YouTube, as part of Google, complies with legal requests for user data but reports transparency.",
+        "points": [
+          "Follows local legal frameworks for data disclosure",
+          "Transparency reports published annually",
+          "Users are notified where legally possible"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "YouTube uses AI extensively for recommendations, moderation, and ad targeting.",
+        "points": [
+          "AI suggests content based on viewing habits",
+          "Automated content moderation detects violations",
+          "AI-driven ad targeting based on user behavior"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "User interaction data is used to train recommendation and moderation AI models.",
+        "points": [
+          "Viewing habits contribute to algorithm improvements",
+          "Publicly available data can be analyzed for trends",
+          "User preferences help refine ad targeting algorithms"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI personalizes your homepage, notifications, and search results based on your activity.",
+        "points": [
+          "Suggested videos tailored to interests",
+          "Smart notifications based on interaction patterns",
+          "Adaptive search ranking based on past activity"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their YouTube data through Google account settings.",
+        "points": [
+          "Visit Google account > Data & Privacy > Manage your data",
+          "Delete search and watch history",
+          "Download and review data before deletion"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "YouTube has faced several privacy controversies, primarily related to data collection and ad targeting.",
+        "points": [
+          "2019: YouTube fined $170 million for violating children's privacy",
+          "Concerns over excessive tracking via cookies",
+          "Third-party advertisers collecting data without explicit consent"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can enhance their privacy and security by making adjustments to their account settings.",
+        "points": [
+          "Enable privacy-friendly settings such as pausing watch history",
+          "Use incognito mode to watch videos without tracking",
+          "Regularly review Google account's privacy controls",
+          "Limit ad personalization through account settings"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pinterest",
+    "website": "https://www.pinterest.com",
+    "rating": 3.5,
+    "slug": "pinterest",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Pinterest_Logo.svg",
+    "icon_class": "fab fa-pinterest",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://policy.pinterest.com/en/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://policy.pinterest.com/en/terms-of-service"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.pinterest.com/en/article/delete-your-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Pinterest collects a wide range of personal and behavioral data to enhance user experience and target advertisements.",
+        "points": [
+          "Profile details (name, email, location, interests)",
+          "Browsing and search history",
+          "Content you save, like, and share",
+          "Device and location data"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Your data is used to personalize content, improve recommendations, and serve targeted advertisements.",
+        "points": [
+          "Tailored recommendations based on interactions",
+          "Behavioral data shared with advertisers",
+          "Cross-platform tracking to personalize ads"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Pinterest requires basic personal information and allows the service to track your activity.",
+        "points": [
+          "Account creation requires an email or social login",
+          "Your browsing history starts contributing to recommendations",
+          "Pinterest starts personalizing your feed based on searches"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Pinterest employs industry-standard encryption and security measures to protect user data.",
+        "points": [
+          "Data encryption for information in transit and at rest",
+          "Two-factor authentication (2FA) for added account protection",
+          "Security audits to prevent unauthorized access"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Pinterest applies various security measures to safeguard your data from unauthorized access.",
+        "points": [
+          "Encryption of personal data",
+          "Monitoring for suspicious account activity",
+          "Notifications for unauthorized login attempts"
+        ]
+      },
+      {
+        "type": "How does Pinterest handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Pinterest may comply with legal data requests, providing authorities with limited user information.",
+        "points": [
+          "Adheres to legal obligations for data disclosure",
+          "Users may not be notified depending on legal circumstances",
+          "Transparency reports available on request handling"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Pinterest heavily utilizes AI to recommend content and analyze user preferences.",
+        "points": [
+          "AI-driven content recommendations based on interests",
+          "Automated moderation to remove inappropriate content",
+          "AI predicts trending topics for personalized feeds"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Pinterest uses aggregated user data to improve AI models for content recommendations.",
+        "points": [
+          "Data is used to train algorithms for better user experience",
+          "Search queries contribute to AI learning models",
+          "No personally identifiable data is used for AI training"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI tailors your Pinterest experience by analyzing engagement patterns and preferences.",
+        "points": [
+          "Content suggestions based on pins you interact with",
+          "Curated recommendations based on search history",
+          "Dynamic feed updates using AI analysis"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Pinterest account and data through account settings.",
+        "points": [
+          "Go to Settings > Account management > Delete account",
+          "Permanent deletion takes effect after 14 days of inactivity",
+          "Download your data before deletion if needed"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Pinterest has faced criticism for tracking user activity and data sharing with advertisers.",
+        "points": [
+          "Concerns over third-party trackers monitoring browsing habits",
+          "Privacy issues related to targeted advertising",
+          "Criticism over lack of transparency in data retention policies"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take measures to protect their privacy and security on Pinterest.",
+        "points": [
+          "Adjust privacy settings to limit data sharing with advertisers",
+          "Regularly review connected third-party apps",
+          "Enable two-factor authentication for added account security",
+          "Be mindful of what personal data you share in pins and boards"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dropbox",
+    "website": "https://www.dropbox.com",
+    "rating": 3.8,
+    "slug": "dropbox",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dropbox_Icon.svg/512px-Dropbox_Icon.svg.png",
+    "icon_class": "fab fa-dropbox",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.dropbox.com/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.dropbox.com/terms"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.dropbox.com/accounts-billing/settings-delete/delete-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Dropbox collects various types of data to provide and improve its services, including personal and usage information.",
+        "points": [
+          "Uploaded files and metadata (file names, sizes, and timestamps)",
+          "Account details such as email, phone number, and payment information",
+          "Device and usage data including IP addresses and browser types",
+          "Third-party app integrations and sharing activity"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Dropbox uses collected data to deliver services, improve functionality, and provide targeted recommendations.",
+        "points": [
+          "Used to sync files across devices",
+          "Analyzed for feature improvements and troubleshooting",
+          "Shared with trusted partners for cloud-based services and analytics"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Dropbox requires providing personal information and agreeing to data processing policies.",
+        "points": [
+          "Your email and password are required for account creation",
+          "Basic device and browser information are collected",
+          "You may link third-party services (Google, Apple, etc.)"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Dropbox employs industry-standard encryption and security protocols to protect user data.",
+        "points": [
+          "Files are encrypted both in transit and at rest using AES-256 encryption",
+          "Two-step verification (2FA) is available for enhanced login security",
+          "Regular security audits to identify and mitigate risks"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Dropbox implements robust security measures, though past breaches have raised concerns.",
+        "points": [
+          "Advanced encryption to protect files from unauthorized access",
+          "Security notifications in case of suspicious account activity",
+          "Users advised to enable additional security features"
+        ]
+      },
+      {
+        "type": "How does Dropbox handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Dropbox follows legal requirements when responding to government data requests and publishes transparency reports.",
+        "points": [
+          "Requests are reviewed for legal validity before compliance",
+          "Users are notified unless prohibited by law",
+          "Transparency reports detail law enforcement requests annually"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Dropbox uses AI for search optimization, file recommendations, and content organization.",
+        "points": [
+          "Smart search suggestions based on file content and activity",
+          "AI-driven file organization and automatic tagging",
+          "Machine learning used to detect and prevent spam or abusive content"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Dropbox states that it does not use private content to train AI models without explicit consent.",
+        "points": [
+          "Content from free accounts may be analyzed for service improvements",
+          "Enterprise users have more control over AI-related data processing",
+          "Metadata may be used to enhance machine learning capabilities"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Dropbox personalizes user experience by recommending files and organizing content with AI.",
+        "points": [
+          "Suggested folders and recent files based on usage patterns",
+          "Search filters tailored to individual workflows",
+          "AI-driven insights to improve productivity"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Dropbox account and data permanently through account settings.",
+        "points": [
+          "Navigate to Settings > General > Delete Account",
+          "All stored files and account data will be erased permanently",
+          "Third-party integrations should be reviewed separately"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Dropbox has faced several privacy concerns regarding data sharing and past breaches.",
+        "points": [
+          "In 2016, a major breach exposed millions of user credentials",
+          "Criticism for scanning files for copyright violations",
+          "Collaboration with third parties for analytics raised privacy concerns"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Enhance your Dropbox security by following these best practices.",
+        "points": [
+          "Enable two-factor authentication (2FA) for additional login security",
+          "Review app permissions and connected third-party services regularly",
+          "Use strong passwords and avoid sharing credentials",
+          "Limit shared links and adjust privacy settings accordingly"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Microsoft OneDrive",
+    "website": "https://onedrive.live.com",
+    "rating": 3.8,
+    "slug": "onedrive",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Microsoft_OneDrive_logo.svg/512px-Microsoft_OneDrive_logo.svg.png",
+    "icon_class": "fab fa-microsoft",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://privacy.microsoft.com/en-us/privacystatement"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.microsoft.com/en-us/servicesagreement/"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://support.microsoft.com/en-us/onedrive/delete-your-onedrive-account-and-files"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Microsoft OneDrive collects various types of data, including personal and usage information to improve its services.",
+        "points": [
+          "Files and metadata (file names, types, sizes, and timestamps)",
+          "Account details such as email, phone number, and payment data",
+          "Device and location data from linked devices",
+          "Usage patterns and interactions with OneDrive features"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Your data is used to provide cloud storage services, improve functionality, and deliver personalized experiences.",
+        "points": [
+          "File syncing and accessibility across devices",
+          "Personalized search and storage suggestions",
+          "Data shared with Microsoft’s ecosystem for improved user experience"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for OneDrive links your Microsoft account, allowing access to cloud storage services.",
+        "points": [
+          "Your Microsoft account credentials are required",
+          "OneDrive integrates with other Microsoft services",
+          "Basic device and usage data are collected"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "OneDrive employs robust security measures to ensure data integrity and protection.",
+        "points": [
+          "AES-256 encryption for data at rest and TLS encryption for data in transit",
+          "Ransomware detection and file recovery tools",
+          "Two-factor authentication (2FA) for account security"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Microsoft uses security best practices to protect against data breaches and unauthorized access.",
+        "points": [
+          "Regular security updates and vulnerability patches",
+          "Advanced threat detection systems",
+          "Incident response teams to handle breaches effectively"
+        ]
+      },
+      {
+        "type": "How does OneDrive handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Microsoft complies with legal data requests while ensuring transparency where possible.",
+        "points": [
+          "User notification before data disclosure (where permitted)",
+          "Detailed transparency reports are published regularly",
+          "Complies with GDPR and other global privacy laws"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Microsoft uses AI to enhance OneDrive’s features, including search, content organization, and automation.",
+        "points": [
+          "AI-based search for documents, images, and videos",
+          "Automatic tagging and categorization of files",
+          "Smart suggestions based on past usage patterns"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Microsoft states that user data is not used to train AI models without explicit permission.",
+        "points": [
+          "Data from enterprise customers remain private",
+          "Aggregated data may be used for service improvements",
+          "Personalized features are trained on user interactions"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI enhances the OneDrive experience through automatic organization and smart recommendations.",
+        "points": [
+          "Personalized storage suggestions based on activity",
+          "AI-enhanced collaboration tools for shared files",
+          "Search optimization using AI-driven insights"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their OneDrive data by deleting their Microsoft account or individual files manually.",
+        "points": [
+          "Go to Microsoft account > Privacy settings > Manage your data",
+          "Files can be permanently deleted from the OneDrive dashboard",
+          "Deleted data may remain in backups for a limited time"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "OneDrive has faced scrutiny for its data-sharing policies and integration with other Microsoft services.",
+        "points": [
+          "Concerns over integration with Microsoft’s advertising network",
+          "Microsoft’s collaboration with government surveillance programs",
+          "Security vulnerabilities have been discovered in the past"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take several steps to enhance their privacy and security while using OneDrive.",
+        "points": [
+          "Enable two-factor authentication (2FA) for enhanced security",
+          "Regularly audit and manage file sharing settings",
+          "Avoid storing highly sensitive data in the cloud",
+          "Review Microsoft’s privacy dashboard for data management"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tumblr",
+    "website": "https://www.tumblr.com",
+    "rating": 3.5,
+    "slug": "tumblr",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Tumblr_Logos_2018.svg",
+    "icon_class": "fab fa-tumblr",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.tumblr.com/privacy/en"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.tumblr.com/terms-of-service"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://tumblr.zendesk.com/hc/en-us/articles/360005242894-How-to-delete-your-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Tumblr collects data related to user accounts, browsing behavior, and interactions with the platform.",
+        "points": [
+          "Profile information such as username, email, and bio",
+          "Posts, likes, and reblogs",
+          "IP address, device information, and cookies",
+          "Interactions with ads and third-party services"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Tumblr uses data to personalize content, serve targeted ads, and improve the user experience.",
+        "points": [
+          "Content recommendations based on your interests",
+          "Targeted advertising through Yahoo and third parties",
+          "Improving platform features and performance"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Tumblr requires basic personal information, and your data begins to be tracked.",
+        "points": [
+          "An account is created with your email or social login",
+          "Your browsing activity is tracked for personalization",
+          "Tumblr collects data even if you're not logged in"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Tumblr applies basic security measures but has been criticized for past vulnerabilities.",
+        "points": [
+          "HTTPS encryption for data transmission",
+          "Two-factor authentication (2FA) available",
+          "Moderation tools to prevent spam and abuse"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Tumblr implements security measures to protect data, but past incidents have exposed user information.",
+        "points": [
+          "Use of encryption for stored passwords",
+          "Regular security audits and vulnerability testing",
+          "Incident response teams to address breaches"
+        ]
+      },
+      {
+        "type": "How does Tumblr handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Tumblr may comply with legal data requests and provides transparency reports.",
+        "points": [
+          "Legal data requests are reviewed for validity",
+          "Users are notified of requests when possible",
+          "Transparency reports detail law enforcement inquiries"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Tumblr uses AI to suggest content, moderate content, and detect spam.",
+        "points": [
+          "AI suggests content based on your browsing habits",
+          "Machine learning helps detect spam and abuse",
+          "Personalized feeds are powered by AI algorithms"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Tumblr may use aggregated user data to improve AI algorithms.",
+        "points": [
+          "User interactions help train recommendation models",
+          "Content moderation systems rely on AI feedback",
+          "Data may be anonymized before being used"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Tumblr personalizes your experience using AI-based content recommendations and ad targeting.",
+        "points": [
+          "Recommended blogs based on your interests",
+          "Personalized notifications and trending topics",
+          "Suggested content tailored to your browsing patterns"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Tumblr account and associated data via the settings page.",
+        "points": [
+          "Go to Settings > Account > Delete Account",
+          "Deletion is permanent and cannot be undone",
+          "Back up important data before deletion"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Tumblr has faced criticism over past data breaches and content moderation challenges.",
+        "points": [
+          "2018 breach exposed user account details",
+          "Concerns about data sharing with Yahoo's ad network",
+          "Moderation issues with sensitive content exposure"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can protect their privacy on Tumblr by adjusting settings and being mindful of data exposure.",
+        "points": [
+          "Enable two-factor authentication for added security",
+          "Regularly review and update privacy settings",
+          "Be cautious when sharing personal details in public posts",
+          "Use a unique password to avoid credential leaks"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mastodon",
+    "website": "https://joinmastodon.org",
+    "rating": 4.5,
+    "slug": "mastodon",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mastodon_logotype_%28simple%29.svg",
+    "icon_class": "fab fa-mastodon",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://joinmastodon.org/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://joinmastodon.org/terms"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://docs.joinmastodon.org/user/preferences/#delete-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Mastodon collects minimal personal data, focusing primarily on user-provided content and interactions.",
+        "points": [
+          "Account information (username, email, profile data)",
+          "Posts (Toots), replies, and direct messages",
+          "Follows, followers, and interactions",
+          "IP address and login activity"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Data is used to provide social networking functionality and enhance the federated experience.",
+        "points": [
+          "Used to display posts and interactions on different instances",
+          "Aggregated data helps instance moderation efforts",
+          "No targeted advertising or selling of personal data"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Mastodon involves choosing an instance, creating an account, and interacting with decentralized communities.",
+        "points": [
+          "Select an instance with specific policies",
+          "Provide basic profile information",
+          "Your activity is only stored on the chosen instance"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Mastodon provides security features such as encrypted connections and instance-level security policies.",
+        "points": [
+          "Encrypted connections via HTTPS",
+          "Instance-level moderation and security policies",
+          "Two-factor authentication (2FA) available for accounts"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Mastodon relies on individual instance security measures, with varying levels of protection.",
+        "points": [
+          "Instance administrators are responsible for securing data",
+          "Data encryption is dependent on instance settings",
+          "Users should choose reputable instances for better security"
+        ]
+      },
+      {
+        "type": "How does Mastodon handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "As a decentralized platform, data requests must be directed to individual instance administrators.",
+        "points": [
+          "No central authority manages user data",
+          "Instances may have different legal obligations",
+          "Users should review instance policies regarding data requests"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Mastodon does not use AI for content moderation or recommendations; instead, it relies on community-driven moderation.",
+        "points": [
+          "No algorithmic timeline; content is chronological",
+          "Content moderation is handled by human administrators",
+          "No AI-based targeted advertising"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Mastodon does not use user data to train AI models or develop algorithmic features.",
+        "points": [
+          "User data remains within the selected instance",
+          "No data sharing with third-party AI services",
+          "Privacy-focused, non-commercial platform"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Mastodon does not use AI personalization; users control their own content preferences.",
+        "points": [
+          "Content is displayed in chronological order",
+          "User-defined filters to manage feed visibility",
+          "No automated recommendations based on behavior"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Mastodon account via the instance settings, though federated copies may remain.",
+        "points": [
+          "Navigate to Account Settings > Delete Account",
+          "Some data may remain on federated instances",
+          "Instance admins may retain logs for moderation purposes"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "While Mastodon is privacy-focused, concerns exist regarding federated data persistence and instance security.",
+        "points": [
+          "Data visibility across instances can be hard to control",
+          "Not all instances have strong security policies",
+          "Data deletion across the entire network isn't guaranteed"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can protect their Mastodon accounts by selecting trusted instances and adjusting privacy settings.",
+        "points": [
+          "Choose reputable instances with good privacy policies",
+          "Limit public sharing of sensitive information",
+          "Use strong passwords and enable 2FA",
+          "Review and customize privacy settings regularly"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "WeChat",
+    "website": "https://www.wechat.com",
+    "rating": 2.8,
+    "slug": "wechat",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/WeChat_Logo.svg",
+    "icon_class": "fab fa-weixin",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.wechat.com/en/privacy_policy.html"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.wechat.com/en/service_agreement.html"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://www.wechat.com/en/deletion_policy.html"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "WeChat collects a significant amount of user data to provide its messaging and social features.",
+        "points": [
+          "Personal information (phone number, name, profile photo)",
+          "Chat history and media shared within the app",
+          "Location data and IP address",
+          "Device information, including model and operating system",
+          "Payment and transaction records for WeChat Pay users"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "WeChat uses collected data to provide services, personalize content, and comply with local regulations.",
+        "points": [
+          "To enable messaging and social networking features",
+          "To comply with government regulations and censorship policies",
+          "To improve advertising targeting and user experience",
+          "For security and fraud prevention purposes"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for WeChat requires providing a phone number and agreeing to extensive data collection terms.",
+        "points": [
+          "Phone number is required for verification",
+          "Profile information such as name and photo is stored",
+          "Users must agree to data sharing with Tencent's services",
+          "Contacts are automatically synced for better connectivity"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "WeChat employs standard encryption measures but has been criticized for weak privacy protection.",
+        "points": [
+          "Data is encrypted in transit using industry standards",
+          "No end-to-end encryption for regular chats",
+          "Accounts are protected with optional two-step verification",
+          "WeChat Pay has additional security measures for transactions"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "WeChat applies security measures to prevent unauthorized access but has been subject to surveillance concerns.",
+        "points": [
+          "Tencent monitors content to ensure compliance with laws",
+          "WeChat has faced criticism for government surveillance",
+          "Limited transparency regarding data breach responses"
+        ]
+      },
+      {
+        "type": "How does WeChat handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "WeChat complies with Chinese government data requests and content regulations.",
+        "points": [
+          "User data may be shared with authorities upon request",
+          "Content is actively monitored for compliance with local laws",
+          "WeChat does not offer clear transparency reports"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "WeChat uses AI for content moderation, facial recognition, and personalized advertising.",
+        "points": [
+          "AI detects and filters sensitive content in chats",
+          "Facial recognition features available in some regions",
+          "Personalized ads based on user interactions and preferences"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "WeChat likely uses aggregated user data to improve AI services but provides little transparency.",
+        "points": [
+          "Content and interactions are analyzed for AI improvements",
+          "User data contributes to machine learning algorithms",
+          "No clear opt-out options for data usage in AI training"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI is used to tailor content, recommend friends, and improve search suggestions in WeChat.",
+        "points": [
+          "Personalized feed based on usage behavior",
+          "AI-powered friend suggestions and targeted advertising",
+          "Search optimization based on previous queries"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their WeChat account through the app, but data retention policies remain unclear.",
+        "points": [
+          "Navigate to Me > Settings > Account Security > Delete Account",
+          "Data deletion requests may take several days to process",
+          "Some data may still be retained due to regulatory compliance"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "WeChat has faced global criticism for censorship, data privacy, and surveillance concerns.",
+        "points": [
+          "Messages have been found to be monitored and censored",
+          "Allegations of data sharing with Chinese authorities",
+          "Data retention policies remain opaque and unclear"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can enhance their privacy and security on WeChat by limiting data exposure and adjusting settings.",
+        "points": [
+          "Disable location sharing and limit app permissions",
+          "Regularly review and delete chat history",
+          "Avoid sharing sensitive data via WeChat",
+          "Use a secondary number for additional privacy"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clubhouse",
+    "website": "https://www.clubhouse.com",
+    "rating": 3.2,
+    "slug": "clubhouse",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/42/Clubhouse_logo.png",
+    "icon_class": "fas fa-headphones",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://privacy.clubhouse.com/"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://clubhouse.com/terms"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://support.clubhouse.com/hc/en-us/articles/1500001088661-How-to-delete-your-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Clubhouse collects a variety of data to facilitate audio interactions and improve services.",
+        "points": [
+          "Personal information (name, email, phone number)",
+          "Contact list if permission is granted",
+          "Usage data including session duration and interactions",
+          "Audio recordings (temporarily stored for moderation purposes)",
+          "Device information and location (if enabled)"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Clubhouse uses data to provide social networking features and enhance platform performance.",
+        "points": [
+          "To facilitate audio conversations and recommendations",
+          "To improve moderation and safety features",
+          "To personalize content and notifications",
+          "Data may be shared with third-party analytics providers"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up requires phone number verification and personal information input.",
+        "points": [
+          "Phone number verification is mandatory",
+          "Optional social media linking for enhanced networking",
+          "Contact list access is requested for friend suggestions",
+          "Profile data is publicly visible by default"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Clubhouse employs encryption and account verification for security, but vulnerabilities have been identified.",
+        "points": [
+          "Data transmission is encrypted using HTTPS",
+          "Basic authentication with phone number verification",
+          "Past concerns include unencrypted audio traffic",
+          "No end-to-end encryption for audio conversations"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Clubhouse implements security measures to protect user data, but has faced scrutiny over past leaks.",
+        "points": [
+          "Moderation tools to prevent unauthorized account access",
+          "Security patches to fix vulnerabilities",
+          "Past incidents of unauthorized data scraping"
+        ]
+      },
+      {
+        "type": "How does Clubhouse handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Clubhouse may comply with legal requests for user data and provides limited transparency.",
+        "points": [
+          "Complies with applicable laws for data disclosure",
+          "Limited transparency about data sharing with authorities",
+          "User data may be stored on third-party cloud providers"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Clubhouse uses AI for content moderation and recommendations.",
+        "points": [
+          "AI is used to detect inappropriate content",
+          "Recommendations are based on user behavior",
+          "Automated moderation flags potentially harmful content"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Clubhouse may use anonymized data to enhance AI models for content moderation.",
+        "points": [
+          "User activity data informs AI-driven suggestions",
+          "Aggregated data is used for trend analysis",
+          "No explicit opt-out option for AI training"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI helps Clubhouse recommend rooms, clubs, and topics based on user preferences.",
+        "points": [
+          "AI suggests rooms based on interests and interactions",
+          "Personalized notifications for trending discussions",
+          "Speech recognition AI improves content discovery"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request data deletion through the app settings or support center.",
+        "points": [
+          "Go to Settings > Privacy > Delete Account",
+          "Some data may persist in backups for a period",
+          "Manual deletion requests may take several days"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Clubhouse has faced concerns regarding audio data privacy and data scraping vulnerabilities.",
+        "points": [
+          "Past incidents of audio data leaks",
+          "Privacy concerns due to recording features",
+          "Criticism over contact list access requirements"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take steps to secure their privacy by adjusting settings and limiting data exposure.",
+        "points": [
+          "Disable contact list access for better privacy",
+          "Regularly review privacy settings and permissions",
+          "Avoid sharing sensitive information in public rooms",
+          "Use a strong password for added account security"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Google Drive",
+    "website": "https://www.google.com/drive/",
+    "rating": 4.3,
+    "slug": "google-drive",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png",
+    "icon_class": "fab fa-google-drive",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://policies.google.com/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.google.com/drive/terms-of-service/"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://support.google.com/accounts/answer/61177?hl=en"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Google Drive collects and stores a wide range of personal and usage data for service functionality and improvement.",
+        "points": [
+          "Uploaded files and folder structure",
+          "Metadata such as file names, timestamps, and sharing settings",
+          "Device and location information",
+          "Google account data linked to the Drive usage"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Google Drive uses collected data to provide cloud storage, enable collaboration, and enhance user experience.",
+        "points": [
+          "Data is used to sync files across devices",
+          "Google scans content for policy compliance and personalized services",
+          "Files may be analyzed for malware and spam detection",
+          "User interactions help improve Google’s AI features"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Google Drive requires a Google account and agreement to Google's privacy and terms policies.",
+        "points": [
+          "Google account credentials are required",
+          "Data from other Google services is linked",
+          "Files are automatically backed up and synced",
+          "Your Drive usage may influence Google recommendations"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Google Drive employs industry-standard security measures to protect user data.",
+        "points": [
+          "Data is encrypted in transit and at rest",
+          "Two-factor authentication (2FA) is supported",
+          "Advanced threat detection for suspicious activity",
+          "Zero Trust security model for internal processes"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Google Drive continuously monitors for potential security threats and employs advanced safeguards.",
+        "points": [
+          "Regular security audits and vulnerability assessments",
+          "Google's global infrastructure enhances security",
+          "Account recovery options in case of unauthorized access"
+        ]
+      },
+      {
+        "type": "How does Google Drive handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Google complies with government data requests while attempting to protect user privacy where possible.",
+        "points": [
+          "Requests are reviewed and handled per legal requirements",
+          "Users are notified of requests when permitted",
+          "Google provides transparency reports detailing requests"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Google Drive uses AI for smart search, document suggestions, and file organization.",
+        "points": [
+          "AI-based search to find content quickly",
+          "Smart suggestions based on frequently accessed files",
+          "Automatic categorization of content for easy retrieval"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Google may use aggregated data to improve its AI features but does not use private file content for external AI training.",
+        "points": [
+          "Aggregated metadata helps improve Google AI services",
+          "Personal files remain private and not used in AI training",
+          "AI features provide smart organization and insights"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Google Drive personalizes the user experience by suggesting relevant files and organizing content automatically.",
+        "points": [
+          "Frequent files appear on top of search results",
+          "Smart labels help organize data efficiently",
+          "AI-powered reminders for pending document actions"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Google Drive data manually or through account settings.",
+        "points": [
+          "Delete files via the web or mobile app",
+          "Permanently delete from the Trash folder",
+          "Account deletion will remove all Drive data"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Google Drive has faced criticism for scanning content and potential data sharing with third-party integrations.",
+        "points": [
+          "Google scans content to enforce policies and personalize ads",
+          "Concerns about data retention even after deletion",
+          "Potential data sharing with third-party app integrations"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can enhance their security by enabling privacy settings and reviewing sharing permissions.",
+        "points": [
+          "Enable two-factor authentication (2FA) for added security",
+          "Review shared files and remove unnecessary permissions",
+          "Use strong passwords and enable security notifications",
+          "Regularly clean up old or unnecessary files"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Evernote",
+    "website": "https://www.evernote.com",
+    "rating": 3.9,
+    "slug": "evernote",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Evernote_logo.png",
+    "icon_class": "fas fa-sticky-note",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://evernote.com/privacy/policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://evernote.com/legal/terms-of-service"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.evernote.com/hc/en-us/articles/208313128-How-to-deactivate-or-close-your-Evernote-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Evernote collects personal data and user-generated content to provide note-taking and organizational features.",
+        "points": [
+          "User-provided content such as notes, images, and attachments",
+          "Account information including email and password",
+          "Device data, IP address, and browser type",
+          "Usage statistics to improve services"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Evernote uses collected data to provide, personalize, and improve the service.",
+        "points": [
+          "To sync notes across devices",
+          "To provide search functionality with AI-based indexing",
+          "To analyze feature usage and improve services",
+          "To comply with legal requirements"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up requires personal details and acceptance of data policies.",
+        "points": [
+          "You need to provide an email and password",
+          "Your data will be synced across devices",
+          "Evernote may collect metadata from your interactions",
+          "Personalized recommendations may be enabled"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Evernote applies encryption and authentication mechanisms to safeguard user data.",
+        "points": [
+          "Data is encrypted in transit and at rest",
+          "Two-step verification is available for accounts",
+          "Regular security audits are conducted",
+          "Limited access controls for internal employees"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Evernote implements strict security policies but has faced past vulnerabilities.",
+        "points": [
+          "Advanced encryption is used to prevent unauthorized access",
+          "Security patches are regularly updated",
+          "User notifications are provided in case of breaches"
+        ]
+      },
+      {
+        "type": "How does Evernote handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Evernote complies with valid legal requests and aims to protect user privacy where possible.",
+        "points": [
+          "Government requests are reviewed for legal compliance",
+          "Users may be notified when permitted",
+          "Transparency reports provide an overview of requests"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Evernote uses AI to enhance search functionality and content recommendations.",
+        "points": [
+          "Optical Character Recognition (OCR) for image search",
+          "Contextual recommendations based on note content",
+          "Smart categorization and tagging features"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Evernote may use anonymized data to improve AI algorithms but does not sell user content.",
+        "points": [
+          "Content is analyzed to improve AI-driven suggestions",
+          "Aggregated insights contribute to search performance",
+          "Users can opt out of some personalized features"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Evernote uses AI to suggest tags, related notes, and optimize search results.",
+        "points": [
+          "Suggested tags based on note content",
+          "Smart search results with priority ranking",
+          "Personalized templates for improved workflow"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Evernote account and request data deletion via support.",
+        "points": [
+          "Deactivate account from the settings menu",
+          "Request permanent deletion via customer support",
+          "Export notes before deleting for backup purposes"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Evernote has faced privacy concerns due to past policy changes regarding data access.",
+        "points": [
+          "2016 policy changes allowed staff to access content, later revoked",
+          "Concerns about data residency and cloud storage security",
+          "Users have raised issues regarding third-party app integrations"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take proactive steps to enhance privacy and security on Evernote.",
+        "points": [
+          "Enable two-step verification for additional security",
+          "Use strong passwords and change them regularly",
+          "Limit third-party integrations with your Evernote account",
+          "Review permissions granted to connected apps"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "iCloud",
+    "website": "https://www.icloud.com",
+    "rating": 4.2,
+    "slug": "icloud",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_iCloud_logo.png",
+    "icon_class": "fab fa-apple",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.apple.com/legal/privacy/en-ww/"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.apple.com/legal/internet-services/icloud/"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://support.apple.com/en-us/HT208504"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "iCloud collects user data to provide seamless synchronization and cloud storage services across Apple devices.",
+        "points": [
+          "Personal information (Apple ID, name, email, phone number)",
+          "Stored files, photos, and backups",
+          "Device information and usage analytics",
+          "Location data if Find My iPhone is enabled"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "iCloud uses collected data to provide cloud storage, backup services, and integration across Apple devices.",
+        "points": [
+          "Data is used to sync files across Apple devices",
+          "Backup data for easy recovery",
+          "Enhancing user experience with AI-driven features like photo recognition",
+          "Ensuring account security and fraud prevention"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for iCloud requires an Apple ID and agreement to Apple's privacy policies.",
+        "points": [
+          "Users must create or log in with an Apple ID",
+          "Initial free 5GB of cloud storage is provided",
+          "Data begins syncing across linked devices automatically",
+          "Users can opt-in for additional features like Find My iPhone"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "iCloud uses advanced encryption and security features to protect user data.",
+        "points": [
+          "End-to-end encryption for iMessages and Health data",
+          "Two-factor authentication (2FA) for added security",
+          "Data encrypted in transit and at rest",
+          "Apple’s Secure Enclave for storing sensitive credentials"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Apple implements strong security protocols to prevent unauthorized access to iCloud data.",
+        "points": [
+          "Frequent security updates and patches",
+          "Strict internal access policies",
+          "Incident response measures for potential threats",
+          "Users notified of suspicious account activity"
+        ]
+      },
+      {
+        "type": "How does iCloud handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Apple complies with legal requests while advocating for user privacy and transparency.",
+        "points": [
+          "Apple reviews all legal requests carefully",
+          "User notification is provided where legally permissible",
+          "Transparency reports outline data request frequency",
+          "iCloud content requests require proper legal processes"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Apple integrates AI in iCloud to enhance functionality and provide intelligent recommendations.",
+        "points": [
+          "AI powers automatic organization in Photos app",
+          "Siri suggestions based on cloud-stored data",
+          "AI-driven document and file search capabilities"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Apple emphasizes on-device intelligence and ensures minimal data exposure for AI training.",
+        "points": [
+          "Data is processed on-device whenever possible",
+          "Aggregated, anonymized data may be used to improve services",
+          "No direct access to personal content for AI model training"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI enhances iCloud features by organizing files and providing personalized recommendations.",
+        "points": [
+          "Automatic tagging and categorization of photos",
+          "Smart suggestions in documents and notes",
+          "Personalized cloud storage recommendations"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their iCloud data or account through Apple account settings.",
+        "points": [
+          "Navigate to Settings > Apple ID > iCloud > Manage Storage",
+          "Delete individual files or entire backups",
+          "Request account deletion through Apple's Data & Privacy portal"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "iCloud has faced security incidents and privacy concerns regarding government access requests.",
+        "points": [
+          "2014 iCloud celebrity photo leaks raised security concerns",
+          "Apple's compliance with legal data requests has been questioned",
+          "Increased encryption features implemented after public scrutiny"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take additional steps to enhance their privacy and security when using iCloud.",
+        "points": [
+          "Enable two-factor authentication (2FA) for added protection",
+          "Regularly review and remove unnecessary stored data",
+          "Turn off iCloud sync for sensitive data if not needed",
+          "Use a strong Apple ID password and monitor login activity"
+        ]
+      }
+    ]
   }
 ]
