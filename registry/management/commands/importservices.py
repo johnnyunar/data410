@@ -135,10 +135,7 @@ class Command(BaseCommand):
             return
 
         # Ensure related objects exist
-        info_type, _ = ServiceInfoType.objects.get_or_create(
-            name=type_name,
-            defaults={"icon_class": icon_class},
-        )
+        info_type, _ = ServiceInfoType.objects.get_or_create(name=type_name)
         if icon_class and info_type.icon_class != icon_class:
             info_type.icon_class = icon_class
             info_type.save()
