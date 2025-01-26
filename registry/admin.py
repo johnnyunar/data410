@@ -1,6 +1,7 @@
 from adminsortable2.admin import SortableAdminMixin
 from django.contrib import admin
 from django.forms import IntegerField
+from django.utils.translation import gettext_lazy as _
 from unfold.admin import TabularInline, ModelAdmin
 from unfold.forms import ActionForm
 from unfold.widgets import UnfoldAdminIntegerFieldWidget
@@ -56,7 +57,8 @@ class ServiceAdmin(ModelAdmin):
         "name",
         "website",
         "rating",
-        "created_at",
+        "icon_class",
+        "has_image",
         "updated_at",
         "is_active",
     )
@@ -64,6 +66,10 @@ class ServiceAdmin(ModelAdmin):
     ordering = ("name",)
     inlines = [ServiceURLInline, ServiceInfoInline]
     prepopulated_fields = {"slug": ("name",)}
+
+    @admin.display(boolean=True, description=_("Has Image"))
+    def has_image(self, obj):
+        return bool(obj.image)
 
 
 @admin.register(ServiceURL)
@@ -76,7 +82,7 @@ class ServiceURLAdmin(ModelAdmin):
 
 @admin.register(ServiceInfoType)
 class ServiceInfoTypeAdmin(ModelAdmin):
-    list_display = ("name", "created_at", "updated_at")
+    list_display = ("name", "icon_class", "updated_at")
     search_fields = ("name",)
     ordering = ("name",)
 
