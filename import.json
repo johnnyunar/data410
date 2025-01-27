@@ -1743,143 +1743,6 @@
     ]
   },
   {
-    "name": "Gemini",
-    "website": "https://www.gemini.com",
-    "slug": "gemini",
-    "rating": 4.6,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gemini_Crypto_Logo.svg/512px-Gemini_Crypto_Logo.svg.png",
-    "icon_class": "fab fa-gem",
-    "service_urls": [
-      {
-        "url_type": "Privacy Policy",
-        "url": "https://www.gemini.com/privacy-policy"
-      },
-      {
-        "url_type": "Terms of Use",
-        "url": "https://www.gemini.com/legal/terms-of-service"
-      },
-      {
-        "url_type": "Security Practices",
-        "url": "https://www.gemini.com/security"
-      },
-      {
-        "url_type": "Support",
-        "url": "https://support.gemini.com/"
-      }
-    ],
-    "service_infos": [
-      {
-        "type": "What happens when I sign up?",
-        "category": "Privacy",
-        "description": "When you sign up for Gemini, the platform collects personal information such as your name, email address, phone number, and identity verification documents. This data is required to comply with financial regulations.",
-        "points": [
-          "Personal data is used to create and verify your account.",
-          "Identity documents are stored to meet compliance requirements.",
-          "Usage data is collected for fraud prevention and service improvement."
-        ]
-      },
-      {
-        "type": "What data are collected?",
-        "category": "Privacy",
-        "description": "Gemini collects personal information, transaction details, and device information to provide a secure cryptocurrency trading experience.",
-        "points": [
-          "Identity information: name, address, and government-issued ID.",
-          "Financial data: transaction history and linked payment methods.",
-          "Technical data: IP address, browser type, and device details."
-        ]
-      },
-      {
-        "type": "How are my data used?",
-        "category": "Privacy",
-        "description": "Your data is used to operate your account, comply with legal obligations, and enhance security. Gemini does not sell personal information to third parties.",
-        "points": [
-          "Data is used for account verification and compliance.",
-          "Transaction details are used to process trades securely.",
-          "Anonymized data may be used for analytics and insights."
-        ]
-      },
-      {
-        "type": "How can I delete my data?",
-        "category": "Privacy",
-        "description": "To delete your data, contact Gemini’s support team and submit a formal data deletion request. Certain data may be retained for regulatory purposes.",
-        "points": [
-          "Submit a request via the support page: https://support.gemini.com/",
-          "Understand that regulatory data may not be deletable.",
-          "Review your account settings to limit data sharing."
-        ]
-      },
-      {
-        "type": "Does this service use AI?",
-        "category": "AI",
-        "description": "Gemini uses AI for fraud detection and transaction monitoring to ensure platform security and compliance.",
-        "points": [
-          "AI algorithms monitor transactions for suspicious activity.",
-          "Fraud detection systems use AI to identify potential threats.",
-          "Data is analyzed in real time to prevent security breaches."
-        ]
-      },
-      {
-        "type": "Is my data used to train AI?",
-        "category": "AI",
-        "description": "Gemini does not explicitly use customer data to train AI models. AI usage is focused on operational security and fraud detection.",
-        "points": [
-          "AI systems operate on encrypted and anonymized data.",
-          "User-specific data is not shared externally for AI training.",
-          "AI focuses on real-time transaction and behavior analysis."
-        ]
-      },
-      {
-        "type": "What AI methods are used?",
-        "category": "AI",
-        "description": "Gemini employs machine learning and anomaly detection to ensure a secure trading environment and regulatory compliance.",
-        "points": [
-          "Machine learning is used to identify fraud patterns.",
-          "Anomaly detection helps flag unusual account activity.",
-          "AI-powered tools enhance user account protection."
-        ]
-      },
-      {
-        "type": "Are my data secure?",
-        "category": "Security",
-        "description": "Gemini follows industry-leading security practices, including encryption, multi-factor authentication, and cold storage for digital assets.",
-        "points": [
-          "Data in transit and at rest is encrypted.",
-          "Cold storage protects the majority of digital assets.",
-          "Access controls and MFA secure user accounts."
-        ]
-      },
-      {
-        "type": "What security standards does this service use?",
-        "category": "Security",
-        "description": "Gemini adheres to strict security standards, including SOC 2 compliance, to safeguard user data and assets.",
-        "points": [
-          "SOC 2 certification ensures data handling integrity.",
-          "Regular security audits verify compliance.",
-          "Infrastructure is designed to resist cyber threats."
-        ]
-      },
-      {
-        "type": "How does the service handle breaches?",
-        "category": "Security",
-        "description": "Gemini has a robust incident response plan to address breaches, notify affected users, and take corrective actions.",
-        "points": [
-          "Affected users are promptly notified of breaches.",
-          "Actions are taken to secure compromised data.",
-          "Post-incident reviews strengthen security policies."
-        ]
-      },
-      {
-        "type": "How to protect myself?",
-        "description": "To use Gemini securely, enable all available account security features, such as multi-factor authentication (MFA), and monitor your account for unusual activity.",
-        "points": [
-          "Use strong, unique passwords for your account.",
-          "Enable MFA to secure account access.",
-          "Regularly review transaction history for unauthorized activity."
-        ]
-      }
-    ]
-  },
-  {
     "name": "Creative Cloud",
     "website": "https://www.adobe.com/creativecloud.html",
     "slug": "creative-cloud",
@@ -5432,6 +5295,2438 @@
           "Regularly review and remove unnecessary stored data",
           "Turn off iCloud sync for sensitive data if not needed",
           "Use a strong Apple ID password and monitor login activity"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Zoho",
+    "website": "https://www.zoho.com",
+    "rating": 4.1,
+    "slug": "zoho",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Zoho-logo.svg",
+    "icon_class": "fas fa-briefcase",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.zoho.com/privacy.html"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.zoho.com/terms.html"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://www.zoho.com/privacy.html#data-subject-rights"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Zoho collects data to provide a variety of business solutions, including customer relationship management and cloud services.",
+        "points": [
+          "Personal information (name, email, phone number)",
+          "Business data related to CRM, emails, and stored files",
+          "Location data based on user interactions",
+          "Usage analytics and logs for service improvement"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Zoho uses collected data to offer services, enhance user experience, and comply with regulations.",
+        "points": [
+          "Data is used to provide cloud-based productivity tools",
+          "Used for account management and security monitoring",
+          "Personalized services based on feature usage",
+          "Data is not sold to third parties"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Zoho requires creating an account and agreeing to their privacy and service policies.",
+        "points": [
+          "Users must provide personal details such as email and phone",
+          "Option to connect to third-party integrations",
+          "Data may be shared across Zoho's suite of apps",
+          "Privacy settings can be customized upon sign-up"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Zoho employs industry-standard security measures to safeguard customer data and services.",
+        "points": [
+          "Data encryption both in transit and at rest",
+          "Multi-factor authentication (MFA) support",
+          "ISO 27001 certified for information security",
+          "Strict internal access control policies"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Zoho has robust security measures to prevent unauthorized access and data breaches.",
+        "points": [
+          "Proactive monitoring of potential security threats",
+          "Regular security audits and penetration testing",
+          "Incident response measures in place"
+        ]
+      },
+      {
+        "type": "How does Zoho handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Zoho follows legal procedures when responding to government requests and maintains transparency.",
+        "points": [
+          "Strict review process for government data requests",
+          "Users are notified whenever legally permitted",
+          "Data is disclosed only when legally required"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Zoho leverages AI to provide intelligent automation and analytics for businesses.",
+        "points": [
+          "AI-powered insights for sales and marketing",
+          "Automated customer support responses",
+          "Smart predictions and forecasting tools"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Zoho primarily uses anonymized data to improve AI models and enhance user experience.",
+        "points": [
+          "Aggregated data is used to refine AI suggestions",
+          "Customer-specific data remains protected",
+          "Users can opt out of AI-driven personalization"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Zoho uses AI to offer smart recommendations and automate repetitive tasks.",
+        "points": [
+          "Smart email categorization and reminders",
+          "Personalized dashboard insights based on activity",
+          "Task automation to reduce manual effort"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request deletion of their data via the privacy settings or by contacting support.",
+        "points": [
+          "Navigate to Account Settings > Privacy Controls",
+          "Request data deletion via the Zoho support portal",
+          "Account deletion may take several days to process"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Zoho has maintained a strong privacy stance, with no major data breaches reported.",
+        "points": [
+          "Zoho avoids selling user data to third parties",
+          "Occasional concerns about third-party integrations",
+          "No known significant data leaks in recent years"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take steps to enhance their Zoho account security through various settings and best practices.",
+        "points": [
+          "Enable multi-factor authentication for enhanced security",
+          "Regularly review and update connected app permissions",
+          "Set up strong, unique passwords for Zoho services",
+          "Monitor activity logs for suspicious login attempts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Asana",
+    "website": "https://www.asana.com",
+    "rating": 4.5,
+    "slug": "asana",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Asana_logo.svg",
+    "icon_class": "fas fa-tasks",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://asana.com/terms#privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://asana.com/terms"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://asana.com/guide/help/premium/data-control"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Asana collects data to provide collaborative project management features and improve its services.",
+        "points": [
+          "Personal information (name, email, profile picture)",
+          "Project-related data, including tasks, comments, and attachments",
+          "Usage statistics and activity logs",
+          "Device information, including IP address and browser type"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Asana uses collected data to provide and improve task management features and personalized experiences.",
+        "points": [
+          "Data is used to facilitate project collaboration",
+          "Used to personalize notifications and recommendations",
+          "Aggregated data is analyzed to enhance platform performance",
+          "Data may be shared with integrated third-party apps"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up requires basic personal information and acceptance of terms and privacy policy.",
+        "points": [
+          "Users need to provide a valid email address",
+          "Teams and projects are created and managed within Asana",
+          "Asana may track user interactions for service improvements",
+          "Optional integrations with third-party services available"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Asana applies strict security measures to protect user data and prevent unauthorized access.",
+        "points": [
+          "Data is encrypted at rest and in transit",
+          "Role-based access controls for enhanced security",
+          "Regular security audits and compliance with standards",
+          "Multi-factor authentication available for added protection"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Asana employs a range of security practices to prevent data breaches and ensure account safety.",
+        "points": [
+          "Regular security testing and vulnerability patching",
+          "Strict data access controls for employees",
+          "Incident response plans in place for potential breaches",
+          "User alerts for suspicious activity on their accounts"
+        ]
+      },
+      {
+        "type": "How does Asana handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Asana handles government requests following legal procedures while protecting user privacy.",
+        "points": [
+          "All requests are reviewed to ensure legal compliance",
+          "Users are notified if permitted by law",
+          "Detailed transparency reports are published periodically",
+          "Only the necessary data is disclosed when required"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Asana uses AI to improve task automation, project insights, and workflow optimization.",
+        "points": [
+          "AI-powered task prioritization and recommendations",
+          "Smart deadline suggestions based on project history",
+          "Automatic tag and categorization features"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Asana uses aggregated and anonymized data to enhance its AI capabilities.",
+        "points": [
+          "Aggregated data helps train AI features",
+          "Personal information is not shared with third parties for AI purposes",
+          "Users can opt-out of certain AI-based features"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI in Asana helps personalize user experience by suggesting actions and organizing tasks effectively.",
+        "points": [
+          "Personalized task suggestions based on work patterns",
+          "AI-driven project insights for better planning",
+          "Automated workflow adjustments based on user behavior"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request to delete their Asana data through account settings or support.",
+        "points": [
+          "Navigate to Account Settings > Data Control",
+          "Request permanent deletion through Asana support",
+          "Deleted data may take time to be fully removed"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Asana has not experienced major privacy scandals, but users should be cautious with shared content.",
+        "points": [
+          "Concerns raised about integration data sharing",
+          "No significant breaches reported in recent years",
+          "User-controlled privacy settings recommended for sensitive data"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can enhance their security and privacy by configuring account settings properly.",
+        "points": [
+          "Enable multi-factor authentication for stronger security",
+          "Limit shared project visibility to trusted collaborators",
+          "Regularly review account activity logs",
+          "Use strong, unique passwords for Asana login"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trello",
+    "website": "https://www.trello.com",
+    "rating": 4.4,
+    "slug": "trello",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trello-logo-blue.svg",
+    "icon_class": "fas fa-columns",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.atlassian.com/legal/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.atlassian.com/legal/cloud-terms-of-service"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.trello.com/article/742-deleting-your-trello-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Trello collects personal and project-related data to provide collaboration and organizational tools.",
+        "points": [
+          "User profile details (name, email, profile picture)",
+          "Boards, cards, and attachments created by users",
+          "Device and location data when accessing Trello",
+          "Usage patterns and analytics to improve services"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Trello uses collected data to provide task management features and personalized experiences.",
+        "points": [
+          "To facilitate project collaboration and task organization",
+          "To improve platform performance and security",
+          "Data may be used to suggest relevant templates and features",
+          "Integration with Atlassian services for enhanced productivity"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Trello requires creating an Atlassian account and accepting privacy policies.",
+        "points": [
+          "Users need to provide an email and create a password",
+          "Trello account is linked to Atlassian services",
+          "Data starts syncing across devices upon login",
+          "Users can customize board privacy settings"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Trello employs various security measures to protect user data from unauthorized access.",
+        "points": [
+          "Data encryption both in transit and at rest",
+          "Two-factor authentication (2FA) support",
+          "Regular vulnerability testing and security patches",
+          "Access controls to prevent unauthorized changes"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Trello has security measures in place to detect and prevent data breaches.",
+        "points": [
+          "Continuous monitoring for suspicious activities",
+          "Regular penetration testing to identify vulnerabilities",
+          "Prompt response to security incidents",
+          "Option to review access logs for suspicious activity"
+        ]
+      },
+      {
+        "type": "How does Trello handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Trello complies with government data requests in accordance with Atlassian's legal policies.",
+        "points": [
+          "Requests are reviewed to ensure compliance with legal requirements",
+          "Users are notified when permitted by law",
+          "Trello publishes transparency reports periodically",
+          "Data is provided only when legally required"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Trello integrates AI to suggest actions and streamline task management.",
+        "points": [
+          "Automated task recommendations based on past behavior",
+          "Smart checklists and automated board suggestions",
+          "AI-driven reminders for overdue tasks"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Trello may use anonymized and aggregated data to enhance AI capabilities.",
+        "points": [
+          "Aggregated data helps improve AI-driven recommendations",
+          "User content is not directly used for AI training",
+          "Users can control data sharing preferences in settings"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI in Trello provides smart insights and task recommendations based on usage patterns.",
+        "points": [
+          "Personalized board suggestions based on user behavior",
+          "Smart labels and categorization for improved organization",
+          "AI-powered automation for recurring tasks"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Trello data or entire account through Atlassian account settings.",
+        "points": [
+          "Go to Atlassian account settings to delete the account",
+          "Manually delete boards and cards within Trello",
+          "Data deletion requests can be made to Trello support"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Trello has faced minor privacy concerns related to shared board visibility and public access settings.",
+        "points": [
+          "Concerns over public board settings exposing sensitive data",
+          "Increased security settings introduced after feedback",
+          "Users are advised to regularly review board privacy settings"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can enhance their security on Trello by following best practices.",
+        "points": [
+          "Enable two-factor authentication for added security",
+          "Regularly audit board privacy settings",
+          "Limit integrations with third-party apps",
+          "Use strong, unique passwords for Trello and Atlassian accounts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monday.com",
+    "website": "https://www.monday.com",
+    "rating": 4.3,
+    "slug": "monday-com",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Monday.com_logo.svg",
+    "icon_class": "fas fa-calendar-alt",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://monday.com/l/privacy-policy/"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://monday.com/l/terms-of-service/"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://support.monday.com/hc/en-us/articles/360003666039-How-to-delete-your-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Monday.com collects user data to provide and enhance work management features.",
+        "points": [
+          "Personal details such as name, email, and profile information",
+          "Project and task details created by the user",
+          "Usage data including activity logs and interaction with the platform",
+          "Device and browser information for performance analysis"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Monday.com utilizes collected data to optimize team collaboration and workflow efficiency.",
+        "points": [
+          "To provide and improve task and project management features",
+          "To personalize user experience and provide tailored recommendations",
+          "To ensure security and compliance with regulatory standards",
+          "To analyze platform performance and fix potential issues"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Monday.com requires providing personal details and agreeing to its privacy policies.",
+        "points": [
+          "An email address and password are required",
+          "Users can invite team members and create workspaces",
+          "Monday.com may analyze initial usage for onboarding purposes",
+          "Account preferences and notification settings can be customized"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Monday.com employs high industry security standards to protect user data.",
+        "points": [
+          "Data encryption at rest and in transit",
+          "ISO 27001 certification for information security management",
+          "Role-based access control to limit data exposure",
+          "Regular security assessments and compliance checks"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Monday.com implements security measures to mitigate risks of data breaches.",
+        "points": [
+          "Continuous monitoring of suspicious activities",
+          "Incident response plans to address security threats",
+          "Automated alerts for unauthorized access attempts",
+          "Frequent software updates and vulnerability patches"
+        ]
+      },
+      {
+        "type": "How does Monday.com handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Monday.com complies with lawful government requests while ensuring user data protection.",
+        "points": [
+          "Legal team reviews all government requests",
+          "Users are notified when permitted by law",
+          "Transparency reports detail request statistics",
+          "Only necessary data is shared when required by law"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Monday.com integrates AI to provide smart workflow automation and insights.",
+        "points": [
+          "AI-based workflow automation for repetitive tasks",
+          "Intelligent reporting and data visualization",
+          "Task prioritization suggestions based on activity"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Monday.com uses aggregated data to improve AI-powered suggestions.",
+        "points": [
+          "Aggregated data is analyzed for performance improvements",
+          "No personal user data is directly used in AI model training",
+          "Users can control AI-powered features in settings"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI in Monday.com provides personalized insights and workflow optimization suggestions.",
+        "points": [
+          "Smart notifications for upcoming deadlines",
+          "Suggested task assignments based on workload",
+          "Data-driven insights to improve project planning"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their data through account settings or by contacting support.",
+        "points": [
+          "Navigate to Account Settings > Delete Account",
+          "Request data deletion through customer support",
+          "Export important data before deletion for backup"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Monday.com has maintained a strong privacy record, with few reported incidents.",
+        "points": [
+          "Users raised concerns about integrations sharing data",
+          "Enhanced security features introduced after privacy feedback",
+          "No major breaches reported in recent years"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can enhance their privacy and security by following best practices on Monday.com.",
+        "points": [
+          "Enable two-factor authentication for additional security",
+          "Regularly review access permissions for team members",
+          "Limit data sharing with external integrations",
+          "Use strong passwords and update them periodically"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slack",
+    "website": "https://slack.com",
+    "rating": 4.4,
+    "slug": "slack",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png",
+    "icon_class": "fab fa-slack",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://slack.com/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://slack.com/terms-of-service"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://slack.com/help/articles/360003491613-Delete-your-Slack-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Slack collects a variety of data to facilitate communication and collaboration within teams.",
+        "points": [
+          "User profile information (name, email, profile picture)",
+          "Messages, files, and uploaded content",
+          "Device and location data for security purposes",
+          "Metadata such as usage patterns and preferences"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Slack uses collected data to provide and improve communication features and ensure platform security.",
+        "points": [
+          "Facilitate messaging and collaboration within workspaces",
+          "Analyze usage data to enhance features",
+          "Provide personalized recommendations and notifications",
+          "Ensure compliance with legal and security requirements"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Slack requires providing personal details and agreeing to the platform's privacy policy.",
+        "points": [
+          "Users must create an account with an email address",
+          "Organizations may invite members to join workspaces",
+          "Slack may collect metadata from interactions",
+          "Data is stored securely and encrypted at rest"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Slack employs high-level security measures to protect user data from unauthorized access.",
+        "points": [
+          "Data encryption in transit and at rest",
+          "ISO 27001 and SOC 2 compliance",
+          "Granular permission controls for workspace administrators",
+          "Regular security audits and vulnerability testing"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Slack employs various security measures to prevent data breaches and protect user content.",
+        "points": [
+          "Real-time monitoring for suspicious activity",
+          "Strict access controls and authentication processes",
+          "Incident response protocols for security events",
+          "Notification of affected users in case of breaches"
+        ]
+      },
+      {
+        "type": "How does Slack handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Slack follows a strict process when responding to government data requests.",
+        "points": [
+          "Requests are reviewed for legal validity",
+          "Users are notified unless prohibited by law",
+          "Transparency reports outline the number of data requests",
+          "Only the necessary data is shared if legally required"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Slack integrates AI features to improve user experience and productivity.",
+        "points": [
+          "Automated message suggestions and smart search",
+          "AI-powered notifications and reminders",
+          "Sentiment analysis for improving workplace communication"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Slack uses anonymized and aggregated data to improve AI functionalities.",
+        "points": [
+          "Aggregated data helps train smart features",
+          "Personal conversations are not directly used",
+          "Users can control AI-driven features in their settings"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI in Slack provides recommendations and smart notifications tailored to user activity.",
+        "points": [
+          "Smart channel suggestions based on interactions",
+          "AI-driven reminders for unread messages",
+          "Personalized recommendations for workspace efficiency"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Slack data and account via the platform settings.",
+        "points": [
+          "Navigate to Account Settings > Delete Account",
+          "Admins can delete workspace content",
+          "Personal messages and files may persist in shared channels"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Slack has faced scrutiny over data retention policies and employer monitoring capabilities.",
+        "points": [
+          "Concerns raised about employer access to messages",
+          "Data retention policies clarified after public feedback",
+          "Increased transparency in data usage policies"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can enhance their privacy and security by following best practices within Slack.",
+        "points": [
+          "Enable two-factor authentication for enhanced security",
+          "Regularly review workspace permissions and settings",
+          "Avoid sharing sensitive information in public channels",
+          "Use encrypted integrations where possible"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "website": "https://www.amazon.com",
+    "rating": 3.8,
+    "slug": "amazon",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "icon_class": "fab fa-amazon",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=508088"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Amazon collects a vast amount of data to enhance shopping experiences and personalize recommendations.",
+        "points": [
+          "Personal information such as name, email, and address",
+          "Purchase history and browsing behavior",
+          "Device identifiers, location data, and payment information",
+          "Interactions with Alexa and other Amazon services"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Amazon uses collected data to personalize recommendations, improve customer service, and optimize operations.",
+        "points": [
+          "Providing tailored product recommendations",
+          "Improving logistics and delivery efficiency",
+          "Targeted advertising and promotional offers",
+          "Enhancing security and fraud detection"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Amazon requires creating an account and agreeing to data collection policies.",
+        "points": [
+          "Users must provide personal information such as name and email",
+          "Purchase history starts being tracked immediately",
+          "Amazon may personalize content based on browsing behavior",
+          "Users can opt for Prime and other additional services"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Amazon implements advanced security measures to protect customer data and transactions.",
+        "points": [
+          "Data encryption at rest and in transit",
+          "Multi-factor authentication (MFA) for account security",
+          "AI-based fraud detection systems",
+          "Compliance with PCI-DSS for payment security"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Amazon employs multiple security strategies to safeguard customer data from breaches.",
+        "points": [
+          "Proactive threat monitoring and mitigation",
+          "Regular security audits and penetration testing",
+          "Strong access controls and encryption measures",
+          "Notification systems for suspicious activities"
+        ]
+      },
+      {
+        "type": "How does Amazon handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Amazon responds to legal requests while striving to protect user privacy.",
+        "points": [
+          "All requests are reviewed for legal compliance",
+          "User notification is provided unless prohibited by law",
+          "Transparency reports detailing data requests are published",
+          "Only required data is disclosed when legally necessary"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Amazon leverages AI to enhance search, recommendations, and operational efficiency.",
+        "points": [
+          "Personalized product recommendations using AI",
+          "Chatbots for customer service support",
+          "AI-based inventory and logistics management"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Amazon uses aggregated customer data to refine and improve AI algorithms.",
+        "points": [
+          "Aggregated data helps improve recommendation engines",
+          "Alexa interactions contribute to AI learning",
+          "Users can manage voice recordings and stored data"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI enhances Amazon's ability to provide tailored shopping experiences and optimize search results.",
+        "points": [
+          "Personalized product suggestions based on browsing habits",
+          "Automated reordering suggestions for frequently purchased items",
+          "AI-driven targeted advertisements and promotions"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Amazon allows users to delete their personal data through account settings and privacy controls.",
+        "points": [
+          "Users can request account deletion via the Help Center",
+          "Purchase history and personal details can be deleted",
+          "Voice recordings with Alexa can be reviewed and erased"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Amazon has faced scrutiny over data retention practices and targeted advertising policies.",
+        "points": [
+          "Concerns raised over voice data collected by Alexa",
+          "Use of browsing data for personalized advertising",
+          "Amazon's data-sharing practices with third-party sellers"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take several steps to enhance their privacy and security on Amazon.",
+        "points": [
+          "Enable multi-factor authentication to secure accounts",
+          "Regularly review and adjust ad personalization settings",
+          "Delete browsing and order history periodically",
+          "Be cautious when sharing payment information with third-party sellers"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "eBay",
+    "website": "https://www.ebay.com",
+    "rating": 3.9,
+    "slug": "ebay",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+    "icon_class": "fab fa-ebay",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice?id=4260"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://www.ebay.com/help/account/changing-account-settings/closing-account?id=4191"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "eBay collects a variety of data to facilitate transactions and improve services.",
+        "points": [
+          "Personal details such as name, email, and address",
+          "Transaction history and payment details",
+          "Browsing behavior and search preferences",
+          "Device and location data for fraud prevention"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "eBay uses collected data to provide personalized shopping experiences and ensure transaction security.",
+        "points": [
+          "Data is used to customize search results and recommendations",
+          "Used for fraud detection and customer support",
+          "Shared with partners for advertising and promotions",
+          "Transaction data is retained for compliance purposes"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for eBay requires providing personal details and agreeing to its terms.",
+        "points": [
+          "Users must provide email, name, and contact information",
+          "Account activity is tracked for security purposes",
+          "Personalized recommendations based on browsing behavior",
+          "Users can connect social accounts for login convenience"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "eBay applies industry-standard security measures to protect user data and transactions.",
+        "points": [
+          "Data encryption for transactions and sensitive information",
+          "Two-step verification for account access",
+          "AI-driven fraud prevention tools",
+          "Continuous monitoring of unusual activities"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "eBay takes proactive measures to prevent data breaches and ensure account security.",
+        "points": [
+          "Regular security audits and compliance checks",
+          "Strict data access controls for employees",
+          "Advanced fraud detection algorithms",
+          "User alerts for suspicious activities"
+        ]
+      },
+      {
+        "type": "How does eBay handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "eBay complies with legal obligations when handling government data requests.",
+        "points": [
+          "Requests are reviewed to ensure legal compliance",
+          "Users are notified if legally permissible",
+          "Transparency reports detail data request volumes",
+          "Only essential data is provided to authorities"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "eBay utilizes AI to enhance search accuracy, fraud detection, and customer experiences.",
+        "points": [
+          "Personalized product recommendations",
+          "AI-driven price suggestions based on market trends",
+          "Automated fraud detection and risk assessment"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "eBay may use anonymized and aggregated user data to train AI models and improve services.",
+        "points": [
+          "Aggregated data helps improve recommendation algorithms",
+          "No personally identifiable data is used for AI training",
+          "Users can adjust personalization preferences in account settings"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI in eBay tailors recommendations and improves search results for better user experience.",
+        "points": [
+          "Smart suggestions based on past purchases",
+          "Automatic alerts for price drops and deals",
+          "Enhanced search functionality with AI-powered filters"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request deletion of their data through eBay account settings.",
+        "points": [
+          "Go to Account Settings > Close Account",
+          "Request personal data deletion through customer support",
+          "Data deletion may take up to 30 days to process"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "eBay has faced concerns regarding data breaches and the resale of customer data by third parties.",
+        "points": [
+          "2014 data breach exposed sensitive user information",
+          "Concerns over third-party seller access to buyer data",
+          "Improved encryption and access controls implemented afterward"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take several steps to enhance their security and privacy while using eBay.",
+        "points": [
+          "Enable two-step verification to protect account access",
+          "Be cautious when sharing personal information with sellers",
+          "Regularly review and update privacy settings",
+          "Use secure payment methods such as PayPal"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PayPal",
+    "website": "https://www.paypal.com",
+    "rating": 4.2,
+    "slug": "paypal",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg",
+    "icon_class": "fab fa-paypal",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.paypal.com/us/webapps/mpp/ua/privacy-full"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.paypal.com/us/webapps/mpp/ua/useragreement-full"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://www.paypal.com/us/webapps/helpcenter/article/?articleID=94060"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "PayPal collects various personal and financial information to facilitate transactions securely.",
+        "points": [
+          "Personal details such as name, email, and phone number",
+          "Bank account and credit card information",
+          "Transaction history and merchant interactions",
+          "Device data, IP address, and location information"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "PayPal uses collected data to process transactions, prevent fraud, and personalize services.",
+        "points": [
+          "Securely processing payments and verifying user identity",
+          "Detecting and preventing fraudulent activity",
+          "Providing customer support and dispute resolution",
+          "Sending promotional offers based on user activity"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for PayPal requires users to provide personal and financial details.",
+        "points": [
+          "Users must link a bank account or credit card to transact",
+          "Identity verification may be required for account approval",
+          "User activity and transactions are monitored for fraud prevention",
+          "Terms of Service and Privacy Policy must be accepted"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "PayPal follows strict security measures to protect financial data and user accounts.",
+        "points": [
+          "Data encryption during transmission and storage",
+          "Compliance with PCI-DSS (Payment Card Industry Data Security Standard)",
+          "Two-factor authentication (2FA) for account access",
+          "AI-driven fraud detection algorithms"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "PayPal implements advanced security measures to prevent unauthorized data access.",
+        "points": [
+          "Continuous monitoring for suspicious activity",
+          "Regular audits and vulnerability testing",
+          "Account recovery mechanisms in case of compromise",
+          "User alerts for unusual login attempts"
+        ]
+      },
+      {
+        "type": "How does PayPal handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "PayPal handles government data requests in compliance with applicable laws.",
+        "points": [
+          "Requests are reviewed for legality before data is shared",
+          "Users are informed unless prohibited by law",
+          "Transparency reports outline the nature of requests",
+          "Only minimal data is provided to authorities when required"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "PayPal uses AI for fraud detection, risk assessment, and personalized recommendations.",
+        "points": [
+          "Real-time fraud detection using machine learning models",
+          "Transaction analysis for suspicious patterns",
+          "Personalized offers based on spending behavior"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "PayPal uses anonymized transaction data to enhance fraud detection and user experience.",
+        "points": [
+          "Aggregated data is analyzed to identify fraud patterns",
+          "No personal data is directly used in AI model training",
+          "Users can adjust data-sharing settings in their accounts"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI in PayPal personalizes recommendations and enhances transaction security.",
+        "points": [
+          "Customized promotions based on purchase behavior",
+          "Automated payment reminders and spending insights",
+          "AI-powered alerts for potential fraudulent activity"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request data deletion or close their account via PayPal settings.",
+        "points": [
+          "Navigate to Account Settings > Close Account",
+          "Submit a data deletion request through customer support",
+          "Some data may be retained for compliance purposes"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "PayPal has faced scrutiny over data-sharing practices with financial institutions.",
+        "points": [
+          "Concerns over third-party sharing for marketing purposes",
+          "Regulatory actions for not clearly disclosing data use",
+          "Users advised to review privacy settings regularly"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can protect themselves by following best security practices for their PayPal accounts.",
+        "points": [
+          "Enable two-factor authentication for added protection",
+          "Avoid logging in on shared or public devices",
+          "Regularly review and update linked payment methods",
+          "Be cautious of phishing emails and fraudulent websites"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stripe",
+    "website": "https://www.stripe.com",
+    "rating": 4.5,
+    "slug": "stripe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Stripe_Logo%2C_revised_2016.png",
+    "icon_class": "fab fa-stripe",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://stripe.com/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://stripe.com/legal/consumer"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://support.stripe.com/questions/how-to-delete-your-stripe-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Stripe collects financial and personal data to facilitate payment processing.",
+        "points": [
+          "Personal details such as name, email, and address",
+          "Payment information including credit card and bank details",
+          "Transaction and purchase history",
+          "Device and browser information for security purposes"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Stripe uses collected data to process payments, prevent fraud, and comply with legal obligations.",
+        "points": [
+          "Facilitating online payments securely",
+          "Detecting and preventing fraudulent transactions",
+          "Providing analytics and business insights to merchants",
+          "Ensuring compliance with financial regulations"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Stripe requires personal and business details depending on the user type.",
+        "points": [
+          "Users must provide identity verification documents",
+          "Payment methods are linked to the Stripe account",
+          "Transaction data is recorded from the first use",
+          "Legal agreements must be accepted during sign-up"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Stripe follows stringent security measures to protect financial data.",
+        "points": [
+          "PCI-DSS Level 1 compliance for secure payment processing",
+          "Encryption of sensitive payment data at rest and in transit",
+          "Role-based access controls and two-factor authentication",
+          "Regular security audits and compliance checks"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Stripe employs proactive measures to prevent data breaches and unauthorized access.",
+        "points": [
+          "24/7 monitoring of transactions and security events",
+          "AI-powered fraud detection systems",
+          "Regular penetration testing and vulnerability scans",
+          "Account notifications for unusual activity"
+        ]
+      },
+      {
+        "type": "How does Stripe handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Stripe complies with government data requests within the bounds of the law.",
+        "points": [
+          "Requests are evaluated for legal validity",
+          "Users are informed if legally permissible",
+          "Minimal necessary data is shared with authorities",
+          "Transparency reports outline request statistics"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Stripe uses AI for fraud detection, risk assessment, and process automation.",
+        "points": [
+          "Real-time fraud detection using machine learning models",
+          "Transaction scoring to detect suspicious behavior",
+          "Personalized analytics for business optimization"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Stripe uses anonymized data to improve fraud prevention and transaction analysis.",
+        "points": [
+          "Aggregated data is analyzed for fraud detection improvements",
+          "Personal data is not directly used to train AI models",
+          "Users cannot opt out of AI-driven fraud protection measures"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI enhances Stripe's capabilities to optimize payments and prevent fraud.",
+        "points": [
+          "AI-driven recommendations for transaction insights",
+          "Fraud risk analysis based on payment patterns",
+          "Customizable fraud detection rules based on AI insights"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Stripe data by closing their account and requesting deletion.",
+        "points": [
+          "Submit a request through the Stripe support portal",
+          "Transaction history is retained for regulatory compliance",
+          "Certain financial records cannot be erased due to legal obligations"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Stripe has maintained a relatively strong privacy record with few reported concerns.",
+        "points": [
+          "Some concerns over data retention policies",
+          "Ensuring compliance with GDPR and CCPA regulations",
+          "Users advised to review linked merchant agreements"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take several steps to ensure their data and transactions remain secure.",
+        "points": [
+          "Enable two-factor authentication for additional security",
+          "Regularly monitor account statements for suspicious activity",
+          "Use secure connections when accessing Stripe services",
+          "Review and limit API access for third-party integrations"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shopify",
+    "website": "https://www.shopify.com",
+    "rating": 4.4,
+    "slug": "shopify",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Shopify_logo_2018.svg",
+    "icon_class": "fab fa-shopify",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.shopify.com/legal/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.shopify.com/legal/terms"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.shopify.com/en/manual/your-account/account-security/remove-your-store"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Shopify collects data to facilitate e-commerce operations and provide analytics for business owners.",
+        "points": [
+          "Personal information such as name, email, and phone number",
+          "Payment details including billing address and credit card information",
+          "Store activity data including transactions and orders",
+          "Device and location information for analytics purposes"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Shopify uses collected data to power e-commerce services and personalize user experiences.",
+        "points": [
+          "To process payments and manage orders",
+          "To analyze store performance and suggest improvements",
+          "To provide customer support and resolve disputes",
+          "For compliance with legal and regulatory requirements"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Shopify requires providing business and personal details to set up an online store.",
+        "points": [
+          "Users must provide their store name, email, and payment method",
+          "Shopify tracks store activities and transactions",
+          "Personalized onboarding based on provided business information",
+          "Compliance agreements must be accepted during sign-up"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Shopify adheres to high security standards to protect store data and customer transactions.",
+        "points": [
+          "PCI-DSS Level 1 compliance for payment security",
+          "Data encryption both in transit and at rest",
+          "Two-factor authentication for store owners",
+          "Regular security audits and penetration testing"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Shopify implements robust security measures to prevent unauthorized access and breaches.",
+        "points": [
+          "Real-time fraud detection using AI algorithms",
+          "Strict access controls and permissions for store owners",
+          "Regular backups to ensure data integrity",
+          "Incident response plans to handle security threats"
+        ]
+      },
+      {
+        "type": "How does Shopify handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Shopify complies with government data requests under applicable laws while ensuring transparency.",
+        "points": [
+          "Requests are reviewed for legal validity",
+          "Users are notified when legally possible",
+          "Transparency reports are published periodically",
+          "Only necessary data is disclosed to authorities"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Shopify leverages AI to optimize store management and improve customer experiences.",
+        "points": [
+          "AI-powered product recommendations",
+          "Automated fraud detection and risk assessment",
+          "Personalized marketing suggestions based on customer data"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Shopify uses aggregated data to enhance AI-driven business insights and fraud prevention.",
+        "points": [
+          "Aggregated transaction data informs AI models",
+          "Personal data is anonymized before being used",
+          "Users have limited control over data-sharing settings"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "AI in Shopify provides store owners with actionable insights to grow their business.",
+        "points": [
+          "Smart product recommendations for upselling",
+          "Predictive analytics to forecast inventory needs",
+          "Personalized email marketing campaigns"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request to delete their Shopify store and associated data via account settings.",
+        "points": [
+          "Navigate to Account Settings > Close Store",
+          "Request data deletion through Shopify support",
+          "Some financial records may be retained for compliance"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Shopify has faced concerns regarding third-party app access to customer data.",
+        "points": [
+          "Concerns raised over app developers accessing store data",
+          "Improved app review processes implemented",
+          "Regular updates to enhance data transparency"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Shopify store owners can take proactive steps to protect their store and customer data.",
+        "points": [
+          "Enable two-factor authentication for secure login",
+          "Regularly review third-party app permissions",
+          "Set up automated fraud detection alerts",
+          "Monitor admin access logs for suspicious activity"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Netflix",
+    "website": "https://www.netflix.com",
+    "rating": 4.2,
+    "slug": "netflix",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "icon_class": "fab fa-netflix",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://help.netflix.com/legal/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://help.netflix.com/legal/termsofuse"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.netflix.com/en/node/100625"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Netflix collects data to enhance content recommendations and improve its services.",
+        "points": [
+          "Personal information such as name, email, and payment details",
+          "Viewing history and content preferences",
+          "Device and connection information",
+          "Interactions with customer support"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Netflix uses collected data to personalize content recommendations and improve user experience.",
+        "points": [
+          "Providing tailored content recommendations",
+          "Targeted marketing based on viewing preferences",
+          "Improving customer support interactions",
+          "Ensuring compliance with legal obligations"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Netflix requires providing personal details and agreeing to terms of service.",
+        "points": [
+          "Users provide payment and personal details to create an account",
+          "Netflix tracks viewing history from the first login",
+          "Personalized recommendations start based on usage",
+          "Users can set up multiple profiles with different preferences"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Netflix employs industry-standard security measures to protect user data.",
+        "points": [
+          "Encryption of sensitive data in transit and at rest",
+          "Multi-factor authentication for enhanced account security",
+          "Regular monitoring for suspicious login activity",
+          "Privacy controls to manage viewing data"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Netflix takes proactive steps to safeguard user data from breaches.",
+        "points": [
+          "Regular security audits and vulnerability assessments",
+          "Strong password enforcement policies",
+          "User notifications in case of suspicious activity",
+          "Support for secure payment methods"
+        ]
+      },
+      {
+        "type": "How does Netflix handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Netflix complies with government data requests while protecting user privacy.",
+        "points": [
+          "Requests are reviewed for legal compliance",
+          "Users are informed when permitted by law",
+          "Minimal data is shared to comply with regulations",
+          "Annual transparency reports are published"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Netflix employs AI to personalize content recommendations and optimize streaming quality.",
+        "points": [
+          "AI analyzes viewing patterns to recommend content",
+          "Adaptive streaming technology to optimize video quality",
+          "Personalized trailers and featured content suggestions"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Netflix uses aggregated data to refine AI algorithms and enhance user experience.",
+        "points": [
+          "Viewing history contributes to recommendation improvements",
+          "Personal data is anonymized before being analyzed",
+          "Users cannot opt out of recommendation-based algorithms"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Netflix AI personalizes the viewing experience through tailored recommendations and adaptive streaming.",
+        "points": [
+          "Customized recommendations based on watch history",
+          "Content suggestions based on regional preferences",
+          "Smart auto-play and content previews"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Netflix account and personal data through account settings.",
+        "points": [
+          "Navigate to Account Settings > Cancel Membership",
+          "Personal data deletion can be requested via support",
+          "Viewing history can be manually cleared in profiles"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Netflix has faced scrutiny regarding data collection for personalized advertising.",
+        "points": [
+          "Concerns over data sharing with third-party advertisers",
+          "Criticism for tracking viewing habits across devices",
+          "Transparency improvements in privacy policies"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take several steps to safeguard their privacy and account security on Netflix.",
+        "points": [
+          "Enable two-factor authentication for better security",
+          "Regularly review and manage connected devices",
+          "Avoid sharing account credentials with others",
+          "Customize profile privacy settings"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Disney+",
+    "website": "https://www.disneyplus.com",
+    "rating": 4.0,
+    "slug": "disney-plus",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg",
+    "icon_class": "fab fa-disney",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.disneyplus.com/legal/privacy-policy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.disneyplus.com/legal/terms-of-use"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.disneyplus.com/csp?id=csp_article_content&article=2719"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Disney+ collects personal and behavioral data to enhance the user experience.",
+        "points": [
+          "Personal information such as name, email, and payment details",
+          "Viewing history and content preferences",
+          "Device and connection data",
+          "Location information and app usage analytics"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Disney+ uses collected data to personalize content recommendations and improve service functionality.",
+        "points": [
+          "Providing personalized content suggestions",
+          "Targeted advertising based on viewing habits",
+          "Enhancing streaming quality through analytics",
+          "Ensuring compliance with legal and regulatory obligations"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Disney+ requires users to provide personal details and payment information.",
+        "points": [
+          "Users must provide a valid email and payment method",
+          "Viewing history begins tracking immediately",
+          "Personalized recommendations are generated based on watch history",
+          "Users can manage their profiles and parental controls"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Disney+ employs industry-standard security measures to protect user accounts and data.",
+        "points": [
+          "End-to-end encryption for data transmission",
+          "Multi-factor authentication (MFA) for enhanced security",
+          "Regular security audits and monitoring",
+          "Compliance with GDPR and CCPA data regulations"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Disney+ has safeguards in place to protect user data from breaches and unauthorized access.",
+        "points": [
+          "Proactive security monitoring and threat detection",
+          "Frequent software updates to mitigate vulnerabilities",
+          "Strict access controls for sensitive information",
+          "Alerts and notifications for suspicious activity"
+        ]
+      },
+      {
+        "type": "How does Disney+ handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Disney+ processes legal data requests in compliance with applicable laws and regulations.",
+        "points": [
+          "Requests are reviewed by legal teams for compliance",
+          "Users are notified when permissible by law",
+          "Only necessary data is provided to authorities",
+          "Transparency reports are published annually"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Disney+ utilizes AI to enhance streaming recommendations and improve content discovery.",
+        "points": [
+          "AI-driven personalized content recommendations",
+          "Adaptive streaming quality optimization",
+          "Behavioral analytics for better user experiences"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Disney+ uses anonymized data to train AI models for content suggestions and analytics.",
+        "points": [
+          "Aggregated viewing data is analyzed to improve recommendations",
+          "Personal details are not used in AI training",
+          "Users cannot opt out of data collection for AI purposes"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Disney+ AI customizes recommendations and enhances the user experience based on preferences.",
+        "points": [
+          "Personalized watchlists based on favorite genres",
+          "Curated suggestions based on viewing history",
+          "Enhanced parental controls and profile-based personalization"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request the deletion of their Disney+ account and associated data through account settings.",
+        "points": [
+          "Go to Account Settings > Delete Account",
+          "Request data deletion through Disney support",
+          "Some data may be retained for regulatory compliance"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Disney+ has faced concerns over tracking user behavior and targeted ads.",
+        "points": [
+          "Reports on extensive data collection practices",
+          "Criticism over sharing data with advertising partners",
+          "Enhancements made to privacy policy disclosures"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can enhance their privacy and security while using Disney+ with these tips.",
+        "points": [
+          "Use strong passwords and enable two-factor authentication",
+          "Limit data sharing through privacy settings",
+          "Regularly review and clear viewing history",
+          "Manage account access and active devices"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hulu",
+    "website": "https://www.hulu.com",
+    "rating": 4.0,
+    "slug": "hulu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hulu_Logo.svg",
+    "icon_class": "fab fa-hulu",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.hulu.com/privacy"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.hulu.com/terms"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.hulu.com/s/article/how-to-delete-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Hulu collects various types of data to improve its content offerings and provide a personalized experience.",
+        "points": [
+          "Personal details such as name, email, and billing information",
+          "Viewing history and content preferences",
+          "Device and browser information",
+          "Advertising preferences and interaction data"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Hulu uses collected data to personalize recommendations, target ads, and improve user experience.",
+        "points": [
+          "Personalized content recommendations",
+          "Targeted advertising based on viewing habits",
+          "Enhancement of content discovery features",
+          "Sharing data with third-party advertising partners"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Hulu requires personal details and agreement to terms of service.",
+        "points": [
+          "Users provide email, payment details, and personal information",
+          "Viewing history tracking starts immediately",
+          "Account personalization based on preferences",
+          "Subscription details are stored for billing purposes"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Hulu implements security measures to protect user data and prevent unauthorized access.",
+        "points": [
+          "Data encryption for secure communication",
+          "Multi-factor authentication for account security",
+          "Regular security audits to ensure compliance",
+          "Secure payment processing for subscriptions"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Hulu uses various security measures to minimize the risk of data breaches.",
+        "points": [
+          "Continuous monitoring for suspicious activities",
+          "Strict access controls to sensitive data",
+          "Frequent security updates and vulnerability patches",
+          "User notifications for suspicious login attempts"
+        ]
+      },
+      {
+        "type": "How does Hulu handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Hulu processes government data requests while ensuring compliance with privacy laws.",
+        "points": [
+          "Legal requests are reviewed before disclosure",
+          "Minimal data is shared to fulfill compliance obligations",
+          "Users are informed about requests when legally allowed",
+          "Transparency reports outline data request trends"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Hulu utilizes AI for content recommendations and ad targeting.",
+        "points": [
+          "AI-driven personalized content suggestions",
+          "Advanced ad placement based on user behavior",
+          "Predictive analytics for content trends",
+          "Real-time video quality adjustments"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Hulu uses anonymized user data to train AI models for better recommendations.",
+        "points": [
+          "Aggregated data is analyzed to refine recommendations",
+          "Personalized suggestions based on anonymized patterns",
+          "Users cannot opt out of AI-driven features"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Hulu's AI customizes the user experience by offering tailored content and ads.",
+        "points": [
+          "Content suggestions based on watch history",
+          "Custom ad placements according to preferences",
+          "Smart user profiles for multi-user households"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can delete their Hulu account and personal data through account settings.",
+        "points": [
+          "Go to Account Settings > Delete Account",
+          "Submit a request for data deletion via customer support",
+          "Some data may be retained for compliance purposes"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Hulu has faced criticism for its data-sharing practices with advertisers.",
+        "points": [
+          "Concerns over tracking users across devices",
+          "Data shared with third-party ad networks",
+          "Changes made to enhance privacy transparency"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take steps to enhance their privacy and security while using Hulu.",
+        "points": [
+          "Use strong passwords and enable two-factor authentication",
+          "Adjust privacy settings to limit data sharing",
+          "Regularly review account activity for suspicious actions",
+          "Clear watch history periodically"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Twitch",
+    "website": "https://www.twitch.tv",
+    "rating": 3.8,
+    "slug": "twitch",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Twitch_logo_2019.svg",
+    "icon_class": "fab fa-twitch",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.twitch.tv/p/legal/privacy-policy/"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.twitch.tv/p/legal/terms-of-service/"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://help.twitch.tv/s/article/deleting-your-twitch-account"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Twitch collects various types of data to provide personalized experiences and targeted ads.",
+        "points": [
+          "Personal information such as name, email, and phone number",
+          "Chat logs and interactions with streamers",
+          "Viewing history and content preferences",
+          "Device information and IP address"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Twitch uses collected data to enhance user experience and for advertising purposes.",
+        "points": [
+          "Personalized recommendations for content and channels",
+          "Targeted ads based on viewing behavior",
+          "Analyzing user engagement to improve services",
+          "Compliance with legal and regulatory requirements"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Twitch requires providing personal information and agreeing to terms of service.",
+        "points": [
+          "Users provide email, username, and optional phone number",
+          "Account preferences are tracked for personalization",
+          "Streaming activity and chat participation are logged",
+          "Twitch may share data with third-party partners"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Twitch implements security measures to protect user accounts and content.",
+        "points": [
+          "Two-factor authentication (2FA) for account protection",
+          "Encrypted transmission of sensitive data",
+          "Regular security audits and threat monitoring",
+          "User privacy settings to control data sharing"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Twitch employs various security measures to prevent data breaches and unauthorized access.",
+        "points": [
+          "Continuous monitoring for suspicious activities",
+          "Frequent security patches to fix vulnerabilities",
+          "Secure login mechanisms to prevent account takeovers",
+          "Incident response plans in case of a breach"
+        ]
+      },
+      {
+        "type": "How does Twitch handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Twitch complies with legal data requests while attempting to protect user privacy.",
+        "points": [
+          "Requests are reviewed by the legal team for compliance",
+          "Users are notified when legally allowed",
+          "Only necessary information is provided to authorities",
+          "Transparency reports are published regularly"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Twitch uses AI for content recommendations, moderation, and advertising.",
+        "points": [
+          "AI-powered content recommendations",
+          "Automated chat moderation for offensive content",
+          "Real-time analytics for stream performance",
+          "Targeted ad delivery based on user activity"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Twitch uses user data to train AI models for content suggestions and moderation.",
+        "points": [
+          "Anonymized chat data is analyzed to improve moderation AI",
+          "Viewing patterns are used to refine recommendation algorithms",
+          "Users cannot opt out of data usage for AI training"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Twitch AI enhances content discovery and interaction suggestions.",
+        "points": [
+          "Recommended streamers based on watch history",
+          "Curated content suggestions based on engagement",
+          "Automated clip highlights from popular streams"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request to delete their Twitch account and associated data via account settings.",
+        "points": [
+          "Go to Account Settings > Delete Account",
+          "Submit a request for data deletion via customer support",
+          "Some data may be retained for legal compliance"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Twitch has faced privacy concerns related to data breaches and ad tracking.",
+        "points": [
+          "A major data breach in 2021 exposed source code and user data",
+          "Concerns over tracking user behavior across platforms",
+          "Increased transparency in recent privacy policy updates"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take proactive steps to protect their Twitch accounts and data.",
+        "points": [
+          "Enable two-factor authentication for login security",
+          "Use strong and unique passwords",
+          "Review connected third-party apps regularly",
+          "Customize privacy settings to limit data exposure"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Apple Music",
+    "website": "https://www.apple.com/apple-music/",
+    "rating": 4.5,
+    "slug": "apple-music",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Apple_Music_icon.svg",
+    "icon_class": "fab fa-apple",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://www.apple.com/legal/privacy/en-ww/"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://www.apple.com/legal/internet-services/itunes/us/terms.html"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://support.apple.com/en-us/HT208504"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "Apple Music collects personal and usage data to improve the user experience and provide recommendations.",
+        "points": [
+          "Personal details such as Apple ID, name, and email",
+          "Music listening history and preferences",
+          "Device and location information",
+          "Interactions with Apple services and third-party integrations"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "Apple Music uses collected data to personalize content and enhance service offerings.",
+        "points": [
+          "Personalized music recommendations based on listening habits",
+          "Improved search results and content suggestions",
+          "Marketing purposes within Apple's ecosystem",
+          "Sharing data with third-party partners for analytics and ads"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "Signing up for Apple Music requires an Apple ID and consent to Apple's privacy policies.",
+        "points": [
+          "Users must sign in with their Apple ID",
+          "Payment method is required for subscription",
+          "Listening preferences are tracked immediately",
+          "Family sharing and multiple profiles can be set up"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "Apple Music follows Apple's high security standards to protect user data.",
+        "points": [
+          "End-to-end encryption of personal data",
+          "Secure access to Apple ID with multi-factor authentication",
+          "Privacy-focused approach with minimal data sharing",
+          "Regular security updates and patches"
+        ]
+      },
+      {
+        "type": "How is my data protected from breaches?",
+        "category": "Security",
+        "icon_class": "fas fa-lock",
+        "description": "Apple Music employs robust security measures to safeguard data from breaches.",
+        "points": [
+          "Strict access controls for user data",
+          "Encrypted storage for sensitive information",
+          "Regular audits to detect potential vulnerabilities",
+          "User notifications in case of unauthorized access"
+        ]
+      },
+      {
+        "type": "How does Apple Music handle government data requests?",
+        "category": "Security",
+        "icon_class": "fas fa-balance-scale",
+        "description": "Apple Music follows Apple's global legal policies when responding to government data requests.",
+        "points": [
+          "Requests are evaluated for legal compliance",
+          "Minimal data is shared as required by law",
+          "Users are notified when possible",
+          "Transparency reports outline government data requests"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "Apple Music uses AI to enhance recommendations and user experience.",
+        "points": [
+          "AI-driven playlists based on listening habits",
+          "Curated content suggestions based on trends",
+          "Enhanced search algorithms using AI insights",
+          "Automated music tagging and categorization"
+        ]
+      },
+      {
+        "type": "Is my data used to train AI models?",
+        "category": "AI",
+        "icon_class": "fas fa-brain",
+        "description": "Apple Music uses anonymized and aggregated data to train AI models for better personalization.",
+        "points": [
+          "Listening patterns are analyzed to improve recommendations",
+          "Apple's AI focuses on privacy and data minimization",
+          "Users cannot opt out of aggregated data processing"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "Apple Music AI curates personalized playlists and recommendations.",
+        "points": [
+          "Personalized playlists like 'For You' based on tastes",
+          "Suggestions based on daily listening habits",
+          "Smart curation of new and trending music",
+          "Context-aware recommendations based on activities"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request to delete their Apple Music data through Apple's data privacy portal.",
+        "points": [
+          "Go to Apple's Data & Privacy page",
+          "Request deletion of Apple Music data",
+          "Apple retains some data for legal and security reasons"
+        ]
+      },
+      {
+        "type": "Historical privacy concerns",
+        "category": "Privacy",
+        "icon_class": "fas fa-exclamation-triangle",
+        "description": "Apple Music has maintained a strong privacy stance but faced criticism over data sharing.",
+        "points": [
+          "Minimal controversies compared to competitors",
+          "Questions raised over third-party integrations",
+          "Apple's stance on privacy praised by experts"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take additional steps to enhance their privacy while using Apple Music.",
+        "points": [
+          "Regularly review privacy settings in the Apple Music app",
+          "Use strong passwords for Apple ID protection",
+          "Avoid connecting third-party services unnecessarily",
+          "Opt out of personalized ads through Apple settings"
         ]
       }
     ]
