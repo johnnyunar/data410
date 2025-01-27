@@ -57,10 +57,12 @@ INSTALLED_APPS = [
     "core",
     "theme",
     "users",
+    "api",
     "registry",
     "metrics",
     # Third Party Apps
     "storages",
+    "rest_framework",
     "django_browser_reload",
     "tailwind",
     "django_prose_editor",
@@ -214,6 +216,10 @@ TAILWIND_APP_NAME = "theme"
 DEFAULT_USER_AGENT = os.environ.get(
     "DEFAULT_USER_AGENT", "Bot410/1.0 (https://data410.org; admin@data410.org)"
 )
+
+REST_FRAMEWORK = {
+    "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.DjangoModelPermissions"]
+}
 
 # LOGGING SETTINGS
 LOGGING = {
