@@ -7730,5 +7730,135 @@
         ]
       }
     ]
+  },
+  {
+    "name": "DeepSeek",
+    "website": "https://www.deepseek.com",
+    "rating": 3.5,
+    "slug": "deepseek",
+    "image": "https://www.deepseek.com/logo.svg",
+    "icon_class": "fas fa-search",
+    "service_urls": [
+      {
+        "url_type": "Privacy Policy",
+        "url": "https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html"
+      },
+      {
+        "url_type": "Terms of Service",
+        "url": "https://chat.deepseek.com/downloads/DeepSeek%20Terms%20of%20Use.html"
+      },
+      {
+        "url_type": "Data Deletion",
+        "url": "https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html#data-deletion"
+      }
+    ],
+    "service_infos": [
+      {
+        "type": "What data are collected?",
+        "category": "Privacy",
+        "icon_class": "fas fa-database",
+        "description": "DeepSeek collects various types of data to provide and improve its services.",
+        "points": [
+          "Personal information such as name, email, and third-party login data (Google, Apple, etc.)",
+          "Automatically collected technical information (IP address, device data, browser type)",
+          "Usage data, including queries, interactions, and preferences",
+          "Information from other sources, including analytics and social media integrations"
+        ]
+      },
+      {
+        "type": "How are my data used?",
+        "category": "Privacy",
+        "icon_class": "fas fa-user-shield",
+        "description": "DeepSeek uses collected data to improve services and provide personalized experiences.",
+        "points": [
+          "Personalizing search results based on user behavior",
+          "Providing and improving customer support",
+          "Conducting internal research and analytics",
+          "Enhancing security and fraud prevention measures",
+          "Enabling login via third-party platforms like Google or Apple"
+        ]
+      },
+      {
+        "type": "How is my data shared?",
+        "category": "Privacy",
+        "icon_class": "fas fa-share-alt",
+        "description": "DeepSeek shares user data with various third parties under specific circumstances.",
+        "points": [
+          "With service providers for analytics, security, and infrastructure support",
+          "With advertising and analytics partners to improve targeted ads",
+          "Within the corporate group for operational purposes",
+          "In the event of corporate transactions like mergers or acquisitions",
+          "With law enforcement agencies to comply with legal obligations"
+        ]
+      },
+      {
+        "type": "What happens when I sign up?",
+        "category": "Privacy",
+        "icon_class": "fas fa-sign-in-alt",
+        "description": "When signing up for DeepSeek, users provide personal details and agree to data processing.",
+        "points": [
+          "Personal details are collected during account creation",
+          "Technical data such as IP address and device type are logged",
+          "User preferences and queries are stored for service optimization",
+          "Third-party logins may share additional data with DeepSeek"
+        ]
+      },
+      {
+        "type": "How can I delete my data?",
+        "category": "Privacy",
+        "icon_class": "fas fa-trash-alt",
+        "description": "Users can request data deletion through DeepSeek's privacy policy page.",
+        "points": [
+          "Visit the privacy policy section to request deletion",
+          "Some data may be retained for compliance with legal obligations",
+          "Deletion may take a certain period to process fully"
+        ]
+      },
+      {
+        "type": "What security standards does this service use?",
+        "category": "Security",
+        "icon_class": "fas fa-shield-alt",
+        "description": "DeepSeek follows standard security measures to protect user data.",
+        "points": [
+          "Data encryption both in transit and at rest",
+          "Access controls to limit data exposure",
+          "Regular security audits and updates",
+          "Fraud prevention measures and monitoring"
+        ]
+      },
+      {
+        "type": "Does this service use AI?",
+        "category": "AI",
+        "icon_class": "fas fa-robot",
+        "description": "DeepSeek utilizes AI for search optimization and user experience improvements.",
+        "points": [
+          "AI algorithms analyze queries for better search results",
+          "Personalized suggestions based on past searches",
+          "Continuous learning from anonymized data to enhance accuracy"
+        ]
+      },
+      {
+        "type": "How does AI personalize my experience?",
+        "category": "AI",
+        "icon_class": "fas fa-cogs",
+        "description": "DeepSeek AI customizes search results based on user interactions and preferences.",
+        "points": [
+          "Tailored search results based on query history",
+          "Adaptive learning to provide better recommendations",
+          "Real-time content adjustments based on behavior"
+        ]
+      },
+      {
+        "type": "How to protect myself?",
+        "icon_class": "fas fa-user-lock",
+        "description": "Users can take proactive steps to enhance their privacy when using DeepSeek.",
+        "points": [
+          "Use incognito mode for searches to minimize tracking",
+          "Limit sharing personal data during sign-up",
+          "Regularly review and manage linked third-party accounts",
+          "Disable unnecessary cookies and tracking features"
+        ]
+      }
+    ]
   }
 ]
