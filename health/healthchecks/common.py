@@ -44,25 +44,28 @@ class FileStorageHealthCheck(BaseHealthCheck):
     def check(self, **kwargs) -> dict:
         try:
             # Path for the healthcheck test file
-            test_file = "healthcheck/healthcheck_test_file.txt"
+            test_dir = "healthcheck/"
+            test_file = "healthcheck_test_file.txt"
+            test_file_path = f"{test_dir}{test_file}"
             content = b"healthcheck"
 
             # Ensure the "healthcheck" directory exists (for local file systems)
-            if not default_storage.exists("healthcheck/"):
+            if not default_storage.exists(test_dir):
                 default_storage.save(
-                    "healthcheck/.keep", ContentFile(b"")
+                    f"{test_dir}.keep", ContentFile(b"")
                 )  # Create a placeholder file
 
             # Write the test file
-            with default_storage.open(test_file, "wb") as f:
+            with default_storage.open(test_file_path, "wb") as f:
                 f.write(content)
 
             # Verify the file exists
-            if not default_storage.exists(test_file):
+            dir_contents = default_storage.listdir(test_dir)
+            if not test_file in dir_contents[1]:
                 return {"status": "error", "details": "File not found after creation."}
 
             # Clean up: Delete the test file
-            default_storage.delete(test_file)
+            default_storage.delete(test_file_path)
 
             return {"status": "ok"}
         except Exception as e:
