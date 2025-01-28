@@ -30,9 +30,7 @@ class HealthCheckDashboardView(TemplateView):
         Generate fresh health check results.
         """
         healthchecks = HealthCheckRegistry.get_registered_healthchecks()
-        results = {
-            check.verbose_name: check.check(request=request) for check in healthchecks
-        }
+        results = {check.verbose_name: check.check() for check in healthchecks}
         last_update = now()
         return {"results": results, "last_update": last_update}
 

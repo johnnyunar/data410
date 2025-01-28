@@ -157,7 +157,7 @@ class HealthCheckViewSet(ViewSet):
 
     def list(self, request):
         healthchecks = HealthCheckRegistry.get_registered_healthchecks()
-        results = {check.name: check.check(request=request) for check in healthchecks}
+        results = {check.name: check.check() for check in healthchecks}
         return Response(results)
 
 

@@ -67,18 +67,3 @@ class FileStorageHealthCheck(BaseHealthCheck):
             return {"status": "ok"}
         except Exception as e:
             return {"status": "error", "details": str(e)}
-
-
-@register_healthcheck
-class APIHealthCheck(BaseHealthCheck):
-    name = "api"
-
-    def check(self, **kwargs) -> dict:
-        request = kwargs.get("request")
-        try:
-            full_url = request.build_absolute_uri(reverse("api:ping-list"))
-            response = requests.get(full_url)
-            response.raise_for_status()
-            return {"status": "ok"}
-        except requests.RequestException as e:
-            return {"status": "error", "details": str(e)}
