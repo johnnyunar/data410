@@ -6,10 +6,13 @@ import requests
 from django.core.files.base import ContentFile
 from django.urls import reverse
 from rest_framework import status
+from rest_framework.permissions import IsAdminUser
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
+from rest_framework.viewsets import ViewSet
 
 from api.serializers import ServiceSerializer
+from health.registry import HealthCheckRegistry
 from registry.models import (
     Service,
     ServiceURL,
@@ -142,3 +145,28 @@ class ServiceViewSet(ModelViewSet):
         except requests.RequestException:
             service.image = None
             service.save()
+
+
+class HealthCheckViewSet(ViewSet):
+    """
+    ViewSet for health check API.
+    """
+
+    # Staff only
+    permission_classes = [IsAdminUser]
+
+    def list(self, request):
+        healthchecks = HealthCheckRegistry.get_registered_healthchecks()
+        results = {check.name: check.check(request=request) for check in healthchecks}
+        return Response(results)
+
+
+class PingViewSet(ViewSet):
+    """
+    ViewSet for ping API.
+    """
+
+    permission_classes = []
+
+    def list(self, request):
+        return Response({"status": "ok"})

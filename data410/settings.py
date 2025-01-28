@@ -60,6 +60,7 @@ INSTALLED_APPS = [
     "api",
     "registry",
     "metrics",
+    "health",
     # Third Party Apps
     "storages",
     "rest_framework",

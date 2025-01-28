@@ -32,6 +32,7 @@ urlpatterns = [
     path("registry/", include("registry.urls")),
     path("", include("core.urls")),
     path("api/", include("api.urls")),
+    path("health/", include("health.urls")),
     path(
         "sitemap.xml",
         sitemap,

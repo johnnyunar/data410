@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Health | Data410</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 2em;
+            }
+
+            main {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+
+            h1 {
+                color: #2c3e50;
+                text-align: center;
+            }
+
+            p.timestamp {
+                text-align: center;
+                font-size: 0.9em;
+                color: #555;
+                margin-bottom: 1.5em;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            li {
+                margin-bottom: 1em;
+                padding: 1em;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+
+            .status-ok {
+                background-color: #dff0d8;
+                color: #3c763d;
+            }
+
+            .status-error {
+                background-color: #f2dede;
+                color: #a94442;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Data410 Health</h1>
+            <p class="timestamp">Last updated: {{ last_update }}</p>
+            <ul>
+                {% for name, result in results.items %}
+                    <li class="status-{{ result.status }}">
+                        <strong>{{ name }}</strong>: {{ result.status | upper }}
+                    </li>
+                {% endfor %}
+            </ul>
+        </main>
+    </body>
+</html>

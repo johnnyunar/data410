@@ -1,6 +1,11 @@
+import logging
 import re
+
+import redis
 from django.core.cache import cache
 from django.http import HttpResponseForbidden
+
+logger = logging.getLogger(__name__)
 
 
 class RequestLoggerMiddleware:
@@ -54,18 +59,21 @@ class RequestLoggerMiddleware:
         # Determine if the request is from a bot
         is_bot = any(bot in user_agent for bot in self.BOTS)
 
-        counts = cache.get(self.CACHE_KEY, {})
+        try:
+            counts = cache.get(self.CACHE_KEY, {})
 
-        if path not in counts:
-            counts[path] = {"users": 0, "bots": 0}
+            if path not in counts:
+                counts[path] = {"users": 0, "bots": 0}
 
-        if is_bot:
-            counts[path]["bots"] += 1
-        else:
-            counts[path]["users"] += 1
+            if is_bot:
+                counts[path]["bots"] += 1
+            else:
+                counts[path]["users"] += 1
 
-        # Save updated counts back to cache
-        cache.set(self.CACHE_KEY, counts, timeout=None)
+            # Save updated counts back to cache
+            cache.set(self.CACHE_KEY, counts, timeout=None)
+        except redis.exceptions.ConnectionError:
+            logger.error("Redis connection error", exc_info=True)
 
     def is_ignored(self, path) -> bool:
         """
