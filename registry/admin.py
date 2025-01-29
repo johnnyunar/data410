@@ -64,12 +64,24 @@ class ServiceAdmin(ModelAdmin):
     )
     search_fields = ("name", "website")
     ordering = ("name",)
+    list_filter = ("is_active",)
     inlines = [ServiceURLInline, ServiceInfoInline]
     prepopulated_fields = {"slug": ("name",)}
+    actions = ["make_active", "make_inactive"]
 
     @admin.display(boolean=True, description=_("Has Image"))
     def has_image(self, obj):
         return bool(obj.image)
+
+    @admin.action(description=_("Make selected Services active"))
+    def make_active(self, request, queryset):
+        queryset.update(is_active=True)
+        self.message_user(request, _("Selected Services are now active."), "success")
+
+    @admin.action(description=_("Make selected Services inactive"))
+    def make_inactive(self, request, queryset):
+        queryset.update(is_active=False)
+        self.message_user(request, _("Selected Services are now inactive."), "success")
 
 
 @admin.register(ServiceURL)
