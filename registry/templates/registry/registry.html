@@ -9,7 +9,7 @@
         <div class="w-screen flex flex-col justify-end items-center px-5 md:px-12 py-12">
 
             {# Search bar #}
-            <div class="form-control w-72 md:w-96 max-w-lg shadow-lg fixed top-36"
+            <div class="form-control w-72 md:w-96 max-w-lg shadow-lg fixed top-36 z-50"
                  hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
                 <label class="input input-bordered flex items-center gap-2 glass">
                     <input type="text" class="grow" placeholder="Search"
