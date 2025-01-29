@@ -5,9 +5,14 @@ class ServiceInfoPointSerializer(serializers.Serializer):
     text = serializers.CharField()
 
 
+class ServiceInfoTypeSerializer(serializers.Serializer):
+    name = serializers.CharField()
+    icon_class = serializers.CharField(required=False, allow_null=True)
+
+
 class ServiceInfoSerializer(serializers.Serializer):
     description = serializers.CharField()
-    type = serializers.CharField()
+    type = ServiceInfoTypeSerializer()
     category = serializers.CharField(required=False, allow_null=True)
     points = ServiceInfoPointSerializer(many=True, required=False)
 

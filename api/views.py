@@ -125,14 +125,21 @@ class ServiceViewSet(ModelViewSet):
 
     def add_service_info(self, service, info_data):
         description = info_data.get("description")
-        type_name = info_data.get("type")
+        type = info_data.get("type")
+        type_name = type.get("name")
+        type_icon_class = type.get("icon_class")
         category_name = info_data.get("category")
         points = info_data.get("points", [])
 
         if not description or not type_name:
             return
 
-        info_type, _ = ServiceInfoType.objects.get_or_create(name=type_name)
+        info_type = ServiceInfoType.objects.filter(name=type_name).first()
+        if not info_type:
+            info_type = ServiceInfoType.objects.create(
+                name=type_name, icon_class=type_icon_class
+            )
+
         category = None
         if category_name:
             category, _ = ServiceInfoCategory.objects.get_or_create(name=category_name)
