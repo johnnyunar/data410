@@ -44,7 +44,7 @@ class ServiceViewSet(ModelViewSet):
         skipped_services = []
 
         for service_data in data:
-            created, instance = self.import_service(service_data)
+            created, instance, detail = self.import_service(service_data)
             service_info = {
                 "name": service_data["name"],
                 "url": request.build_absolute_uri(
@@ -53,6 +53,7 @@ class ServiceViewSet(ModelViewSet):
                         kwargs={"slug": instance.slug},
                     )
                 ),
+                "detail": detail,
             }
             if created:
                 created_services.append(service_info)
@@ -72,8 +73,9 @@ class ServiceViewSet(ModelViewSet):
             status=response_status,
         )
 
-    def import_service(self, data) -> Tuple[bool, Service]:
+    def import_service(self, data) -> Tuple[bool, Service, str]:
         name = data.get("name")
+        is_active = data.get("is_active", True)
         website = data.get("website")
         rating = data.get("rating")
         slug = data.get("slug")
@@ -82,7 +84,18 @@ class ServiceViewSet(ModelViewSet):
 
         # Check if the service already exists
         if Service.objects.filter(name=name).exists():
-            return False, Service.objects.get(name=name)
+            return (
+                False,
+                Service.objects.get(name=name),
+                "Service with the same name already exists.",
+            )
+
+        if Service.objects.filter(slug=slug).exists():
+            return (
+                False,
+                Service.objects.get(slug=slug),
+                "Service with the same slug already exists.",
+            )
 
         # Create the Service
         service = Service.objects.create(
@@ -91,6 +104,7 @@ class ServiceViewSet(ModelViewSet):
             rating=rating,
             slug=slug,
             icon_class=icon_class,
+            is_active=is_active,
         )
 
         # Download and save the image
@@ -107,7 +121,7 @@ class ServiceViewSet(ModelViewSet):
         for info_data in data.get("service_infos", []):
             self.add_service_info(service, info_data)
 
-        return True, service
+        return True, service, "Service imported successfully."
 
     def add_service_info(self, service, info_data):
         description = info_data.get("description")

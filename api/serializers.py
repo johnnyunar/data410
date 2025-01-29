@@ -19,6 +19,7 @@ class ServiceURLSerializer(serializers.Serializer):
 
 class ServiceSerializer(serializers.Serializer):
     name = serializers.CharField()
+    is_active = serializers.BooleanField(required=False)
     website = serializers.URLField(required=False, allow_null=True)
     rating = serializers.DecimalField(max_digits=3, decimal_places=2, required=False)
     slug = serializers.SlugField()
