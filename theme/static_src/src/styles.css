@@ -37,6 +37,8 @@ hr {
     filter: invert(1); /* Inverted for dark theme */
 }
 
+/* Animations */
+
 @keyframes rise {
     0% {
         transform: translateY(0);
@@ -52,5 +54,8 @@ hr {
     animation: rise 8s linear infinite;
 }
 
-
+/* Style fixes */
+.mockup-browser-toolbar.no-controls::before {
+    display: none;
+}
 

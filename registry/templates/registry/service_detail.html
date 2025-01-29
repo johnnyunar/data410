@@ -11,19 +11,19 @@
         <!-- Unified Browser Mockup -->
         <div class="mockup-browser bg-base-300 border">
             <!-- Browser Toolbar -->
-            <div class="mockup-browser-toolbar">
+            <div class="mockup-browser-toolbar no-controls">
                 <div class="input">
                     {{ service.website|default:"https://example.com" }}
                 </div>
                 <small class="text-gray-500 hidden md:inline">
-                    {% trans "Last update" %} {{ service.updated_at.date }}
+                    {% include "registry/components/common/last_update.html" with object=service %}
                 </small>
             </div>
 
             <!-- Content -->
             <div class="bg-base-200 p-6">
                 <small class="text-gray-500 md:hidden inline-block text-center w-full mb-6">
-                    {% trans "Last update" %} {{ service.updated_at.date }}
+                    {% include "registry/components/common/last_update.html" with object=service %}
                 </small>
                 <!-- Header Section -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 items-center">
@@ -169,4 +169,7 @@
             </div>
         </div>
     </div>
+    {% if user and user.is_staff %}
+        {% include "registry/components/common/edit_button.html" with object=service %}
+    {% endif %}
 {% endblock %}

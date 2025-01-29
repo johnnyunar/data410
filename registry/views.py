@@ -1,6 +1,5 @@
-from django.contrib.postgres.search import SearchVector
 from django.db.models import Q
-from django.views.generic import DetailView, TemplateView
+from django.views.generic import DetailView, TemplateView, ListView
 
 from registry.models import Service
 
@@ -13,6 +12,9 @@ class ServiceDetail(DetailView):
     slug_url_kwarg = "slug"
 
     def get_queryset(self):
+        if self.request.user.is_authenticated and self.request.user.is_staff:
+            return super().get_queryset()
+
         return super().get_queryset().filter(is_active=True)
 
     def get_context_data(self, **kwargs):
@@ -28,13 +30,16 @@ class ServiceDetail(DetailView):
         return context
 
 
-class RegistryView(TemplateView):
+class RegistryView(ListView):
     template_name = "registry/registry.html"
+    model = Service
+    context_object_name = "services"
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["services"] = Service.objects.filter(is_active=True).order_by("name")
-        return context
+    def get_queryset(self):
+        if self.request.user.is_authenticated and self.request.user.is_staff:
+            return super().get_queryset()
+
+        return super().get_queryset().filter(is_active=True)
 
 
 class ServiceHtmxSearchView(TemplateView):

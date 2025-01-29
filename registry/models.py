@@ -161,10 +161,10 @@ class Service(BaseModel):
     class Meta:
         verbose_name = _("Service")
         verbose_name_plural = _("Services")
+        ordering = ["name"]
 
 
 class ServiceURL(BaseModel):
-    # Related Service
     service = models.ForeignKey(
         Service,
         on_delete=models.CASCADE,
