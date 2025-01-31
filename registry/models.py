@@ -86,7 +86,6 @@ class ServiceInfo(BaseModel):
 
 
 class ServiceInfoPoint(BaseModel):
-    # Related Service Info
     service_info = models.ForeignKey(
         ServiceInfo,
         on_delete=models.CASCADE,
@@ -107,7 +106,6 @@ class ServiceInfoPoint(BaseModel):
 
 
 class Service(BaseModel):
-    # Basic Info
     name = models.CharField(
         max_length=255, unique=True, help_text="Name of the third-party service."
     )
