@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     "theme",
     "users",
     "api",
+    "actions",
     "registry",
     "metrics",
     "health",
